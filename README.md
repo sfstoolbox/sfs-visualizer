@@ -87,8 +87,8 @@ Interactive Options
 | o/O		| speed of autorotate around y-axis											|
 | o/O + ctrl| speed of autorotate around x-axis											|
 | o/O + alt	| speed of autorotate around z-axis											|
-| mousewheel + left Ctrl		 | Opacity						|
-| mousewheel + left Ctrl + umsch | Opacity of cutted area		|
+| mousewheel + left ctrl		 | Opacity						|
+| mousewheel + left ctrl + shift | Opacity of cutted area		|
 
 ### raytrace options
 
@@ -106,8 +106,8 @@ Interactive Options
        
 | key(s)			| description							|
 | :----------------	| :------------------------------------	|   
-| wheel + left umsch| move x-cut-plane						|			
-| wheel + left Ctrl | move y-cut-plane						|
+| wheel + left shift| move x-cut-plane						|			
+| wheel + left ctrl | move y-cut-plane						|
 | r/R				| change number of textureslices		|
               
 ### options with GPU calculation
@@ -121,7 +121,7 @@ mouse: left=rotation (x|y), right:  zoom + rotation (z),wheel=frequency
 | +/*							 | add/remove source			|			
 | Arrowkeys						 | move virtual source			|
 | p/P							 | size scaling in m			|
-| mousewheel + left umsch		 | Change Phase					|
+| mousewheel + left shift		 | Change Phase					|
         
 
 
