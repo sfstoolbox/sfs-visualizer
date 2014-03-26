@@ -24,24 +24,25 @@ Usage Examples
 ----------------------------
 
 * display matlabfile 'data.mat':
-
+```
 	sfs-visualizer -m data.mat
-
+```
 * display multiple matlabfiles for animation:
-
+```
 	sfs-visualizer -m data1.mat -m data2.mat -m data3.mat...
-
+```
 * calculate a 128^3 field:
-
+```
 	sfs-visualizer -W 128 -H 128 -D 128
-	
+```	
 * calculate a field with custom sources 
-
+```
 	sfs-visualizer -s sources.csv
-
+```
 * use specific propertysettings
-	
+```	
 	sfs-visualizer -p properties.csv
+```
 
 Commandline Options
 ----------------------------
@@ -68,24 +69,24 @@ Interactive Options
 
 | key(s)	| description																|
 | :--------	| :------------------------------------------------------------------------	|   
-| 2|"		| change colormapping														|			
+| 2/"		| change colormapping														|			
 | 4			| toggle raytrace (may crash sometime...)									|
 | 5			| screenshot																|
 | 6			| reset camera																|
 | 7			| save current state to properties.csv or overrides the loaded properties -p|
 | j			| export current field to data.mat											|
-| b|B		| amplification																|
+| b/B		| amplification																|
 | c			| cut-planes/full															|
 | i/I		| show info																	|
 | ESC		| Exit																		|
-| .|:		| change calculation-interval												|
-| -|_		| change calculation-timestepsize											| 
-| u|U		| reverse Animation															|
+| ./:		| change calculation-interval												|
+| -/_		| change calculation-timestepsize											| 
+| u/U		| reverse Animation															|
 | SPACE		| Stop/Start Animation														|			
-| m|M		| brightness																|
-| o|O		| speed of autorotate around y-axis											|
-| o|O + ctrl| speed of autorotate around x-axis											|
-| o|O + alt	| speed of autorotate around z-axis											|
+| m/M		| brightness																|
+| o/O		| speed of autorotate around y-axis											|
+| o/O + ctrl| speed of autorotate around x-axis											|
+| o/O + alt	| speed of autorotate around z-axis											|
 | mousewheel + left Ctrl		 | Opacity						|
 | mousewheel + left Ctrl + umsch | Opacity of cutted area		|
 
@@ -93,40 +94,36 @@ Interactive Options
 
 | key(s)			| description					|
 | :----------------	| :----------------------------	|   
-| y|Y				| threshold						|			
-| <|>				| alpha premultiplier			|
-| x|X				| quality (very expensive)		|
+| y/Y				| threshold						|			
+| </>				| alpha premultiplier			|
+| x/X				| quality (very expensive)		|
 
- ### options with matlabfiles
+### options with matlabfiles
 
   mouse: left=rotation (x|y), right:  zoom + rotation (z), wheel:  move z-cut-plane
 
- #### textureblend options:
+#### textureblend options:
        
 | key(s)			| description							|
 | :----------------	| :------------------------------------	|   
 | wheel + left umsch| move x-cut-plane						|			
 | wheel + left Ctrl | move y-cut-plane						|
-| r|R				| change number of textureslices		|
+| r/R				| change number of textureslices		|
               
-                               
 ### options with GPU calculation
               
 mouse: left=rotation (x|y), right:  zoom + rotation (z),wheel=frequency
  
- #### calculation options
+#### calculation options
  
 | key(s)						 | description					|
 | :----------------------------- | :---------------------------	|   
-| +|*							 | add/remove source			|			
+| +/*							 | add/remove source			|			
 | Arrowkeys						 | move virtual source			|
-| p|P							 | size scaling in m			|
+| p/P							 | size scaling in m			|
 | mousewheel + left umsch		 | Change Phase					|
-
-            
-
         
 
 
 
-       
+      
