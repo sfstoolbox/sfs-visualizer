@@ -6,7 +6,7 @@ of threedimensional soundfields
 Mainfeatures
 --------------------------
 
-* im- and ~export of .mat files with WxHxD-matrizes
+* im- and export of .mat files with WxHxD-matrizes (datatype single/float works best)
 * interactive calculation of monofrequent soundfields via Greens Function
 * usage of precalculated or custom sourceconfigurations
 * adjusting the position of the primary soundsource
