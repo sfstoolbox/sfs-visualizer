@@ -18,7 +18,7 @@ Mainfeatures
 Requirements
 ---------------------------
 
-* Windows pc with an OpenGL 4.3 (compute shaders) enabled videocard 
+* Windows PC with an OpenGL 4.3 (compute shaders) enabled videocard 
 
 Usage Examples
 ----------------------------
@@ -43,6 +43,30 @@ Usage Examples
 ```	
 	sfs-visualizer -p properties.csv
 ```
+
+Custom Sources
+----------------------------
+
+The .csv-file for custom sources has the following structure:
+```	
+x,y,z,nx,ny,nz,amp
+0.2,0.5,0.5,1.0,1.0,1.0,1.0
+0.8,0.5,0.5,1.0,1.0,1.0,1.0
+...
+```	
+The coordinates are normed to values between 0 and 1, corresponding to max{gridSize}. 
+
+Custom Properties
+----------------------------
+
+The .csv-file for custom properties has the following structure:
+```	
+propname, value, step
+frequency,1000.0,1.1
+...
+```	
+for available properties press '7'. that creates an export of all current properties, although not all properties need to be set in the .csv-file.
+the step-parameter is either a multiplicator or a summand, depending on the property 
 
 Commandline Options
 ----------------------------
@@ -70,12 +94,13 @@ Interactive Options
 | key(s)	| description																|
 | :--------	| :------------------------------------------------------------------------	|   
 | 2/"		| change colormapping														|			
+| 3			| toggle dB								|
 | 4			| toggle raytrace (may crash sometime...)									|
 | 5			| screenshot																|
 | 6			| reset camera																|
 | 7			| save current state to properties.csv or overrides the loaded properties -p|
 | j			| export current field to data.mat											|
-| b/B		| amplification																|
+| b/B		| preamplification	(bevore colorclassification)															|
 | c			| cut-planes/full															|
 | i/I		| show info																	|
 | ESC		| Exit																		|
@@ -83,12 +108,11 @@ Interactive Options
 | -/_		| change calculation-timestepsize											| 
 | u/U		| reverse Animation															|
 | SPACE		| Stop/Start Animation														|			
-| m/M		| brightness																|
-| o/O		| speed of autorotate around y-axis											|
-| o/O + ctrl| speed of autorotate around x-axis											|
-| o/O + alt	| speed of autorotate around z-axis											|
-| mousewheel + left ctrl		 | Opacity						|
-| mousewheel + left ctrl + shift | Opacity of cutted area		|
+| m/M		| amplification (after colorclassification)										|
+| o/O		| speed of autorotation around y-axis											|
+| o/O + ctrl| speed of autorotation around x-axis											|
+| o/O + alt	| speed of autorotation around z-axis											|
+
 
 ### raytrace options
 
@@ -100,7 +124,8 @@ Interactive Options
 
 ### options with matlabfiles
 
-  mouse: left=rotation (x|y), right:  zoom + rotation (z), wheel:  move z-cut-plane
+  mouse: left=rotation (x|y), right:  zoom + rotation (z), wheel:  move z-cut-plane,
+  Arrowkeys: step through animation if multiple files loaded
 
 #### textureblend options:
        
@@ -112,7 +137,7 @@ Interactive Options
               
 ### options with GPU calculation
               
-mouse: left=rotation (x|y), right:  zoom + rotation (z),wheel=frequency
+ mouse: left=rotation (x|y), right:  zoom + rotation (z),wheel=frequency
  
 #### calculation options
  
@@ -121,9 +146,17 @@ mouse: left=rotation (x|y), right:  zoom + rotation (z),wheel=frequency
 | +/*							 | add/remove source			|			
 | Arrowkeys						 | move virtual source			|
 | p/P							 | size scaling in m			|
+| g/G							 | change Sourcesize			|
 | mousewheel + left shift		 | Change Phase					|
-        
+| mousewheel + left ctrl		 | Opacity						|
+| mousewheel + left ctrl + shift | Opacity of cutted area		|        
 
 
 
-      
+ Build from source
+---------------------------
+* preferable use Visual Studio 2012
+* get all of the used Libs: SOIL, boost 1.55.0, matio 1.5.2, freeglut 2.8.1 , glew-1.10
+* put/build all Libs in the same Directory
+* set Environment Variable $SFS_VS_LIB$ to this Directory
+* that's it
