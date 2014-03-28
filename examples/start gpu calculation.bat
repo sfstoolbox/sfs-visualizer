@@ -1,1 +1,1 @@
-..\bin\sfs-visualizer -W 200 -H 200 -D 200 -p properties.csv
+..\bin\sfs-visualizer -w 10 -W 200 -H 200 -D 200 -p props\gpuproperties.csv
