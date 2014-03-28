@@ -1,1 +1,0 @@
-bin\SoundfieldViewer --matlabfile "point_source.mat"
