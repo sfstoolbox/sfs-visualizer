@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-w 8 -v p "properties.csv" c "colormap.bmp" -W 32 -H 32 -D 32  m "test.mat" s sourcesRandom.csv s sources.csv s "C:\Users\Marcus\Documents\Visual Studio 2012\Projects\ZoomTapReaderWinForms\ImageToCvsConverter\bin\Release\sources.csv" m "..\..\..\evaluation\pointsource\mat.mat" m "..\..\..\evaluation\pointsource\error.mat" m "..\..\..\sfs-visualization\matlab\wfs25d_point_source.mat"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

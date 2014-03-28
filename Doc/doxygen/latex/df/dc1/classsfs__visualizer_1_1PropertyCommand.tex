@@ -1,0 +1,78 @@
+\section{sfs\-\_\-visualizer\-:\-:Property\-Command Class Reference}
+\label{classsfs__visualizer_1_1PropertyCommand}\index{sfs\-\_\-visualizer\-::\-Property\-Command@{sfs\-\_\-visualizer\-::\-Property\-Command}}
+
+
+This \doxyref{Command}{p.}{d7/d29/classsfs__visualizer_1_1Command} can change \doxyref{Property}{p.}{d4/de7/classsfs__visualizer_1_1Property} values with defined actions eg.  
+
+
+
+
+{\ttfamily \#include $<$command.\-h$>$}
+
+
+
+Inheritance diagram for sfs\-\_\-visualizer\-:\-:Property\-Command\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{d2/dad/classsfs__visualizer_1_1PropertyCommand__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Property\-Command\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{de/dec/classsfs__visualizer_1_1PropertyCommand__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Operation} \{ \\*
+{\bfseries Add}, 
+{\bfseries Sub}, 
+{\bfseries Mul}, 
+{\bfseries Div}, 
+\\*
+{\bfseries Reset}, 
+{\bfseries Toggle}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Property\-Command} (unsigned char key, const std\-::string \&input\-Description, const std\-::string \&name, {\bf Property} \&property, Property\-Command\-::\-Operation operation, bool provokes\-U\-I\-Update=false)\label{classsfs__visualizer_1_1PropertyCommand_aae5b0381272151c39b7a0a0d3bb9683e}
+
+\item 
+bool {\bfseries execute} ()\label{classsfs__visualizer_1_1PropertyCommand_a4381b3cc524ca7b4df7ab062cb7e61ae}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries \-\_\-provokes\-U\-I\-Update}\label{classsfs__visualizer_1_1PropertyCommand_a1e90773da6a925757ee033dbec8cd78c}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-property}\label{classsfs__visualizer_1_1PropertyCommand_a41e2f9d3877ce440d7eb06db5774ea12}
+
+\item 
+Operation {\bfseries \-\_\-operation}\label{classsfs__visualizer_1_1PropertyCommand_a7ba66ab6ebf37effb271fca642ab6710}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This \doxyref{Command}{p.}{d7/d29/classsfs__visualizer_1_1Command} can change \doxyref{Property}{p.}{d4/de7/classsfs__visualizer_1_1Property} values with defined actions eg. 
+
+Addition, Subtraction etc. 
+
+Definition at line 51 of file command.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+command.\-h\item 
+command.\-cpp\end{DoxyCompactItemize}

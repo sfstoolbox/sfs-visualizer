@@ -1,0 +1,101 @@
+\section{sfs\-\_\-visualizer\-:\-:Texture\-Factory Class Reference}
+\label{classsfs__visualizer_1_1TextureFactory}\index{sfs\-\_\-visualizer\-::\-Texture\-Factory@{sfs\-\_\-visualizer\-::\-Texture\-Factory}}
+
+
+helper class to load and construct textures of different type (1\-D,2\-D,3\-D)  
+
+
+
+
+{\ttfamily \#include $<$texturefactory.\-h$>$}
+
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Texture\-Factory\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{db/df0/classsfs__visualizer_1_1TextureFactory__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bf T\-Y\-P\-E} \{ \\*
+{\bfseries F\-L\-O\-A\-T}, 
+{\bfseries I\-N\-T}, 
+{\bfseries B\-Y\-T\-E}, 
+{\bfseries R\-E\-D}, 
+\\*
+{\bfseries R\-E\-D2}
+ \}
+\begin{DoxyCompactList}\small\item\em Defines what Data type is used in graphics memory. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int {\bfseries build\-\_\-texture3\-D} ({\bf T\-Y\-P\-E} type, G\-Lsizei width, G\-Lsizei height, G\-Lsizei depth)\label{classsfs__visualizer_1_1TextureFactory_a7c91e66c62cd2d3038b1b1b148ec08c5}
+
+\item 
+static int {\bfseries build\-\_\-texture2\-D} ({\bf T\-Y\-P\-E} type, G\-Lsizei width, G\-Lsizei height)\label{classsfs__visualizer_1_1TextureFactory_a79c750edbf9dfd2996c41a5955d7f7af}
+
+\item 
+static int {\bfseries build\-\_\-texture1\-D} ({\bf T\-Y\-P\-E} type, G\-Lsizei width)\label{classsfs__visualizer_1_1TextureFactory_a7442cfd8cfc0bf3015fcb3da2e7c3c44}
+
+\item 
+static int {\bfseries load\-File} (const std\-::string \&str\-Filename)\label{classsfs__visualizer_1_1TextureFactory_a00e4626f5f608e8fa6d7d48a5287cf79}
+
+\item 
+static int {\bfseries load\-Buffer} (const unsigned char $\ast$const buffer, int width, int heigh)\label{classsfs__visualizer_1_1TextureFactory_a6ca8e90ea418b60e29d5f638e4186bff}
+
+\item 
+static {\bf Statistics} {\bfseries statistics} (G\-Lint texture\-Id, int width, int height, int depth)\label{classsfs__visualizer_1_1TextureFactory_a76b5bc916ba894520e363ffb2d87c848}
+
+\item 
+static std\-::vector$<$ G\-Luint $>$ \& {\bf Alltextures} ()
+\begin{DoxyCompactList}\small\item\em Returns a list of all texture ids, created with this class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+helper class to load and construct textures of different type (1\-D,2\-D,3\-D) 
+
+Definition at line 42 of file texturefactory.\-h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\index{sfs\-\_\-visualizer\-::\-Texture\-Factory@{sfs\-\_\-visualizer\-::\-Texture\-Factory}!T\-Y\-P\-E@{T\-Y\-P\-E}}
+\index{T\-Y\-P\-E@{T\-Y\-P\-E}!sfs_visualizer::TextureFactory@{sfs\-\_\-visualizer\-::\-Texture\-Factory}}
+\subsubsection[{T\-Y\-P\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf sfs\-\_\-visualizer\-::\-Texture\-Factory\-::\-T\-Y\-P\-E}}\label{classsfs__visualizer_1_1TextureFactory_ab27cc16f2ab7b583934e1ff89623cb43}
+
+
+Defines what Data type is used in graphics memory. 
+
+
+
+Definition at line 46 of file texturefactory.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{sfs\-\_\-visualizer\-::\-Texture\-Factory@{sfs\-\_\-visualizer\-::\-Texture\-Factory}!Alltextures@{Alltextures}}
+\index{Alltextures@{Alltextures}!sfs_visualizer::TextureFactory@{sfs\-\_\-visualizer\-::\-Texture\-Factory}}
+\subsubsection[{Alltextures}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ G\-Luint $>$ \& Texture\-Factory\-::\-Alltextures (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classsfs__visualizer_1_1TextureFactory_a1cb975d777ffc6b001c0b5bb377d2395}
+
+
+Returns a list of all texture ids, created with this class. 
+
+
+
+Definition at line 18 of file texturefactory.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+texturefactory.\-h\item 
+texturefactory.\-cpp\end{DoxyCompactItemize}

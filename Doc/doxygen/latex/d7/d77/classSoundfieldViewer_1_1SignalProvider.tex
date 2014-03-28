@@ -1,0 +1,93 @@
+\section{Soundfield\-Viewer\-:\-:Signal\-Provider Class Reference}
+\label{classSoundfieldViewer_1_1SignalProvider}\index{Soundfield\-Viewer\-::\-Signal\-Provider@{Soundfield\-Viewer\-::\-Signal\-Provider}}
+
+
+Class which generates and provides audiosignals.  
+
+
+
+
+{\ttfamily \#include $<$signalprovider.\-h$>$}
+
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Signal\-Provider\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d0/d77/classSoundfieldViewer_1_1SignalProvider__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries fill\-Buffer} (float f)\label{classSoundfieldViewer_1_1SignalProvider_a61a9f0145d3f2e23bf28bf906189aed6}
+
+\item 
+unsigned long {\bfseries fill\-Buffer\-From\-Microphone} ()\label{classSoundfieldViewer_1_1SignalProvider_ac7a4cb25a924f864a0bc843cac3528a0}
+
+\item 
+unsigned long {\bfseries fill\-Buffer\-From\-File} ()\label{classSoundfieldViewer_1_1SignalProvider_ad61507ea2c42f5431d85f04b6b443348}
+
+\item 
+void {\bfseries start\-Playing} ()\label{classSoundfieldViewer_1_1SignalProvider_a4e4529ba443fa00e89989d7f3076dd67}
+
+\item 
+void {\bfseries start\-Recording} ()\label{classSoundfieldViewer_1_1SignalProvider_a3f5e7c1065bb65d2a19669cafd63e69b}
+
+\item 
+void {\bfseries stop\-Recording} ()\label{classSoundfieldViewer_1_1SignalProvider_ac63d6be874ff6e47c065f5536f04f8b2}
+
+\item 
+void {\bfseries stop\-Playing} ()\label{classSoundfieldViewer_1_1SignalProvider_ae98cd9c8da45cc98a717f45b2c6833d2}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::array$<$ G\-Lfloat, 512 $>$ {\bfseries \-\_\-buffer}\label{classSoundfieldViewer_1_1SignalProvider_adbaa5fa3081497667dff0afd9a3ca58f}
+
+\item 
+std\-::array$<$ G\-Lfloat, 1024 $\ast$512 $>$ {\bfseries \-\_\-\-Longbuffer}\label{classSoundfieldViewer_1_1SignalProvider_af233dfdbc86f497eb89212b589bf3363}
+
+\item 
+std\-::array$<$ G\-Lfloat, 1024 $\ast$512 $>$\\*
+\-::iterator {\bfseries \-\_\-ring\-Iterator}\label{classSoundfieldViewer_1_1SignalProvider_abe3b620ca38f49273eb0bdc9477fee50}
+
+\item 
+bool {\bfseries \-\_\-b\-Is\-Recording}\label{classSoundfieldViewer_1_1SignalProvider_af2207cc700cf00547b198c06d7cd3078}
+
+\item 
+bool {\bfseries \-\_\-b\-Is\-Playing}\label{classSoundfieldViewer_1_1SignalProvider_abd827c9636f59c370ba127f46384a30b}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries init\-Bass} ()\label{classSoundfieldViewer_1_1SignalProvider_a763de0f0a99881ba81ae35d9fce6e66b}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+H\-R\-E\-C\-O\-R\-D {\bfseries \-\_\-recchan}\label{classSoundfieldViewer_1_1SignalProvider_aea20f785bc54a77502d0d1fdbba824f5}
+
+\item 
+H\-R\-E\-C\-O\-R\-D {\bfseries \-\_\-playchan}\label{classSoundfieldViewer_1_1SignalProvider_a20678def342ba19adffe48c0dcd95e1a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class which generates and provides audiosignals. 
+
+
+
+Definition at line 14 of file signalprovider.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+signalprovider.\-h\item 
+signalprovider.\-cpp\end{DoxyCompactItemize}

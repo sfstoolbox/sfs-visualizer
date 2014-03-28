@@ -1,0 +1,128 @@
+\section{Soundfield\-Viewer\-:\-:Render\-Engine Class Reference}
+\label{classSoundfieldViewer_1_1RenderEngine}\index{Soundfield\-Viewer\-::\-Render\-Engine@{Soundfield\-Viewer\-::\-Render\-Engine}}
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Render\-Engine\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d7/db3/classSoundfieldViewer_1_1RenderEngine__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries start} ()\label{classSoundfieldViewer_1_1RenderEngine_ab7531995e03a40bbbf77f7ef9198da14}
+
+\item 
+void {\bfseries init} (void)\label{classSoundfieldViewer_1_1RenderEngine_aa5c1a496f448451dc5a0e931422993db}
+
+\item 
+void {\bf init\-O\-G\-L} ()
+\item 
+void {\bfseries keyboard} (unsigned char key, int x, int y)\label{classSoundfieldViewer_1_1RenderEngine_a9e2f5fa9d53eb4c0952c30c039911263}
+
+\item 
+void {\bfseries motion} (int x, int y)\label{classSoundfieldViewer_1_1RenderEngine_a83371f716decffa3c8530ae1b2f80fc1}
+
+\item 
+void {\bfseries mouse} (int button, int state, int x, int y)\label{classSoundfieldViewer_1_1RenderEngine_ace113c57e2b31b1e726aed8fe2f2f6a6}
+
+\item 
+void {\bfseries idle} (void)\label{classSoundfieldViewer_1_1RenderEngine_ae0c7b037c2e1f9ed2c92ef1e16a2ec5b}
+
+\item 
+void {\bfseries display} (void)\label{classSoundfieldViewer_1_1RenderEngine_a838f78771ad1fefd42b2feb809097116}
+
+\item 
+void {\bfseries reshape} (int width, int height)\label{classSoundfieldViewer_1_1RenderEngine_a23997258136335ec3b85565ad99389d2}
+
+\item 
+void {\bfseries end} (int code)\label{classSoundfieldViewer_1_1RenderEngine_a4da60ffb997df5caa3a1c8fcbad7bbbf}
+
+\item 
+void {\bfseries specialkey} (int key, int x, int y)\label{classSoundfieldViewer_1_1RenderEngine_a279bae787e48211e3cea8f450a511281}
+
+\item 
+void {\bfseries timer} (int val)\label{classSoundfieldViewer_1_1RenderEngine_a5bc88cf1002b2d45767b319aa9984eec}
+
+\item 
+void {\bfseries highspeedtimer} (int val)\label{classSoundfieldViewer_1_1RenderEngine_a993a1f3e2ed602cadcba2a0f6a663d55}
+
+\item 
+{\bf Soundfield\-Viewer\-::\-Camera\-Control} {\bfseries Camera} () const \label{classSoundfieldViewer_1_1RenderEngine_ad38d29abb5fe55a1be61c96a408bd454}
+
+\item 
+int {\bfseries get\-Height} () const \label{classSoundfieldViewer_1_1RenderEngine_aa42975d380063c52e64c0df25bf23471}
+
+\item 
+int {\bfseries get\-Width} () const \label{classSoundfieldViewer_1_1RenderEngine_afce973f1d7215885553ded0fc2109860}
+
+\item 
+void {\bfseries grab\-Pixels} ()\label{classSoundfieldViewer_1_1RenderEngine_afca0c8e03f1bf7601dd8ab735e1e2615}
+
+\item 
+void {\bfseries shutdown} ()\label{classSoundfieldViewer_1_1RenderEngine_a9064817a0d261b1f6fbf90b003587b55}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boost\-::exception\-\_\-ptr {\bfseries \-\_\-error}\label{classSoundfieldViewer_1_1RenderEngine_a9b5bd7ca56e744a8e111c5fcb6a43380}
+
+\item 
+int {\bfseries \-\_\-h}\label{classSoundfieldViewer_1_1RenderEngine_a79b80617dd40436e8cf7fa9fc316616c}
+
+\item 
+int {\bfseries \-\_\-w}\label{classSoundfieldViewer_1_1RenderEngine_ad307dbf3378ba5875f1decd50ddcf149}
+
+\item 
+float {\bfseries \-\_\-pointsize}\label{classSoundfieldViewer_1_1RenderEngine_ab3892c739ca0ba0474f8f217d7510e26}
+
+\item 
+std\-::vector$<$ {\bf I\-Render\-Object} $\ast$ $>$ {\bfseries \-\_\-l\-Objekte}\label{classSoundfieldViewer_1_1RenderEngine_a7a31e13a9dd22686e3b1e95035b59327}
+
+\item 
+{\bf Camera\-Control} {\bfseries \-\_\-camera}\label{classSoundfieldViewer_1_1RenderEngine_ad7f6574d0d7c575f2fb7c75eb77f7fbb}
+
+\item 
+unsigned int {\bfseries fps\-Current}\label{classSoundfieldViewer_1_1RenderEngine_afba1e0ce703ab68a69d4009d9c51b3ae}
+
+\item 
+unsigned int {\bfseries fps\-Count}\label{classSoundfieldViewer_1_1RenderEngine_abef679c6aa3f80bd45f486b306ca17ac}
+
+\item 
+unsigned int {\bfseries \-\_\-highspeed\-Timer\-Update\-Rate\-Ms}\label{classSoundfieldViewer_1_1RenderEngine_ae44e533e0074be9a0a714f2a9795e30b}
+
+\item 
+bool {\bfseries \-\_\-b\-Is\-Disposed}\label{classSoundfieldViewer_1_1RenderEngine_a230fe98c7e902b56a72f0cfc3d2d699b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file renderengine.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{Soundfield\-Viewer\-::\-Render\-Engine@{Soundfield\-Viewer\-::\-Render\-Engine}!init\-O\-G\-L@{init\-O\-G\-L}}
+\index{init\-O\-G\-L@{init\-O\-G\-L}!SoundfieldViewer::RenderEngine@{Soundfield\-Viewer\-::\-Render\-Engine}}
+\subsubsection[{init\-O\-G\-L}]{\setlength{\rightskip}{0pt plus 5cm}void Soundfield\-Viewer\-::\-Render\-Engine\-::init\-O\-G\-L (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classSoundfieldViewer_1_1RenderEngine_abbaaad40a05fcffa8beef40070e2dc32}
+gl\-Blend\-Func (G\-L\-\_\-\-S\-R\-C\-\_\-\-A\-L\-P\-H\-A,G\-L\-\_\-\-O\-N\-E\-\_\-\-M\-I\-N\-U\-S\-\_\-\-S\-R\-C\-\_\-\-A\-L\-P\-H\-A);$\ast$/ 
+
+Definition at line 98 of file renderengine.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+renderengine.\-h\item 
+renderengine.\-cpp\end{DoxyCompactItemize}

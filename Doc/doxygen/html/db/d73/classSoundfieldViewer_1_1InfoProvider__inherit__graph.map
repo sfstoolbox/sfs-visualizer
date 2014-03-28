@@ -1,0 +1,6 @@
+<map id="SoundfieldViewer::InfoProvider" name="SoundfieldViewer::InfoProvider">
+<area shape="rect" id="node2" href="$d4/de8/classSoundfieldViewer_1_1FieldViewerBase.html" title="FieldViewerBase class A Base class for classes that can show soundfields either with shearwarping or ..." alt="" coords="185,161,412,634"/>
+<area shape="rect" id="node3" href="$d8/db8/classSoundfieldViewer_1_1MatlabFieldViewer.html" title="MatlabFieldViewer class A FieldViewer for Matlab files " alt="" coords="5,683,176,1098"/>
+<area shape="rect" id="node4" href="$d9/dd7/classSoundfieldViewer_1_1MatlabFieldViewerSimple.html" title="{SoundfieldViewer::Matlab\lFieldViewerSimple\n|&#45; abstand\l&#45; lighton\l&#45; _left\l&#45; _up\l&#45; _shader\l&#45; _bInitalLoad\l&#45; _bCutMode\l&#45; _timeMs\l&#45; _waveLength\l&#45; _boost\land 12 more...\l|+ MatlabFieldViewerSimple()\l+ ~MatlabFieldViewerSimple()\l+ update()\l+ key()\l+ mouse()\l+ specialkey()\l+ timer()\l# draw_impl()\l&#45; readMatlabfile()\l&#45; readMatlabfileBySlice()\l&#45; updateTexture()\l&#45; initTask()\l}" alt="" coords="200,691,397,1091"/>
+<area shape="rect" id="node5" href="$d6/dcb/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen.html" title="ShaderSoundfieldViewerGreen class A FieldViewer that loads a compute shader to compute WFS ..." alt="" coords="422,698,649,1083"/>
+</map>

@@ -1,0 +1,90 @@
+\section{Soundfield\-Viewer\-:\-:Property\-Manager Class Reference}
+\label{classSoundfieldViewer_1_1PropertyManager}\index{Soundfield\-Viewer\-::\-Property\-Manager@{Soundfield\-Viewer\-::\-Property\-Manager}}
+
+
+Property\-Manager class A singletonclass for managing the properties and settings  
+
+
+
+
+{\ttfamily \#include $<$propertymanager.\-h$>$}
+
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Property\-Manager\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d5/d90/classSoundfieldViewer_1_1PropertyManager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries save} ()\label{classSoundfieldViewer_1_1PropertyManager_a1de0ca0eaa4f4860517b1bef1a077a17}
+
+\item 
+void {\bfseries load} ()\label{classSoundfieldViewer_1_1PropertyManager_ab4eed743e9ecc8d476cef9a2959b8767}
+
+\item 
+{\bf Property} \& {\bfseries add\-Property} (const std\-::string \&name, float default\-Value)\label{classSoundfieldViewer_1_1PropertyManager_a52204f4c975882221e04e80d0b461d6f}
+
+\item 
+float {\bfseries get\-Property\-Value} (const std\-::string \&name)\label{classSoundfieldViewer_1_1PropertyManager_a02ea6e51004af313f8028afa0b82bd9e}
+
+\item 
+{\bf Property} \& {\bfseries get\-Property} (const std\-::string \&name)\label{classSoundfieldViewer_1_1PropertyManager_a3a5e131064b079e37699e67a1f3347a0}
+
+\item 
+{\bf Property} \& {\bfseries add\-Shader\-Property} (const std\-::string \&name, float default\-Value, {\bf Shader} $\ast$\-\_\-shader)\label{classSoundfieldViewer_1_1PropertyManager_ae905f1643b3fd035b5e0e0046b6b4613}
+
+\item 
+void {\bfseries write\-Shader\-Values} ({\bf Shader} $\ast$active\-Shader)\label{classSoundfieldViewer_1_1PropertyManager_afe6ccc9412a25847172ed21832f22c59}
+
+\item 
+void {\bfseries set\-Property\-Value} (const std\-::string \&name, float val)\label{classSoundfieldViewer_1_1PropertyManager_a318b69d7d575812c95f673b5f1abacad}
+
+\item 
+void {\bfseries reset\-Property\-Value} (const std\-::string \&name)\label{classSoundfieldViewer_1_1PropertyManager_a573b38c40dceff999f2817006ede6053}
+
+\item 
+bool {\bfseries property\-Exists} (const std\-::string \&name) const \label{classSoundfieldViewer_1_1PropertyManager_a7489ba0a7a6199d9fd104ad0945d52cf}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static {\bf Property\-Manager} \& {\bfseries instance} ()\label{classSoundfieldViewer_1_1PropertyManager_a656e6beb866ef0e40a492df674a890db}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Property\-Map {\bfseries \-\_\-properties}\label{classSoundfieldViewer_1_1PropertyManager_aed36f0fb1002e670a8f1ef4babaa6647}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Property\-Manager} (const {\bf Property\-Manager} \&)\label{classSoundfieldViewer_1_1PropertyManager_ad01a331d1c7f9db357b2ab46f7199885}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char {\bfseries \-\_\-delimiter}\label{classSoundfieldViewer_1_1PropertyManager_a191e16057c951e2c22486b318d97b91f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Property\-Manager class A singletonclass for managing the properties and settings 
+
+Definition at line 21 of file propertymanager.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+{\bf propertymanager.\-h}\item 
+propertymanager.\-cpp\end{DoxyCompactItemize}

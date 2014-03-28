@@ -1,0 +1,23 @@
+<map id="SoundfieldViewer::MatlabFieldViewer" name="SoundfieldViewer::MatlabFieldViewer">
+<area shape="rect" id="node2" href="$d4/de8/classSoundfieldViewer_1_1FieldViewerBase.html" title="FieldViewerBase class A Base class for classes that can show soundfields either with shearwarping or ..." alt="" coords="423,2729,649,3261"/>
+<area shape="rect" id="node3" href="$d8/d29/classSoundfieldViewer_1_1RenderObjectBase.html" title="{SoundfieldViewer::Render\lObjectBase\&lt; FieldViewerBase \&gt;\n|# _zeilenabstand\l# _bIsInitialized\l&#45; _bIsVisble\l&#45; _bLightOn\l&#45; _bAlphaBlendOn\l|+ RenderObjectBase()\l+ ~RenderObjectBase()\l+ getIsVisible()\l+ setIsVisible()\l+ getIsInitialized()\l+ update()\l+ draw()\l+ key()\l+ specialkey()\l+ mouse()\l+ timer()\l+ rotateTranslate()\l+ checkGLErrors()\l# draw_impl()\l# drawBitmapText()\l# random()\l# toggleLightning()\l# toggleAlphaBlending()\l}" alt="" coords="861,2264,1067,2664"/>
+<area shape="rect" id="node4" href="$d4/d5a/classSoundfieldViewer_1_1IRenderObject.html" title="{SoundfieldViewer::IRender\lObject\n||+ ~IRenderObject()\l+ update()\l+ draw()\l+ getIsVisible()\l+ setIsVisible()\l+ getIsInitialized()\l+ key()\l+ specialkey()\l+ mouse()\l+ timer()\l}" alt="" coords="981,1485,1157,1709"/>
+<area shape="rect" id="node5" href="$d8/d29/classSoundfieldViewer_1_1RenderObjectBase.html" title="{SoundfieldViewer::Render\lObjectBase\&lt; TYPE \&gt;\n|# _zeilenabstand\l# _bIsInitialized\l&#45; _bIsVisble\l&#45; _bLightOn\l&#45; _bAlphaBlendOn\l|+ RenderObjectBase()\l+ ~RenderObjectBase()\l+ getIsVisible()\l+ setIsVisible()\l+ getIsInitialized()\l+ update()\l+ draw()\l+ key()\l+ specialkey()\l+ mouse()\l+ timer()\l+ rotateTranslate()\l+ checkGLErrors()\l# draw_impl()\l# drawBitmapText()\l# random()\l# toggleLightning()\l# toggleAlphaBlending()\l}" alt="" coords="897,1787,1071,2187"/>
+<area shape="rect" id="node6" href="$d9/d1a/classSoundfieldViewer_1_1InfoProvider.html" title="{SoundfieldViewer::InfoProvider\n||+ InfoProvider()\l+ ~InfoProvider()\l+ getInfo()\l}" alt="" coords="159,2411,360,2517"/>
+<area shape="rect" id="node7" href="$d8/d1c/classSoundfieldViewer_1_1CommandManager.html" title="CommandManager class this class knows all commands and can dispatch userinputs to them ..." alt="" coords="441,2374,631,2554"/>
+<area shape="rect" id="node9" href="$d0/d7f/classSoundfieldViewer_1_1PropertyCommand.html" title="PropertyCommand class This Command can change Property values with defined actions eg..." alt="" coords="409,1522,588,1673"/>
+<area shape="rect" id="node10" href="$d4/d7e/classSoundfieldViewer_1_1Command.html" title="Command class " alt="" coords="250,465,440,615"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="253,163,333,240"/>
+<area shape="rect" id="node13" href="$d4/d8c/classSoundfieldViewer_1_1Property.html" title="Property class capsulates a value, that can be modified and saved " alt="" coords="409,1123,588,1421"/>
+<area shape="rect" id="node14" href="$db/d25/classSoundfieldViewer_1_1Shader.html" title="{SoundfieldViewer::Shader\n|+ v\l&#45; _isActive\l&#45; m_eType\l&#45; f\l&#45; f2\l&#45; g\l&#45; p\l|+ Shader()\l+ ~Shader()\l+ hasUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\land 12 more...\l&#45; printShaderInfoLog()\l&#45; readFile()\l&#45; doPreprocessing()\l}" alt="" coords="96,641,269,997"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="230,6,356,98"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="625,163,748,240"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="793,163,911,240"/>
+<area shape="rect" id="node21" title="STL class. " alt="" coords="715,2425,836,2503"/>
+<area shape="rect" id="node22" title="STL class. " alt="" coords="716,1941,873,2033"/>
+<area shape="rect" id="node23" title="STL class. " alt="" coords="781,1551,915,1643"/>
+<area shape="rect" id="node24" title="STL class. " alt="" coords="939,1226,1067,1318"/>
+<area shape="rect" id="node25" title="STL class. " alt="" coords="923,780,1077,857"/>
+<area shape="rect" id="node27" title="STL class. " alt="" coords="782,1226,913,1318"/>
+<area shape="rect" id="node26" title="STL class. " alt="" coords="951,348,1049,425"/>
+</map>

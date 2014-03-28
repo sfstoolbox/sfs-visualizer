@@ -1,0 +1,122 @@
+\section{sfs\-\_\-visualizer\-:\-:I\-Render\-Object Class Reference}
+\label{classsfs__visualizer_1_1IRenderObject}\index{sfs\-\_\-visualizer\-::\-I\-Render\-Object@{sfs\-\_\-visualizer\-::\-I\-Render\-Object}}
+
+
+Interface of all objects, that can be shown by the renderengine.  
+
+
+
+
+{\ttfamily \#include $<$renderobject.\-h$>$}
+
+
+
+Inheritance diagram for sfs\-\_\-visualizer\-:\-:I\-Render\-Object\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/dde/classsfs__visualizer_1_1IRenderObject__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:I\-Render\-Object\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{df/d49/classsfs__visualizer_1_1IRenderObject__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bf update} ()=0
+\begin{DoxyCompactList}\small\item\em methods \end{DoxyCompactList}\item 
+virtual void {\bfseries draw} ()=0\label{classsfs__visualizer_1_1IRenderObject_a3dfa50bfffefdaa6b72d912d4120ab71}
+
+\item 
+virtual void {\bfseries timer} (int update\-Rate\-Ms)=0\label{classsfs__visualizer_1_1IRenderObject_aae7260514a73933da78dc4d54fbfe81f}
+
+\item 
+virtual void {\bf key} (unsigned char key, int x, int y)=0
+\begin{DoxyCompactList}\small\item\em user inputs \end{DoxyCompactList}\item 
+virtual void {\bfseries specialkey} (int {\bf key}, int x, int y)=0\label{classsfs__visualizer_1_1IRenderObject_aec12d8efed0f18273a68bf3dc6b1f9e5}
+
+\item 
+virtual void {\bfseries mouse} (int button, int state, int x, int y)=0\label{classsfs__visualizer_1_1IRenderObject_ad5879f94695eb48af3d5eeca63212809}
+
+\item 
+virtual bool {\bf Is\-Visible} ()=0
+\begin{DoxyCompactList}\small\item\em mutators and informators \end{DoxyCompactList}\item 
+virtual void {\bfseries Is\-Visible} (bool)=0\label{classsfs__visualizer_1_1IRenderObject_a48868419eabd97f0871a2b7b9484c4f3}
+
+\item 
+virtual bool {\bfseries Is\-Initialized} ()=0\label{classsfs__visualizer_1_1IRenderObject_ac16bc7487ceb527a4dd7568d3fd6ced0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface of all objects, that can be shown by the renderengine. 
+
+they handle mouse-\/ and keyevents A timer is called from the renderthread to do regular tasks like recalculations for animations. 
+
+Definition at line 23 of file renderobject.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{sfs\-\_\-visualizer\-::\-I\-Render\-Object@{sfs\-\_\-visualizer\-::\-I\-Render\-Object}!update@{update}}
+\index{update@{update}!sfs_visualizer::IRenderObject@{sfs\-\_\-visualizer\-::\-I\-Render\-Object}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}virtual void sfs\-\_\-visualizer\-::\-I\-Render\-Object\-::update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsfs__visualizer_1_1IRenderObject_addfa7be6b4cadc5e71d4bdcc8ef15fc7}
+
+
+methods 
+
+
+
+Implemented in {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ T\-Y\-P\-E $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Coordinate\-System $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Help\-Overlay $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Field\-Viewer\-Base $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Splash\-Screen $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Info\-Overlay $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Colormap\-View $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}, {\bf sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green} \doxyref{}{p.}{d6/dab/classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a8acf805aa86680695d7ae1c380d214da}, and {\bf sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer} \doxyref{}{p.}{d8/d1c/classsfs__visualizer_1_1MatlabFieldViewer_a4997514b7715c83d2c513576af0a2c60}.
+
+\index{sfs\-\_\-visualizer\-::\-I\-Render\-Object@{sfs\-\_\-visualizer\-::\-I\-Render\-Object}!key@{key}}
+\index{key@{key}!sfs_visualizer::IRenderObject@{sfs\-\_\-visualizer\-::\-I\-Render\-Object}}
+\subsubsection[{key}]{\setlength{\rightskip}{0pt plus 5cm}virtual void sfs\-\_\-visualizer\-::\-I\-Render\-Object\-::key (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{key, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsfs__visualizer_1_1IRenderObject_adee6c00f917851b6b96f6a88dbe4eb62}
+
+
+user inputs 
+
+
+
+Implemented in {\bf sfs\-\_\-visualizer\-::\-Field\-Viewer\-Base} \doxyref{}{p.}{dc/dc0/classsfs__visualizer_1_1FieldViewerBase_acebb098dc25cd342be007c47cc2e64ab}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ T\-Y\-P\-E $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a3f0106a0ce3861f34e5330da65e7bdd4}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Coordinate\-System $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a3f0106a0ce3861f34e5330da65e7bdd4}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Help\-Overlay $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a3f0106a0ce3861f34e5330da65e7bdd4}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Field\-Viewer\-Base $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a3f0106a0ce3861f34e5330da65e7bdd4}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Splash\-Screen $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a3f0106a0ce3861f34e5330da65e7bdd4}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Info\-Overlay $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a3f0106a0ce3861f34e5330da65e7bdd4}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Colormap\-View $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a3f0106a0ce3861f34e5330da65e7bdd4}, {\bf sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green} \doxyref{}{p.}{d6/dab/classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a5a2363722318f189a5c5276d64659776}, {\bf sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer} \doxyref{}{p.}{d8/d1c/classsfs__visualizer_1_1MatlabFieldViewer_aaba2a2a82434165851e44a01f299d58b}, {\bf sfs\-\_\-visualizer\-::\-Info\-Overlay} \doxyref{}{p.}{d7/d78/classsfs__visualizer_1_1InfoOverlay_ad04dcece97043b948ae9af471172e5c0}, {\bf sfs\-\_\-visualizer\-::\-Colormap\-View} \doxyref{}{p.}{de/dbd/classsfs__visualizer_1_1ColormapView_af9381d745eb32e41fbc588cb325ffe4c}, {\bf sfs\-\_\-visualizer\-::\-Help\-Overlay} \doxyref{}{p.}{d4/db2/classsfs__visualizer_1_1HelpOverlay_af073d80d01dc30a14a40238b9d539d14}, and {\bf sfs\-\_\-visualizer\-::\-Splash\-Screen} \doxyref{}{p.}{df/d2f/classsfs__visualizer_1_1SplashScreen_abc2cf866fa07a5bc66271622d12c8d6a}.
+
+\index{sfs\-\_\-visualizer\-::\-I\-Render\-Object@{sfs\-\_\-visualizer\-::\-I\-Render\-Object}!Is\-Visible@{Is\-Visible}}
+\index{Is\-Visible@{Is\-Visible}!sfs_visualizer::IRenderObject@{sfs\-\_\-visualizer\-::\-I\-Render\-Object}}
+\subsubsection[{Is\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool sfs\-\_\-visualizer\-::\-I\-Render\-Object\-::\-Is\-Visible (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{classsfs__visualizer_1_1IRenderObject_a4160e34cad5f899a410650f2f979bb0d}
+
+
+mutators and informators 
+
+
+
+Implemented in {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ T\-Y\-P\-E $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a7bfad24bb32632b5328aa347faa3d129}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Coordinate\-System $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a7bfad24bb32632b5328aa347faa3d129}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Help\-Overlay $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a7bfad24bb32632b5328aa347faa3d129}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Field\-Viewer\-Base $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a7bfad24bb32632b5328aa347faa3d129}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Splash\-Screen $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a7bfad24bb32632b5328aa347faa3d129}, {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Info\-Overlay $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a7bfad24bb32632b5328aa347faa3d129}, and {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Colormap\-View $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_a7bfad24bb32632b5328aa347faa3d129}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+renderobject.\-h\item 
+renderobject.\-cpp\end{DoxyCompactItemize}

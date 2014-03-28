@@ -1,0 +1,166 @@
+\section{Soundfield\-Viewer\-:\-:Field\-Viewer\-Base Class Reference}
+\label{classSoundfieldViewer_1_1FieldViewerBase}\index{Soundfield\-Viewer\-::\-Field\-Viewer\-Base@{Soundfield\-Viewer\-::\-Field\-Viewer\-Base}}
+
+
+Field\-Viewer\-Base class A Base class for classes that can show soundfields either with shearwarping or a raytracer  
+
+
+
+
+{\ttfamily \#include $<$fieldviewerbase.\-h$>$}
+
+
+
+Inheritance diagram for Soundfield\-Viewer\-:\-:Field\-Viewer\-Base\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d1/dab/classSoundfieldViewer_1_1FieldViewerBase__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Field\-Viewer\-Base\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{dd/d6c/classSoundfieldViewer_1_1FieldViewerBase__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries key} (unsigned char key, int x, int y)\label{classSoundfieldViewer_1_1FieldViewerBase_a2e6f2423856de9c7850bbabcf948ec34}
+
+\item 
+virtual void {\bfseries timer} (int update\-Rate\-Ms)\label{classSoundfieldViewer_1_1FieldViewerBase_aaca7b68a0ac76d94cf4a0e0f28413886}
+
+\item 
+virtual const std\-::string {\bfseries get\-Info} () const \label{classSoundfieldViewer_1_1FieldViewerBase_a2b62ea8b571181958e7e9a6d4860f575}
+
+\item 
+virtual void {\bfseries set\-Is\-Visible} (bool b\-Visible)\label{classSoundfieldViewer_1_1FieldViewerBase_ab50c583c393a3513a1fce41f0125e2c1}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries draw\-\_\-impl} ()\label{classSoundfieldViewer_1_1FieldViewerBase_a402b91f7f7f42b5a61083b5cc0fd8c1f}
+
+\item 
+virtual void {\bfseries new\-Texture} (Texture\-Factory\-::\-T\-Y\-P\-E type=Texture\-Factory\-::\-F\-L\-O\-A\-T)\label{classSoundfieldViewer_1_1FieldViewerBase_a11916f73c50c9dbf79886e14191058df}
+
+\item 
+virtual void {\bfseries init\-Properties} ()\label{classSoundfieldViewer_1_1FieldViewerBase_a455a25f4321e01117b38c44733779cfe}
+
+\item 
+void {\bfseries add\-Quadslice} (float z\-Offset)\label{classSoundfieldViewer_1_1FieldViewerBase_a12fb17013d327b9300133ae5ee4db52d}
+
+\item 
+void {\bfseries switch\-Alpha} ()\label{classSoundfieldViewer_1_1FieldViewerBase_a5692d0f00d69b779f274a4885f21b62c}
+
+\item 
+void {\bfseries blend} (int blend)\label{classSoundfieldViewer_1_1FieldViewerBase_a3f9fd03788a6661edcbb733500359d59}
+
+\item 
+void {\bfseries toggle\-Use\-Ray\-Tracer} ()\label{classSoundfieldViewer_1_1FieldViewerBase_ad6f1d3ddecf9ae8653038c6a9469f2a3}
+
+\item 
+void {\bfseries draw\-Border} ()\label{classSoundfieldViewer_1_1FieldViewerBase_a63e63af0a109a3888d2fa2f6250fc59b}
+
+\item 
+void {\bfseries init\-S\-S\-B\-O} (G\-Luint index, bool b\-Rand)\label{classSoundfieldViewer_1_1FieldViewerBase_a051ef7b731dfc1c6d113a3fbc7526fc3}
+
+\item 
+void {\bfseries fill\-S\-S\-B\-O} (const G\-Lvoid $\ast$buffer, G\-Lsizeiptr size, G\-Luint index)\label{classSoundfieldViewer_1_1FieldViewerBase_a1355298deec868131eacc7d9e2f3e6cc}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::stringstream {\bfseries \-\_\-info}\label{classSoundfieldViewer_1_1FieldViewerBase_aeb83d0ca23abaf8a0b193705730692ea}
+
+\item 
+std\-::vector$<$ G\-Luint $>$ {\bfseries \-\_\-textures}\label{classSoundfieldViewer_1_1FieldViewerBase_a828c3fc9afa4e53748f0a4c83ad0e9e5}
+
+\item 
+float {\bfseries z}\label{classSoundfieldViewer_1_1FieldViewerBase_a56c4790db396955255b4c701f31e6f14}
+
+\item 
+unsigned int {\bfseries texname} [ntextures]\label{classSoundfieldViewer_1_1FieldViewerBase_a5aecf8fa22b068597e311a6785a31640}
+
+\item 
+{\bf Shader} $\ast$ {\bfseries \-\_\-fragment\-Shader}\label{classSoundfieldViewer_1_1FieldViewerBase_a19a330a2231f74bdfedf40615a975099}
+
+\item 
+{\bf Shader} $\ast$ {\bfseries \-\_\-vertex\-Shader}\label{classSoundfieldViewer_1_1FieldViewerBase_a0b76185a2e38307c2802e445adc9276a}
+
+\item 
+int {\bfseries currenttexture}\label{classSoundfieldViewer_1_1FieldViewerBase_a2abd7ef78f15fac6d317c7afa647eff7}
+
+\item 
+int {\bfseries alphablendfunction}\label{classSoundfieldViewer_1_1FieldViewerBase_a635623b5e2e5568a3e020304a85d66c0}
+
+\item 
+int {\bfseries alphablendmode}\label{classSoundfieldViewer_1_1FieldViewerBase_ae3725632b78fb1f01e1e063523966d52}
+
+\item 
+float {\bfseries alphatest}\label{classSoundfieldViewer_1_1FieldViewerBase_af1e0a8dce2312d8b3a8cca99e6f36425}
+
+\item 
+int {\bfseries W\-I\-D\-T\-H}\label{classSoundfieldViewer_1_1FieldViewerBase_ae38fca888afa6c408b5de9ec197f3ac3}
+
+\item 
+int {\bfseries H\-E\-I\-G\-H\-T}\label{classSoundfieldViewer_1_1FieldViewerBase_a3c8a6e018c602b2211f3ae52c2c725c0}
+
+\item 
+int {\bfseries D\-E\-P\-T\-H}\label{classSoundfieldViewer_1_1FieldViewerBase_a61a4dee24d73ffa4fdbd418c19801ae0}
+
+\item 
+int {\bfseries W\-O\-R\-K\-G\-R\-O\-U\-P\-S\-I\-Z\-E}\label{classSoundfieldViewer_1_1FieldViewerBase_a3ad0145b772a9f16b0b59d381e74bb2f}
+
+\item 
+unsigned int {\bfseries \-\_\-sources}\label{classSoundfieldViewer_1_1FieldViewerBase_a7bb74fec52d1335b83560d6cea7e3255}
+
+\item 
+bool {\bfseries value\-Changed}\label{classSoundfieldViewer_1_1FieldViewerBase_a8fd31267dac5a158cd5a5792f8be016a}
+
+\item 
+int {\bfseries animation}\label{classSoundfieldViewer_1_1FieldViewerBase_af6fc70bc64c7ffd91716585c88578b8a}
+
+\item 
+bool {\bfseries \-\_\-b\-Draw\-Border}\label{classSoundfieldViewer_1_1FieldViewerBase_a13e86cf40fae265f37028cb4c29cbcc4}
+
+\item 
+{\bf Command\-Manager} {\bfseries \-\_\-cmd\-Manager}\label{classSoundfieldViewer_1_1FieldViewerBase_a003f4f19f20bd9164f4156f7899df21c}
+
+\item 
+float {\bfseries abstand}\label{classSoundfieldViewer_1_1FieldViewerBase_a743a0b1cfd1a1929244479412a60ec63}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int {\bfseries ntextures} = 1\label{classSoundfieldViewer_1_1FieldViewerBase_a967e7d3ac493cdd597a0d21f1bdf4ff4}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries \-\_\-oldn\-Slizes}\label{classSoundfieldViewer_1_1FieldViewerBase_a0efed09531738337b10f9fe3fcfc7e0f}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Field\-Viewer\-Base class A Base class for classes that can show soundfields either with shearwarping or a raytracer 
+
+Definition at line 21 of file fieldviewerbase.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+fieldviewerbase.\-h\item 
+fieldviewerbase.\-cpp\end{DoxyCompactItemize}

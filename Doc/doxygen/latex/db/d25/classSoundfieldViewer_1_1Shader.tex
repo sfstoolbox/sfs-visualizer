@@ -1,0 +1,136 @@
+\section{Soundfield\-Viewer\-:\-:Shader Class Reference}
+\label{classSoundfieldViewer_1_1Shader}\index{Soundfield\-Viewer\-::\-Shader@{Soundfield\-Viewer\-::\-Shader}}
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Shader\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{db/dbd/classSoundfieldViewer_1_1Shader__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Shader} (std\-::string str\-File, Shader\-Type type)\label{classSoundfieldViewer_1_1Shader_a390d6f60d961f4d6c714001f451c5374}
+
+\item 
+bool {\bfseries has\-Uniform} (const std\-::string \&name)\label{classSoundfieldViewer_1_1Shader_a94f4ce9e6cc94fc71bf44917d83de4c7}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, int v1)\label{classSoundfieldViewer_1_1Shader_a049541011f6117f85577dbc09bc2f9c6}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, unsigned int v1)\label{classSoundfieldViewer_1_1Shader_a774b085f2575550279c59dfcae1bd72d}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1)\label{classSoundfieldViewer_1_1Shader_a9ba4d6dc369f93bab255c92c0a9704ff}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1, float v2)\label{classSoundfieldViewer_1_1Shader_a770c993b645a8b5722e695960d3b1765}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1, float v2, float v3)\label{classSoundfieldViewer_1_1Shader_aae60997bca2222ca10696d59f7454d39}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1, float v2, float v3, float v4)\label{classSoundfieldViewer_1_1Shader_a0d8548d3311dc14404478399060c9921}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, int count, float $\ast$v1)\label{classSoundfieldViewer_1_1Shader_a00085101a6d91fc7c1e561b129c66e30}
+
+\item 
+void {\bfseries set\-Uniform\-Array} (const std\-::string \&name, int count, float $\ast$v1)\label{classSoundfieldViewer_1_1Shader_aba38c7d8e68ef91369754300dbb22c30}
+
+\item 
+void {\bfseries set\-Uniform\-Vec4\-Array} (const std\-::string \&name, int count, float $\ast$v1)\label{classSoundfieldViewer_1_1Shader_a679a0a70e8d86062787ffe9abf89ba85}
+
+\item 
+void {\bfseries set\-Uniform\-Array} (const std\-::string \&name, int count, unsigned int $\ast$v1)\label{classSoundfieldViewer_1_1Shader_a3c1e6ee63308e4553ed929206971c54c}
+
+\item 
+void {\bfseries set\-Uniform\-Matrix} (const std\-::string \&name, int count, float $\ast$v1)\label{classSoundfieldViewer_1_1Shader_aba53259a6984e9ad069e07607279fb23}
+
+\item 
+void {\bfseries Update\-Uniforms} ()\label{classSoundfieldViewer_1_1Shader_a0592f9fce60025f2df017bc88d4899a6}
+
+\item 
+void {\bfseries Load} ()\label{classSoundfieldViewer_1_1Shader_ad7227f11e41738fefcf9771e9bd15c83}
+
+\item 
+void {\bfseries Un\-Load} ()\label{classSoundfieldViewer_1_1Shader_a901670c18f4f347f1c41be1ba59187bd}
+
+\item 
+void {\bfseries Attach\-Shader} (G\-Luint shader\-\_\-id)\label{classSoundfieldViewer_1_1Shader_a573e260ab7f2d879d67b4a2fb45116b0}
+
+\item 
+void {\bfseries Create\-Program} ()\label{classSoundfieldViewer_1_1Shader_a47ecb907eddfb9ea8b006980292c9216}
+
+\item 
+void {\bfseries Link\-Program} ()\label{classSoundfieldViewer_1_1Shader_a55423bd7e718a64c2c86de471acea86d}
+
+\item 
+void {\bfseries Use} ()\label{classSoundfieldViewer_1_1Shader_a049e618589550d250c97d6b0f2d30051}
+
+\item 
+bool {\bfseries is\-Active} ()\label{classSoundfieldViewer_1_1Shader_a24d74d5c72ad1e24365e762aea878f39}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+G\-Luint {\bfseries v}\label{classSoundfieldViewer_1_1Shader_aa4320a4ba059b3b52583eedf5124db54}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries print\-Shader\-Info\-Log} (G\-Luint obj)\label{classSoundfieldViewer_1_1Shader_a278d4f65949b9bb2a37bb09fdd3bb70a}
+
+\item 
+std\-::string {\bfseries read\-File} (const std\-::string \&str\-File\-Name)\label{classSoundfieldViewer_1_1Shader_a1e7d896e33ba2d56a2d55ee6163d2188}
+
+\item 
+void {\bfseries do\-Preprocessing} (std\-::string \&str\-Text)\label{classSoundfieldViewer_1_1Shader_a723eb067d9f0af807abf813465ca17fc}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries \-\_\-is\-Active}\label{classSoundfieldViewer_1_1Shader_a696f7917d34043a515a3ca49b98c7859}
+
+\item 
+std\-::string {\bfseries m\-\_\-str\-File}\label{classSoundfieldViewer_1_1Shader_af4e2e1c9c6f85bbeae54a98f90b22ea9}
+
+\item 
+Shader\-Type {\bfseries m\-\_\-e\-Type}\label{classSoundfieldViewer_1_1Shader_abb185cff42ba4f0352d6521a1187f9bd}
+
+\item 
+std\-::map$<$ std\-::string, \\*
+{\bf Soundfield\-Viewer\-::\-Uniform} $>$ {\bfseries uniforms}\label{classSoundfieldViewer_1_1Shader_ab8d578b9b38cbde90558dbf9cb59472b}
+
+\item 
+G\-Luint {\bfseries f}\label{classSoundfieldViewer_1_1Shader_ac29c9f8d78dafd0a6c89c2ce1b121670}
+
+\item 
+G\-Luint {\bfseries f2}\label{classSoundfieldViewer_1_1Shader_a07aa5763e2b030fcb2c461627d6f0db6}
+
+\item 
+G\-Luint {\bfseries g}\label{classSoundfieldViewer_1_1Shader_a2d0312a1f05208a1729c2f3391151541}
+
+\item 
+G\-Luint {\bfseries p}\label{classSoundfieldViewer_1_1Shader_ad63698f73eb53602de3954d7739f615f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file shader.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+shader.\-h\item 
+shader.\-cpp\end{DoxyCompactItemize}

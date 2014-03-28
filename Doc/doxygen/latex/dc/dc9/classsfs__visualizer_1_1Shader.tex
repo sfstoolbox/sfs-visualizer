@@ -1,0 +1,136 @@
+\section{sfs\-\_\-visualizer\-:\-:Shader Class Reference}
+\label{classsfs__visualizer_1_1Shader}\index{sfs\-\_\-visualizer\-::\-Shader@{sfs\-\_\-visualizer\-::\-Shader}}
+
+
+class to load glsl-\/shaders and wraps communication with uniform-\/values, that are the variables of shaders  
+
+
+
+
+{\ttfamily \#include $<$shader.\-h$>$}
+
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Shader\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d2/d83/classsfs__visualizer_1_1Shader__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Shader} (std\-::string str\-File, Shader\-Type type)\label{classsfs__visualizer_1_1Shader_a788625a07b6ab1a9289f7908d57fbcee}
+
+\item 
+bool {\bfseries has\-Uniform} (const std\-::string \&name)\label{classsfs__visualizer_1_1Shader_aafd1573a18131732760d145980faa29b}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, int v1)\label{classsfs__visualizer_1_1Shader_a7c338cb2207bf8f07f01e660e66fd074}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, unsigned int v1)\label{classsfs__visualizer_1_1Shader_a765c976862f1b7b195753203d809ee81}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1)\label{classsfs__visualizer_1_1Shader_a4a3b23dc158f7b807637d7bfe45e06df}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1, float v2)\label{classsfs__visualizer_1_1Shader_a49421168f8dde7eceb27a3b81476f9a8}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1, float v2, float v3)\label{classsfs__visualizer_1_1Shader_a28860ee636ca9be63aa01b1d26af8c73}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, float v1, float v2, float v3, float v4)\label{classsfs__visualizer_1_1Shader_a1c5a47ed1c0b4c717a2c814ae11c1aba}
+
+\item 
+void {\bfseries set\-Uniform} (const std\-::string \&name, int count, float $\ast$v1)\label{classsfs__visualizer_1_1Shader_a86a3b0dd818a86e00ce4f65ed6f60155}
+
+\item 
+void {\bfseries set\-Uniform\-Array} (const std\-::string \&name, int count, float $\ast$v1)\label{classsfs__visualizer_1_1Shader_a7e9a6db4e87a10c28b54629beff7134a}
+
+\item 
+void {\bfseries set\-Uniform\-Vec4\-Array} (const std\-::string \&name, int count, float $\ast$v1)\label{classsfs__visualizer_1_1Shader_a66d2819b9cc558dbcedf1cd45c0e4cbd}
+
+\item 
+void {\bfseries set\-Uniform\-Array} (const std\-::string \&name, int count, unsigned int $\ast$v1)\label{classsfs__visualizer_1_1Shader_a4144a18c538d3bfc348d358a3a7e949a}
+
+\item 
+void {\bfseries set\-Uniform\-Matrix} (const std\-::string \&name, int count, float $\ast$v1)\label{classsfs__visualizer_1_1Shader_a4ac702af346f3cf8e14998bb4f59e326}
+
+\item 
+void {\bfseries update\-Uniforms} ()\label{classsfs__visualizer_1_1Shader_a605b87e078f7eaf0cf9777f7f6319311}
+
+\item 
+void {\bfseries load} ()\label{classsfs__visualizer_1_1Shader_a4222b925de192c794cdef621b13a5914}
+
+\item 
+void {\bfseries un\-Load} ()\label{classsfs__visualizer_1_1Shader_aa6e66aded6c712272998a146372850b0}
+
+\item 
+void {\bfseries attach\-Shader} (G\-Luint shader\-\_\-id)\label{classsfs__visualizer_1_1Shader_a0d5dc86ead4edde7010b76cb7df2ec46}
+
+\item 
+void {\bfseries create\-Program} ()\label{classsfs__visualizer_1_1Shader_ab3ceeba9cf9f760fc3eaa97e81578103}
+
+\item 
+void {\bfseries link\-Program} ()\label{classsfs__visualizer_1_1Shader_a75c069ae57bc198b229bd56b18e9b459}
+
+\item 
+void {\bfseries use} ()\label{classsfs__visualizer_1_1Shader_a870fa9f13d69e558815d6fd351a469dc}
+
+\item 
+bool {\bfseries is\-Active} ()\label{classsfs__visualizer_1_1Shader_a89103f6e4224e366307b7a89898f2a0f}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+G\-Luint {\bfseries \-\_\-shader\-Id}\label{classsfs__visualizer_1_1Shader_aed41f9ecc4dcc30ee1d307d33b48cd21}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries print\-Shader\-Info\-Log} (G\-Luint obj)\label{classsfs__visualizer_1_1Shader_a9c337c0dfcaf6a71ac6af7f6e75491eb}
+
+\item 
+std\-::string {\bfseries read\-File} (const std\-::string \&str\-File\-Name)\label{classsfs__visualizer_1_1Shader_a492073213e8668a330a327cee21f9418}
+
+\item 
+void {\bfseries do\-Preprocessing} (std\-::string \&str\-Text)\label{classsfs__visualizer_1_1Shader_ac122180bc89600c2932a7a65e805815e}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries \-\_\-is\-Active}\label{classsfs__visualizer_1_1Shader_ac22f274abcb33588ad9e1815a960f33c}
+
+\item 
+std\-::string {\bfseries \-\_\-str\-File}\label{classsfs__visualizer_1_1Shader_af8fd08acce17bfc88b0cfe9136c982ca}
+
+\item 
+Shader\-Type {\bfseries \-\_\-e\-Type}\label{classsfs__visualizer_1_1Shader_af546a04c628927c44edb9d088149433e}
+
+\item 
+std\-::map$<$ std\-::string, \\*
+{\bf sfs\-\_\-visualizer\-::\-Uniform} $>$ {\bfseries \-\_\-uniforms}\label{classsfs__visualizer_1_1Shader_a849d6a90553c7f1d556414d965e12444}
+
+\item 
+G\-Luint {\bfseries \-\_\-program\-Id}\label{classsfs__visualizer_1_1Shader_a000cea3767f7e0357c04da5b94fa9b61}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+class to load glsl-\/shaders and wraps communication with uniform-\/values, that are the variables of shaders 
+
+Definition at line 52 of file shader.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+shader.\-h\item 
+shader.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,121 @@
+\section{Soundfield\-Viewer\-:\-:Matlab\-Field\-Viewer Class Reference}
+\label{classSoundfieldViewer_1_1MatlabFieldViewer}\index{Soundfield\-Viewer\-::\-Matlab\-Field\-Viewer@{Soundfield\-Viewer\-::\-Matlab\-Field\-Viewer}}
+
+
+Matlab\-Field\-Viewer class A Field\-Viewer for Matlab files  
+
+
+
+
+{\ttfamily \#include $<$matlabfieldviewer.\-h$>$}
+
+
+
+Inheritance diagram for Soundfield\-Viewer\-:\-:Matlab\-Field\-Viewer\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d6/d2f/classSoundfieldViewer_1_1MatlabFieldViewer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Matlab\-Field\-Viewer\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{dc/dc7/classSoundfieldViewer_1_1MatlabFieldViewer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries update} ()\label{classSoundfieldViewer_1_1MatlabFieldViewer_ad4179f0b169c56aeb5ed2fdb227476e0}
+
+\item 
+virtual void {\bfseries key} (unsigned char key, int x, int y)\label{classSoundfieldViewer_1_1MatlabFieldViewer_a18aca29b1299f771d4d19ce758076854}
+
+\item 
+virtual void {\bfseries mouse} (int button, int state, int x, int y)\label{classSoundfieldViewer_1_1MatlabFieldViewer_aefb79554ba4d7a3948f4bdd3ab721a10}
+
+\item 
+virtual void {\bfseries specialkey} (int key, int x, int y)\label{classSoundfieldViewer_1_1MatlabFieldViewer_a22ee017fec802efaa6b89c9711c810da}
+
+\item 
+virtual void {\bfseries timer} (int update\-Rate\-Ms)\label{classSoundfieldViewer_1_1MatlabFieldViewer_ac579345567afcdb19102f422d0217c99}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries draw\-\_\-impl} ()\label{classSoundfieldViewer_1_1MatlabFieldViewer_a87acba72622f2146e40344104d2cd1c4}
+
+\item 
+virtual void {\bfseries init\-Properties} ()\label{classSoundfieldViewer_1_1MatlabFieldViewer_a371dae830a193679632ddda4746b8f01}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries read\-Matlabfile\-By\-Slice} (const char $\ast$file\-\_\-name)\label{classSoundfieldViewer_1_1MatlabFieldViewer_a5a9196549318b9ae0fe878cca1e1effb}
+
+\item 
+void {\bfseries update\-Texture} ()\label{classSoundfieldViewer_1_1MatlabFieldViewer_a51971938c28c95bd563aa9ee4f9fd563}
+
+\item 
+void {\bfseries init\-Task} (boost\-::exception\-\_\-ptr \&error)\label{classSoundfieldViewer_1_1MatlabFieldViewer_a88bf6db79cbd3cf8caa7787f143ae4a3}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int {\bfseries lighton}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a126ca6f34b6d705810d5522a78b17831}
+
+\item 
+float {\bfseries \-\_\-left}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a3616335929d190d8b529e8b66b4bd560}
+
+\item 
+float {\bfseries \-\_\-up}\label{classSoundfieldViewer_1_1MatlabFieldViewer_aaec43c216180edae5de24c077a147ffb}
+
+\item 
+{\bf Shader} $\ast$ {\bfseries \-\_\-shader}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a84776380a5358f2e473d3ed9913c5dca}
+
+\item 
+bool {\bfseries \-\_\-b\-Inital\-Load}\label{classSoundfieldViewer_1_1MatlabFieldViewer_ad0cbbbaf0207d5a03145544aba175e79}
+
+\item 
+bool {\bfseries \-\_\-b\-Cut\-Mode}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a2991ebf76b6338e406de4bc6007f7afe}
+
+\item 
+unsigned float {\bfseries \-\_\-time\-Ms}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a3442fa99b45e321331aeee59aa3d60a7}
+
+\item 
+float {\bfseries \-\_\-wave\-Length}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a1f0138e468646b4dbf8e356c91176254}
+
+\item 
+float {\bfseries \-\_\-radius\-Scale}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a0218dd513bd1f428be34c944a25d52d5}
+
+\item 
+int {\bfseries \-\_\-loadingbulksize}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a5c7cc56e8d49290e1f53ae10a0fdccaf}
+
+\item 
+unsigned int {\bfseries \-\_\-bufferpointer}\label{classSoundfieldViewer_1_1MatlabFieldViewer_aeb63f988c5238b61700d4081af5f4109}
+
+\item 
+int {\bfseries \-\_\-matlabfiles\-Count}\label{classSoundfieldViewer_1_1MatlabFieldViewer_a28f0c9a9f01dd8fe40ddabc6fab5b94c}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Matlab\-Field\-Viewer class A Field\-Viewer for Matlab files 
+
+Definition at line 17 of file matlabfieldviewer.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+matlabfieldviewer.\-h\item 
+matlabfieldviewer.\-cpp\end{DoxyCompactItemize}

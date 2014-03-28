@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="cameracontrol.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="renderengine.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="renderobject.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="renderobjectbase.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="texturefactory.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="infoprovider.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="matlabfieldviewer.cpp">
+      <Filter>RenderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="matlabfileadapter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinatesystem.cpp">
+      <Filter>RenderObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="helpoverlay.cpp">
+      <Filter>RenderObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="infooverlay.cpp">
+      <Filter>RenderObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldviewerbase.cpp">
+      <Filter>RenderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="shadersoundfieldviewergreen.cpp">
+      <Filter>RenderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="commandmanager.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="propertymanager.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="command.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="property.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="splashscreen.cpp">
+      <Filter>RenderObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="colormapview.cpp">
+      <Filter>RenderObjects\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="forwarddecl.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="gldispatcher.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="cameracontrol.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="renderengine.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="renderobject.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="renderobjectbase.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="texturefactory.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="stdincl.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="infoprovider.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="matlabfieldviewer.h">
+      <Filter>RenderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="matlabfileadapter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="coordinatesystem.h">
+      <Filter>RenderObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="helpoverlay.h">
+      <Filter>RenderObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="infooverlay.h">
+      <Filter>RenderObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldviewerbase.h">
+      <Filter>RenderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="shadersoundfieldviewergreen.h">
+      <Filter>RenderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="commandmanager.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="propertymanager.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="property.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="splashscreen.h">
+      <Filter>RenderObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="colormapview.h">
+      <Filter>RenderObjects\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{72454cd5-7de8-42bc-bb96-8a8c1f37e36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{a05f2d4c-6bc5-410c-9f08-54a13449d24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObjects">
+      <UniqueIdentifier>{a17f5ea8-af27-424c-8436-78a22f470d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{fbd538e8-8296-48a9-8c0c-7b84006a2f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderObjects\UI">
+      <UniqueIdentifier>{4a3fe249-d93f-41e6-ac74-6b69a17c94e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

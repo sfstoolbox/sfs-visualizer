@@ -1,0 +1,2416 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.2.16)  7 MAR 2014 01:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**refman
+(./refman.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count90
+\calc@Cskip=\skip45
+)
+(./doxygen.sty
+Package: doxygen 
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen105
+\extrarowheight=\dimen106
+\NC@list=\toks14
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.
+sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.st
+y
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks19
+\minrowclearance=\skip48
+)
+\rownum=\count93
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+) (c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/xtab/xtab.sty
+Package: xtab 2011/07/31 v2.3f Extended supertabular package
+\c@tracingst=\count94
+\PWSTcapht=\dimen107
+\ST@wd=\dimen108
+\ST@rightskip=\skip49
+\ST@leftskip=\skip50
+\ST@parfillskip=\skip51
+\c@PWSTtable=\count95
+\PWSTlastpage=\count96
+\PWSTpenultimate=\count97
+\PWSTcurpage=\count98
+\PWSTtempc=\count99
+\PWSTlines=\count100
+\PWST@lastht=\dimen109
+\PWST@generalht=\dimen110
+\PWST@ht=\dimen111
+\ST@pageleft=\dimen112
+\ST@headht=\dimen113
+\ST@tailht=\dimen114
+\ST@pagesofar=\dimen115
+\ST@pboxht=\dimen116
+\ST@lineht=\dimen117
+\ST@stretchht=\dimen118
+\ST@prevht=\dimen119
+\ST@toadd=\dimen120
+\ST@dimen=\dimen121
+\ST@pbox=\box28
+)
+\xrefbox=\box29
+\xreflength=\skip52
+\tmplength=\skip53
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/latexconfig/graphics.
+cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count101
+\mult@box=\box30
+\multicol@leftmargin=\dimen124
+\c@unbalance=\count102
+\c@collectmore=\count103
+\doublecol@number=\count104
+\multicoltolerance=\count105
+\multicolpretolerance=\count106
+\full@width=\dimen125
+\page@free=\dimen126
+\premulticols=\dimen127
+\postmulticols=\dimen128
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box31
+\last@line=\box32
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count107
+\c@finalcolumnbadness=\count108
+\last@try=\dimen129
+\multicolovershoot=\dimen130
+\multicolundershoot=\dimen131
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\multicol@sort@counter=\count109
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen132
+) (c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks23
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count110
+\Gm@cntv=\count111
+\c@Gm@tempcnt=\count112
+\Gm@bindingoffset=\dimen133
+\Gm@wd@mp=\dimen134
+\Gm@odd@mp=\dimen135
+\Gm@even@mp=\dimen136
+\Gm@layoutwidth=\dimen137
+\Gm@layoutheight=\dimen138
+\Gm@layouthoffset=\dimen139
+\Gm@layoutvoffset=\dimen140
+\Gm@dimlist=\toks24
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip56
+\f@ncyO@elh=\skip57
+\f@ncyO@erh=\skip58
+\f@ncyO@olh=\skip59
+\f@ncyO@orh=\skip60
+\f@ncyO@elf=\skip61
+\f@ncyO@erf=\skip62
+\f@ncyO@olf=\skip63
+\f@ncyO@orf=\skip64
+) (c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count113
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip67
+\cftbeforetoctitleskip=\skip68
+\cftaftertoctitleskip=\skip69
+\cftbeforepartskip=\skip70
+\cftpartnumwidth=\skip71
+\cftpartindent=\skip72
+\cftbeforechapskip=\skip73
+\cftchapindent=\skip74
+\cftchapnumwidth=\skip75
+\cftbeforesecskip=\skip76
+\cftsecindent=\skip77
+\cftsecnumwidth=\skip78
+\cftbeforesubsecskip=\skip79
+\cftsubsecindent=\skip80
+\cftsubsecnumwidth=\skip81
+\cftbeforesubsubsecskip=\skip82
+\cftsubsubsecindent=\skip83
+\cftsubsubsecnumwidth=\skip84
+\cftbeforeparaskip=\skip85
+\cftparaindent=\skip86
+\cftparanumwidth=\skip87
+\cftbeforesubparaskip=\skip88
+\cftsubparaindent=\skip89
+\cftsubparanumwidth=\skip90
+\cftbeforeloftitleskip=\skip91
+\cftafterloftitleskip=\skip92
+\cftbeforefigskip=\skip93
+\cftfigindent=\skip94
+\cftfignumwidth=\skip95
+\c@lofdepth=\count114
+\c@lotdepth=\count115
+\cftbeforelottitleskip=\skip96
+\cftafterlottitleskip=\skip97
+\cftbeforetabskip=\skip98
+\cfttabindent=\skip99
+\cfttabnumwidth=\skip100
+)
+\@indexfile=\write3
+\openout3 = `refman.idx'.
+
+
+Writing index file refman.idx
+(./refman.aux)
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 97.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 97.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 97.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen141
+\scratchbox=\box56
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen142
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks26
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds
+.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.s
+ty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-bas
+e.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/kvdefineke
+ys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.st
+y
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.
+sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.s
+ty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-
+sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\big@size=\dimen143
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 104.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 106.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 108.
+[1
+
+
+{c:/Program Files (x86)/TexLive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.m
+ap}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 112.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 112.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 22.39185pt on input line 112.
+ (./refman.toc
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 1.
+
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 1.
+
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 1.
+
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 1.
+
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+[3
+
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 71.
+ [4])
+\tf@toc=\write4
+\openout4 = `refman.toc'.
+
+ [5] [6
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 18.66588pt on input line 117.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 117.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 117.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 18.66588pt on input line 117.
+(./hierarchy.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 12.9599pt on input line 1.
+
+
+LaTeX Warning: Reference `de/d24/classSoundfieldViewer_1_1Application' on page 
+1 undefined on input line 3.
+
+
+LaTeX Warning: Reference `d9/d44/classArcBall__t' on page 1 undefined on input 
+line 4.
+
+
+LaTeX Warning: Reference `d6/dac/classSoundfieldViewer_1_1CameraControl' on pag
+e 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `d4/d7e/classSoundfieldViewer_1_1Command' on page 1 un
+defined on input line 6.
+
+
+LaTeX Warning: Reference `d0/d7f/classSoundfieldViewer_1_1PropertyCommand' on p
+age 1 undefined on input line 8.
+
+
+LaTeX Warning: Reference `d8/d1c/classSoundfieldViewer_1_1CommandManager' on pa
+ge 1 undefined on input line 10.
+
+
+LaTeX Warning: Reference `d9/d1a/classSoundfieldViewer_1_1InfoProvider' on page
+ 1 undefined on input line 11.
+
+
+LaTeX Warning: Reference `d4/de8/classSoundfieldViewer_1_1FieldViewerBase' on p
+age 1 undefined on input line 13.
+
+
+LaTeX Warning: Reference `d8/db8/classSoundfieldViewer_1_1MatlabFieldViewer' on
+ page 1 undefined on input line 15.
+
+
+LaTeX Warning: Reference `d9/dd7/classSoundfieldViewer_1_1MatlabFieldViewerSimp
+le' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Reference `d7/dbb/classSoundfieldViewer_1_1ShaderSoundfieldViewe
+r' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Reference `d6/dcb/classSoundfieldViewer_1_1ShaderSoundfieldViewe
+rGreen' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Reference `d4/d5a/classSoundfieldViewer_1_1IRenderObject' on pag
+e 1 undefined on input line 21.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 1 undefined on input line 23.
+
+
+LaTeX Warning: Reference `dd/dc3/classSoundfieldViewer_1_1ComputeShaderTest' on
+ page 1 undefined on input line 25.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 1 undefined on input line 27.
+
+
+LaTeX Warning: Reference `dc/d34/classSoundfieldViewer_1_1CoordinateSystem' on 
+page 1 undefined on input line 29.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 1 undefined on input line 31.
+
+
+LaTeX Warning: Reference `d4/de8/classSoundfieldViewer_1_1FieldViewerBase' on p
+age 1 undefined on input line 33.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 1 undefined on input line 35.
+
+
+LaTeX Warning: Reference `df/d9d/classSoundfieldViewer_1_1HelpOverlay' on page 
+1 undefined on input line 37.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 1 undefined on input line 39.
+
+
+LaTeX Warning: Reference `dd/d7f/classSoundfieldViewer_1_1InfoOverlay' on page 
+1 undefined on input line 41.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 1 undefined on input line 43.
+
+
+LaTeX Warning: Reference `dd/d86/classSoundfieldViewer_1_1WaveField2D' on page 
+1 undefined on input line 45.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 1 undefined on input line 47.
+
+
+LaTeX Warning: Reference `d8/d1b/classSoundfieldViewer_1_1MatlabFileAdapter' on
+ page 1 undefined on input line 49.
+
+
+LaTeX Warning: Reference `df/d78/unionMatrix3f__t' on page 1 undefined on input
+ line 50.
+
+
+LaTeX Warning: Reference `da/daf/unionMatrix4f__t' on page 1 undefined on input
+ line 51.
+
+
+LaTeX Warning: Reference `d4/d8c/classSoundfieldViewer_1_1Property' on page 1 u
+ndefined on input line 52.
+
+
+LaTeX Warning: Reference `d1/dd7/classSoundfieldViewer_1_1PropertyManager' on p
+age 1 undefined on input line 53.
+
+
+LaTeX Warning: Reference `de/d46/classSoundfieldViewer_1_1RenderEngine' on page
+ 1 undefined on input line 54.
+
+
+LaTeX Warning: Reference `da/dd6/classWaveRenderDemo_1_1Wave' on page 1 undefin
+ed on input line 56.
+
+
+LaTeX Warning: Reference `db/d25/classSoundfieldViewer_1_1Shader' on page 1 und
+efined on input line 58.
+
+
+LaTeX Warning: Reference `d8/db4/classSoundFieldViewer_1_1ShaderLoader' on page
+ 1 undefined on input line 59.
+
+
+LaTeX Warning: Reference `d7/d77/classSoundfieldViewer_1_1SignalProvider' on pa
+ge 1 undefined on input line 60.
+
+
+LaTeX Warning: Reference `d9/d49/classSoundfieldViewer_1_1SourceConfiguration' 
+on page 1 undefined on input line 61.
+
+[1
+
+]
+
+LaTeX Warning: Reference `df/d3a/classSoundfieldViewer_1_1SourceConfigurationMa
+nager' on page 2 undefined on input line 62.
+
+
+LaTeX Warning: Reference `d6/dce/classSoundfieldViewer_1_1TextureFactory' on pa
+ge 2 undefined on input line 63.
+
+
+LaTeX Warning: Reference `d2/dea/unionTuple2f__t' on page 2 undefined on input 
+line 64.
+
+
+LaTeX Warning: Reference `df/dc4/unionTuple3f__t' on page 2 undefined on input 
+line 65.
+
+
+LaTeX Warning: Reference `d3/de4/unionTuple4f__t' on page 2 undefined on input 
+line 66.
+
+
+LaTeX Warning: Reference `d9/d6f/structSoundfieldViewer_1_1Uniform' on page 2 u
+ndefined on input line 67.
+
+) [2]
+Chapter 2.
+(./annotated.tex
+
+LaTeX Warning: Reference `de/d24/classSoundfieldViewer_1_1Application' on page 
+3 undefined on input line 3.
+
+
+LaTeX Warning: Reference `d9/d44/classArcBall__t' on page 3 undefined on input 
+line 4.
+
+
+LaTeX Warning: Reference `d6/dac/classSoundfieldViewer_1_1CameraControl' on pag
+e 3 undefined on input line 5.
+
+
+LaTeX Warning: Reference `d4/d7e/classSoundfieldViewer_1_1Command' on page 3 un
+defined on input line 6.
+
+
+LaTeX Warning: Reference `d8/d1c/classSoundfieldViewer_1_1CommandManager' on pa
+ge 3 undefined on input line 7.
+
+
+LaTeX Warning: Reference `dd/dc3/classSoundfieldViewer_1_1ComputeShaderTest' on
+ page 3 undefined on input line 8.
+
+
+LaTeX Warning: Reference `dc/d34/classSoundfieldViewer_1_1CoordinateSystem' on 
+page 3 undefined on input line 9.
+
+
+LaTeX Warning: Reference `d4/de8/classSoundfieldViewer_1_1FieldViewerBase' on p
+age 3 undefined on input line 10.
+
+
+LaTeX Warning: Reference `df/d9d/classSoundfieldViewer_1_1HelpOverlay' on page 
+3 undefined on input line 11.
+
+
+LaTeX Warning: Reference `dd/d7f/classSoundfieldViewer_1_1InfoOverlay' on page 
+3 undefined on input line 12.
+
+
+LaTeX Warning: Reference `d9/d1a/classSoundfieldViewer_1_1InfoProvider' on page
+ 3 undefined on input line 13.
+
+
+LaTeX Warning: Reference `d4/d5a/classSoundfieldViewer_1_1IRenderObject' on pag
+e 3 undefined on input line 14.
+
+
+LaTeX Warning: Reference `d8/db8/classSoundfieldViewer_1_1MatlabFieldViewer' on
+ page 3 undefined on input line 15.
+
+
+LaTeX Warning: Reference `d9/dd7/classSoundfieldViewer_1_1MatlabFieldViewerSimp
+le' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Reference `d8/d1b/classSoundfieldViewer_1_1MatlabFileAdapter' on
+ page 3 undefined on input line 17.
+
+
+LaTeX Warning: Reference `df/d78/unionMatrix3f__t' on page 3 undefined on input
+ line 18.
+
+
+LaTeX Warning: Reference `da/daf/unionMatrix4f__t' on page 3 undefined on input
+ line 19.
+
+
+LaTeX Warning: Reference `d4/d8c/classSoundfieldViewer_1_1Property' on page 3 u
+ndefined on input line 20.
+
+
+LaTeX Warning: Reference `d0/d7f/classSoundfieldViewer_1_1PropertyCommand' on p
+age 3 undefined on input line 21.
+
+
+LaTeX Warning: Reference `d1/dd7/classSoundfieldViewer_1_1PropertyManager' on p
+age 3 undefined on input line 22.
+
+
+LaTeX Warning: Reference `de/d46/classSoundfieldViewer_1_1RenderEngine' on page
+ 3 undefined on input line 23.
+
+
+LaTeX Warning: Reference `d8/d29/classSoundfieldViewer_1_1RenderObjectBase' on 
+page 3 undefined on input line 24.
+
+
+LaTeX Warning: Reference `db/d25/classSoundfieldViewer_1_1Shader' on page 3 und
+efined on input line 25.
+
+
+LaTeX Warning: Reference `d8/db4/classSoundFieldViewer_1_1ShaderLoader' on page
+ 3 undefined on input line 26.
+
+
+LaTeX Warning: Reference `d7/dbb/classSoundfieldViewer_1_1ShaderSoundfieldViewe
+r' on page 3 undefined on input line 27.
+
+
+LaTeX Warning: Reference `d6/dcb/classSoundfieldViewer_1_1ShaderSoundfieldViewe
+rGreen' on page 3 undefined on input line 28.
+
+
+LaTeX Warning: Reference `d7/d77/classSoundfieldViewer_1_1SignalProvider' on pa
+ge 3 undefined on input line 29.
+
+
+LaTeX Warning: Reference `d9/d49/classSoundfieldViewer_1_1SourceConfiguration' 
+on page 3 undefined on input line 30.
+
+
+LaTeX Warning: Reference `df/d3a/classSoundfieldViewer_1_1SourceConfigurationMa
+nager' on page 3 undefined on input line 31.
+
+
+LaTeX Warning: Reference `d6/dce/classSoundfieldViewer_1_1TextureFactory' on pa
+ge 3 undefined on input line 32.
+
+
+LaTeX Warning: Reference `d2/dea/unionTuple2f__t' on page 3 undefined on input 
+line 33.
+
+
+LaTeX Warning: Reference `df/dc4/unionTuple3f__t' on page 3 undefined on input 
+line 34.
+
+[3
+
+]
+
+LaTeX Warning: Reference `d3/de4/unionTuple4f__t' on page 4 undefined on input 
+line 35.
+
+
+LaTeX Warning: Reference `d9/d6f/structSoundfieldViewer_1_1Uniform' on page 4 u
+ndefined on input line 36.
+
+
+LaTeX Warning: Reference `da/dd6/classWaveRenderDemo_1_1Wave' on page 4 undefin
+ed on input line 37.
+
+
+LaTeX Warning: Reference `dd/d86/classSoundfieldViewer_1_1WaveField2D' on page 
+4 undefined on input line 38.
+
+) [4]
+Chapter 3.
+(./files.tex
+
+LaTeX Warning: Reference `df/d7b/application_8cpp' on page 5 undefined on input
+ line 3.
+
+
+LaTeX Warning: Reference `db/d32/application_8h' on page 5 undefined on input l
+ine 4.
+
+
+LaTeX Warning: Reference `d0/d7e/ArcBall_8cpp' on page 5 undefined on input lin
+e 5.
+
+
+LaTeX Warning: Reference `d1/d4e/ArcBall_8h' on page 5 undefined on input line 
+6.
+
+
+LaTeX Warning: Reference `d8/ddb/cameracontrol_8cpp' on page 5 undefined on inp
+ut line 7.
+
+
+LaTeX Warning: Reference `df/d6d/cameracontrol_8h' on page 5 undefined on input
+ line 8.
+
+
+LaTeX Warning: Reference `d1/d81/command_8cpp' on page 5 undefined on input lin
+e 9.
+
+
+LaTeX Warning: Reference `d0/d09/command_8h' on page 5 undefined on input line 
+10.
+
+
+LaTeX Warning: Reference `df/d13/commandmanager_8cpp' on page 5 undefined on in
+put line 11.
+
+
+LaTeX Warning: Reference `d1/dd6/commandmanager_8h' on page 5 undefined on inpu
+t line 12.
+
+
+LaTeX Warning: Reference `d3/d22/computeshadertest_8cpp' on page 5 undefined on
+ input line 13.
+
+
+LaTeX Warning: Reference `dd/d75/computeshadertest_8h' on page 5 undefined on i
+nput line 14.
+
+
+LaTeX Warning: Reference `d0/d25/coordinatesystem_8cpp' on page 5 undefined on 
+input line 15.
+
+
+LaTeX Warning: Reference `d5/d20/coordinatesystem_8h' on page 5 undefined on in
+put line 16.
+
+
+LaTeX Warning: Reference `da/d94/fieldviewerbase_8cpp' on page 5 undefined on i
+nput line 17.
+
+
+LaTeX Warning: Reference `d4/d90/fieldviewerbase_8h' on page 5 undefined on inp
+ut line 18.
+
+
+LaTeX Warning: Reference `d6/d38/forwarddecl_8h' on page 5 undefined on input l
+ine 19.
+
+
+LaTeX Warning: Reference `d3/d12/gldispatcher_8h' on page 5 undefined on input 
+line 20.
+
+
+LaTeX Warning: Reference `dc/d12/helpoverlay_8cpp' on page 5 undefined on input
+ line 21.
+
+
+LaTeX Warning: Reference `d6/d9c/helpoverlay_8h' on page 5 undefined on input l
+ine 22.
+
+
+LaTeX Warning: Reference `dd/d5a/infooverlay_8cpp' on page 5 undefined on input
+ line 23.
+
+
+LaTeX Warning: Reference `dd/d0a/infooverlay_8h' on page 5 undefined on input l
+ine 24.
+
+
+LaTeX Warning: Reference `d1/d84/infoprovider_8cpp' on page 5 undefined on inpu
+t line 25.
+
+
+LaTeX Warning: Reference `d6/d1c/infoprovider_8h' on page 5 undefined on input 
+line 26.
+
+
+LaTeX Warning: Reference `df/d0a/main_8cpp' on page 5 undefined on input line 2
+7.
+
+
+LaTeX Warning: Reference `d4/d6a/matlabfieldviewer_8cpp' on page 5 undefined on
+ input line 28.
+
+
+LaTeX Warning: Reference `d0/d56/matlabfieldviewer_8h' on page 5 undefined on i
+nput line 29.
+
+
+LaTeX Warning: Reference `de/def/matlabfieldviewersimple_8cpp' on page 5 undefi
+ned on input line 30.
+
+
+LaTeX Warning: Reference `d7/d07/matlabfieldviewersimple_8h' on page 5 undefine
+d on input line 31.
+
+
+LaTeX Warning: Reference `dd/d7d/matlabfileadapter_8cpp' on page 5 undefined on
+ input line 32.
+
+
+LaTeX Warning: Reference `d0/d4d/matlabfileadapter_8h' on page 5 undefined on i
+nput line 33.
+
+
+LaTeX Warning: Reference `d7/d45/Property_8cpp' on page 5 undefined on input li
+ne 34.
+
+
+LaTeX Warning: Reference `d3/d68/Property_8h' on page 5 undefined on input line
+ 35.
+
+
+LaTeX Warning: Reference `d5/d44/propertymanager_8cpp' on page 5 undefined on i
+nput line 36.
+
+
+LaTeX Warning: Reference `d3/d2a/propertymanager_8h' on page 5 undefined on inp
+ut line 37.
+
+[5
+
+]
+
+LaTeX Warning: Reference `dd/db3/renderengine_8cpp' on page 6 undefined on inpu
+t line 38.
+
+
+LaTeX Warning: Reference `db/d46/renderengine_8h' on page 6 undefined on input 
+line 39.
+
+
+LaTeX Warning: Reference `d4/d3c/renderobject_8cpp' on page 6 undefined on inpu
+t line 40.
+
+
+LaTeX Warning: Reference `d0/d65/renderobject_8h' on page 6 undefined on input 
+line 41.
+
+
+LaTeX Warning: Reference `d2/df4/renderobjectbase_8cpp' on page 6 undefined on 
+input line 42.
+
+
+LaTeX Warning: Reference `d7/dc1/renderobjectbase_8h' on page 6 undefined on in
+put line 43.
+
+
+LaTeX Warning: Reference `dd/d1e/shader_8cpp' on page 6 undefined on input line
+ 44.
+
+
+LaTeX Warning: Reference `d1/df4/shader_8h' on page 6 undefined on input line 4
+5.
+
+
+LaTeX Warning: Reference `d7/d30/shaderloader_8cpp' on page 6 undefined on inpu
+t line 46.
+
+
+LaTeX Warning: Reference `dc/d6b/shaderloader_8h' on page 6 undefined on input 
+line 47.
+
+
+LaTeX Warning: Reference `d1/d85/shadersoundfieldviewer_8cpp' on page 6 undefin
+ed on input line 48.
+
+
+LaTeX Warning: Reference `dc/d36/shadersoundfieldviewer_8h' on page 6 undefined
+ on input line 49.
+
+
+LaTeX Warning: Reference `d6/d8c/shadersoundfieldviewergreen_8cpp' on page 6 un
+defined on input line 50.
+
+
+LaTeX Warning: Reference `dd/d8d/shadersoundfieldviewergreen_8h' on page 6 unde
+fined on input line 51.
+
+
+LaTeX Warning: Reference `db/d75/signalprovider_8cpp' on page 6 undefined on in
+put line 52.
+
+
+LaTeX Warning: Reference `d1/d82/signalprovider_8h' on page 6 undefined on inpu
+t line 53.
+
+
+LaTeX Warning: Reference `d2/d59/sourceconfiguration_8cpp' on page 6 undefined 
+on input line 54.
+
+
+LaTeX Warning: Reference `da/da3/sourceconfiguration_8h' on page 6 undefined on
+ input line 55.
+
+
+LaTeX Warning: Reference `d3/d3d/sourceconfigurationmanager_8cpp' on page 6 und
+efined on input line 56.
+
+
+LaTeX Warning: Reference `d9/d44/sourceconfigurationmanager_8h' on page 6 undef
+ined on input line 57.
+
+
+LaTeX Warning: Reference `de/d98/stdincl_8h' on page 6 undefined on input line 
+58.
+
+
+LaTeX Warning: Reference `d5/da3/texturefactory_8cpp' on page 6 undefined on in
+put line 59.
+
+
+LaTeX Warning: Reference `dd/d59/texturefactory_8h' on page 6 undefined on inpu
+t line 60.
+
+
+LaTeX Warning: Reference `d2/d7d/wave_8cpp' on page 6 undefined on input line 6
+1.
+
+
+LaTeX Warning: Reference `dc/d61/wave_8h' on page 6 undefined on input line 62.
+
+
+
+LaTeX Warning: Reference `dd/d29/wavefield2d_8cpp' on page 6 undefined on input
+ line 63.
+
+
+LaTeX Warning: Reference `d1/d4f/wavefield2d_8h' on page 6 undefined on input l
+ine 64.
+
+) [6]
+Chapter 4.
+(./de/d24/classSoundfieldViewer_1_1Application.tex
+<d2/de8/classSoundfieldViewer_1_1Application__coll__graph.pdf, id=44, 571.13374
+pt x 1603.9925pt>
+File: d2/de8/classSoundfieldViewer_1_1Application__coll__graph.pdf Graphic file
+ (type pdf)
+
+<use d2/de8/classSoundfieldViewer_1_1Application__coll__graph.pdf>
+Package pdftex.def Info: d2/de8/classSoundfieldViewer_1_1Application__coll__gra
+ph.pdf used on input line 10.
+(pdftex.def)             Requested size: 195.83871pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 13.
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 10.79993pt on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 16.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 16.
+
+[8 <./d2/de8/classSoundfieldViewer_1_1Application__coll__graph.pdf>])
+(./d9/d44/classArcBall__t.tex
+<d4/db7/classArcBall__t__coll__graph.pdf, id=62, 180.675pt x 365.365pt>
+File: d4/db7/classArcBall__t__coll__graph.pdf Graphic file (type pdf)
+
+<use d4/db7/classArcBall__t__coll__graph.pdf>
+Package pdftex.def Info: d4/db7/classArcBall__t__coll__graph.pdf used on input 
+line 10.
+(pdftex.def)             Requested size: 180.0pt x 364.0038pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 32.
+
+[10 <./d4/db7/classArcBall__t__coll__graph.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <10> not available
+(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
+(Font)              scaled to size 8.99994pt on input line 65.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 65.
+
+(c:/Program Files (x86)/TexLive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Font Warning: Font shape `T1/pcr/bc/n' undefined
+(Font)              using `T1/pcr/m/n' instead on input line 65.
+
+
+LaTeX Warning: Reference `d0/d7e/ArcBall_8cpp_source' on page 11 undefined on i
+nput line 72.
+
+) (./d6/dac/classSoundfieldViewer_1_1CameraControl.tex
+<d8/d56/classSoundfieldViewer_1_1CameraControl__coll__graph.pdf, id=79, 212.795
+pt x 349.305pt>
+File: d8/d56/classSoundfieldViewer_1_1CameraControl__coll__graph.pdf Graphic fi
+le (type pdf)
+
+<use d8/d56/classSoundfieldViewer_1_1CameraControl__coll__graph.pdf>
+Package pdftex.def Info: d8/d56/classSoundfieldViewer_1_1CameraControl__coll__g
+raph.pdf used on input line 19.
+(pdftex.def)             Requested size: 212.0pt x 348.0196pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+[12 <./d8/d56/classSoundfieldViewer_1_1CameraControl__coll__graph.pdf>])
+(./d4/d7e/classSoundfieldViewer_1_1Command.tex
+<d4/d60/classSoundfieldViewer_1_1Command__inherit__graph.pdf, id=97, 222.8325pt
+ x 377.41pt>
+File: d4/d60/classSoundfieldViewer_1_1Command__inherit__graph.pdf Graphic file 
+(type pdf)
+ <use d4/d60/classSoundfieldViewer_1_1Command__inherit__graph.pdf>
+Package pdftex.def Info: d4/d60/classSoundfieldViewer_1_1Command__inherit__grap
+h.pdf used on input line 19.
+(pdftex.def)             Requested size: 222.0pt x 376.00392pt.
+
+<d9/da6/classSoundfieldViewer_1_1Command__coll__graph.pdf, id=98, 232.87pt x 41
+9.5675pt>
+File: d9/da6/classSoundfieldViewer_1_1Command__coll__graph.pdf Graphic file (ty
+pe pdf)
+ <use d9/da6/classSoundfieldViewer_1_1Command__coll__graph.pdf>
+Package pdftex.def Info: d9/da6/classSoundfieldViewer_1_1Command__coll__graph.p
+df used on input line 29.
+(pdftex.def)             Requested size: 232.0pt x 418.01715pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./d4/d60/classSoundfieldViewer_1_1Command__inherit__graph.pdf>] [14 <./d9
+/da6/classSoundfieldViewer_1_1Command__coll__graph.pdf>])
+(./d8/d1c/classSoundfieldViewer_1_1CommandManager.tex
+<df/dae/classSoundfieldViewer_1_1CommandManager__coll__graph.pdf, id=124, 678.5
+35pt x 1561.835pt>
+File: df/dae/classSoundfieldViewer_1_1CommandManager__coll__graph.pdf Graphic f
+ile (type pdf)
+
+<use df/dae/classSoundfieldViewer_1_1CommandManager__coll__graph.pdf>
+Package pdftex.def Info: df/dae/classSoundfieldViewer_1_1CommandManager__coll__
+graph.pdf used on input line 19.
+(pdftex.def)             Requested size: 238.9403pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16 <./df/dae/classSoundfieldViewer_1_1CommandManager__coll__graph.pdf>])
+(./dd/dc3/classSoundfieldViewer_1_1ComputeShaderTest.tex
+<d0/db0/classSoundfieldViewer_1_1ComputeShaderTest__inherit__graph.pdf, id=140,
+ 316.18124pt x 1013.7875pt>
+File: d0/db0/classSoundfieldViewer_1_1ComputeShaderTest__inherit__graph.pdf Gra
+phic file (type pdf)
+
+<use d0/db0/classSoundfieldViewer_1_1ComputeShaderTest__inherit__graph.pdf>
+Package pdftex.def Info: d0/db0/classSoundfieldViewer_1_1ComputeShaderTest__inh
+erit__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 171.5362pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+<d0/d4e/classSoundfieldViewer_1_1ComputeShaderTest__coll__graph.pdf, id=144, 31
+6.18124pt x 1013.7875pt>
+File: d0/d4e/classSoundfieldViewer_1_1ComputeShaderTest__coll__graph.pdf Graphi
+c file (type pdf)
+
+<use d0/d4e/classSoundfieldViewer_1_1ComputeShaderTest__coll__graph.pdf>
+Package pdftex.def Info: d0/d4e/classSoundfieldViewer_1_1ComputeShaderTest__col
+l__graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 171.5362pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./d0/db0/classSoundfieldViewer_1_1ComputeShaderTest__inherit__graph.pdf>]
+ [19 <./d0/d4e/classSoundfieldViewer_1_1ComputeShaderTest__coll__graph.pdf>])
+(./dc/d34/classSoundfieldViewer_1_1CoordinateSystem.tex
+<d6/dab/classSoundfieldViewer_1_1CoordinateSystem__inherit__graph.pdf, id=171, 
+304.13625pt x 1013.7875pt>
+File: d6/dab/classSoundfieldViewer_1_1CoordinateSystem__inherit__graph.pdf Grap
+hic file (type pdf)
+
+<use d6/dab/classSoundfieldViewer_1_1CoordinateSystem__inherit__graph.pdf>
+Package pdftex.def Info: d6/dab/classSoundfieldViewer_1_1CoordinateSystem__inhe
+rit__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 165.00148pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+<d9/d64/classSoundfieldViewer_1_1CoordinateSystem__coll__graph.pdf, id=175, 304
+.13625pt x 1013.7875pt>
+File: d9/d64/classSoundfieldViewer_1_1CoordinateSystem__coll__graph.pdf Graphic
+ file (type pdf)
+
+<use d9/d64/classSoundfieldViewer_1_1CoordinateSystem__coll__graph.pdf>
+Package pdftex.def Info: d9/d64/classSoundfieldViewer_1_1CoordinateSystem__coll
+__graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 165.00148pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./d6/dab/classSoundfieldViewer_1_1CoordinateSystem__inherit__graph.pdf>] 
+[22 <./d9/d64/classSoundfieldViewer_1_1CoordinateSystem__coll__graph.pdf>])
+(./d4/de8/classSoundfieldViewer_1_1FieldViewerBase.tex
+<d1/dab/classSoundfieldViewer_1_1FieldViewerBase__inherit__graph.pdf, id=200, 7
+29.72626pt x 1618.045pt>
+File: d1/dab/classSoundfieldViewer_1_1FieldViewerBase__inherit__graph.pdf Graph
+ic file (type pdf)
+
+<use d1/dab/classSoundfieldViewer_1_1FieldViewerBase__inherit__graph.pdf>
+Package pdftex.def Info: d1/dab/classSoundfieldViewer_1_1FieldViewerBase__inher
+it__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 248.04797pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+<dd/d6c/classSoundfieldViewer_1_1FieldViewerBase__coll__graph.pdf, id=204, 1034
+.86626pt x 2523.4275pt>
+File: dd/d6c/classSoundfieldViewer_1_1FieldViewerBase__coll__graph.pdf Graphic 
+file (type pdf)
+
+<use dd/d6c/classSoundfieldViewer_1_1FieldViewerBase__coll__graph.pdf>
+Package pdftex.def Info: dd/d6c/classSoundfieldViewer_1_1FieldViewerBase__coll_
+_graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 225.55531pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./d1/dab/classSoundfieldViewer_1_1FieldViewerBase__inherit__graph.pdf>] [
+25 <./dd/d6c/classSoundfieldViewer_1_1FieldViewerBase__coll__graph.pdf>] [26])
+(./df/d9d/classSoundfieldViewer_1_1HelpOverlay.tex
+<d8/d72/classSoundfieldViewer_1_1HelpOverlay__inherit__graph.pdf, id=233, 298.1
+1375pt x 1013.7875pt>
+File: d8/d72/classSoundfieldViewer_1_1HelpOverlay__inherit__graph.pdf Graphic f
+ile (type pdf)
+
+<use d8/d72/classSoundfieldViewer_1_1HelpOverlay__inherit__graph.pdf>
+Package pdftex.def Info: d8/d72/classSoundfieldViewer_1_1HelpOverlay__inherit__
+graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 161.73413pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+<dd/db7/classSoundfieldViewer_1_1HelpOverlay__coll__graph.pdf, id=237, 298.1137
+5pt x 1013.7875pt>
+File: dd/db7/classSoundfieldViewer_1_1HelpOverlay__coll__graph.pdf Graphic file
+ (type pdf)
+
+<use dd/db7/classSoundfieldViewer_1_1HelpOverlay__coll__graph.pdf>
+Package pdftex.def Info: dd/db7/classSoundfieldViewer_1_1HelpOverlay__coll__gra
+ph.pdf used on input line 20.
+(pdftex.def)             Requested size: 161.73413pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./d8/d72/classSoundfieldViewer_1_1HelpOverlay__inherit__graph.pdf>] [29 <
+./dd/db7/classSoundfieldViewer_1_1HelpOverlay__coll__graph.pdf>])
+(./dd/d7f/classSoundfieldViewer_1_1InfoOverlay.tex
+<dd/d97/classSoundfieldViewer_1_1InfoOverlay__inherit__graph.pdf, id=262, 297.1
+1pt x 1013.7875pt>
+File: dd/d97/classSoundfieldViewer_1_1InfoOverlay__inherit__graph.pdf Graphic f
+ile (type pdf)
+
+<use dd/d97/classSoundfieldViewer_1_1InfoOverlay__inherit__graph.pdf>
+Package pdftex.def Info: dd/d97/classSoundfieldViewer_1_1InfoOverlay__inherit__
+graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 161.18958pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+<da/d96/classSoundfieldViewer_1_1InfoOverlay__coll__graph.pdf, id=266, 382.4287
+6pt x 1023.825pt>
+File: da/d96/classSoundfieldViewer_1_1InfoOverlay__coll__graph.pdf Graphic file
+ (type pdf)
+
+<use da/d96/classSoundfieldViewer_1_1InfoOverlay__coll__graph.pdf>
+Package pdftex.def Info: da/d96/classSoundfieldViewer_1_1InfoOverlay__coll__gra
+ph.pdf used on input line 20.
+(pdftex.def)             Requested size: 205.44057pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <./dd/d97/classSoundfieldViewer_1_1InfoOverlay__inherit__graph.pdf>] [32 <
+./da/d96/classSoundfieldViewer_1_1InfoOverlay__coll__graph.pdf>])
+(./d9/d1a/classSoundfieldViewer_1_1InfoProvider.tex
+<db/d73/classSoundfieldViewer_1_1InfoProvider__inherit__graph.pdf, id=292, 729.
+72626pt x 891.33pt>
+File: db/d73/classSoundfieldViewer_1_1InfoProvider__inherit__graph.pdf Graphic 
+file (type pdf)
+
+<use db/d73/classSoundfieldViewer_1_1InfoProvider__inherit__graph.pdf>
+Package pdftex.def Info: db/d73/classSoundfieldViewer_1_1InfoProvider__inherit_
+_graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 350.0pt x 427.50713pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+<d8/d42/classSoundfieldViewer_1_1InfoProvider__coll__graph.pdf, id=296, 230.862
+5pt x 160.6pt>
+File: d8/d42/classSoundfieldViewer_1_1InfoProvider__coll__graph.pdf Graphic fil
+e (type pdf)
+
+<use d8/d42/classSoundfieldViewer_1_1InfoProvider__coll__graph.pdf>
+Package pdftex.def Info: d8/d42/classSoundfieldViewer_1_1InfoProvider__coll__gr
+aph.pdf used on input line 20.
+(pdftex.def)             Requested size: 230.0pt x 160.00165pt.
+ [34 <./db/d73/classSoundfieldViewer_1_1InfoProvider__inherit__graph.pdf> <./d8
+/d42/classSoundfieldViewer_1_1InfoProvider__coll__graph.pdf
+
+pdfTeX warning: pdflatex.exe (file ./d8/d42/classSoundfieldViewer_1_1InfoProvid
+er__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>]) (./d4/d5a/classSoundfieldViewer_1_1IRenderObject.tex
+<df/d56/classSoundfieldViewer_1_1IRenderObject__inherit__graph.pdf, id=318, 132
+4.95pt x 1618.045pt>
+File: df/d56/classSoundfieldViewer_1_1IRenderObject__inherit__graph.pdf Graphic
+ file (type pdf)
+
+<use df/d56/classSoundfieldViewer_1_1IRenderObject__inherit__graph.pdf>
+Package pdftex.def Info: df/d56/classSoundfieldViewer_1_1IRenderObject__inherit
+__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 350.0pt x 427.42197pt.
+
+<d4/dd3/classSoundfieldViewer_1_1IRenderObject__coll__graph.pdf, id=319, 212.79
+5pt x 238.8925pt>
+File: d4/dd3/classSoundfieldViewer_1_1IRenderObject__coll__graph.pdf Graphic fi
+le (type pdf)
+
+<use d4/dd3/classSoundfieldViewer_1_1IRenderObject__coll__graph.pdf>
+Package pdftex.def Info: d4/dd3/classSoundfieldViewer_1_1IRenderObject__coll__g
+raph.pdf used on input line 20.
+(pdftex.def)             Requested size: 212.0pt x 238.01341pt.
+ [35 <./df/d56/classSoundfieldViewer_1_1IRenderObject__inherit__graph.pdf>])
+(./d8/db8/classSoundfieldViewer_1_1MatlabFieldViewer.tex
+<d6/d2f/classSoundfieldViewer_1_1MatlabFieldViewer__inherit__graph.pdf, id=332,
+ 404.51125pt x 1618.045pt>
+File: d6/d2f/classSoundfieldViewer_1_1MatlabFieldViewer__inherit__graph.pdf Gra
+phic file (type pdf)
+
+<use d6/d2f/classSoundfieldViewer_1_1MatlabFieldViewer__inherit__graph.pdf>
+Package pdftex.def Info: d6/d2f/classSoundfieldViewer_1_1MatlabFieldViewer__inh
+erit__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 137.50113pt x 550.0pt.
+
+Underfull \vbox (badness 5681) has occurred while \output is active []
+
+ [36 <./d4/dd3/classSoundfieldViewer_1_1IRenderObject__coll__graph.pdf>]
+<dc/dc7/classSoundfieldViewer_1_1MatlabFieldViewer__coll__graph.pdf, id=345, 14
+28.33624pt x 2874.74pt>
+File: dc/dc7/classSoundfieldViewer_1_1MatlabFieldViewer__coll__graph.pdf Graphi
+c file (type pdf)
+
+<use dc/dc7/classSoundfieldViewer_1_1MatlabFieldViewer__coll__graph.pdf>
+Package pdftex.def Info: dc/dc7/classSoundfieldViewer_1_1MatlabFieldViewer__col
+l__graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 273.26105pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./d6/d2f/classSoundfieldViewer_1_1MatlabFieldViewer__inherit__graph.pdf>]
+ [38 <./dc/dc7/classSoundfieldViewer_1_1MatlabFieldViewer__coll__graph.pdf>])
+(./d9/dd7/classSoundfieldViewer_1_1MatlabFieldViewerSimple.tex
+<de/d7a/classSoundfieldViewer_1_1MatlabFieldViewerSimple__inherit__graph.pdf, i
+d=371, 404.51125pt x 1595.9625pt>
+File: de/d7a/classSoundfieldViewer_1_1MatlabFieldViewerSimple__inherit__graph.p
+df Graphic file (type pdf)
+
+<use de/d7a/classSoundfieldViewer_1_1MatlabFieldViewerSimple__inherit__graph.pd
+f>
+Package pdftex.def Info: de/d7a/classSoundfieldViewer_1_1MatlabFieldViewerSimpl
+e__inherit__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 139.40222pt x 550.0pt.
+
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
+ [39]
+<d5/d82/classSoundfieldViewer_1_1MatlabFieldViewerSimple__coll__graph.pdf, id=3
+75, 1428.33624pt x 2862.695pt>
+File: d5/d82/classSoundfieldViewer_1_1MatlabFieldViewerSimple__coll__graph.pdf 
+Graphic file (type pdf)
+
+<use d5/d82/classSoundfieldViewer_1_1MatlabFieldViewerSimple__coll__graph.pdf>
+Package pdftex.def Info: d5/d82/classSoundfieldViewer_1_1MatlabFieldViewerSimpl
+e__coll__graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 274.41615pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./de/d7a/classSoundfieldViewer_1_1MatlabFieldViewerSimple__inherit__graph
+.pdf>]
+[41 <./d5/d82/classSoundfieldViewer_1_1MatlabFieldViewerSimple__coll__graph.pdf
+>]) (./d8/d1b/classSoundfieldViewer_1_1MatlabFileAdapter.tex
+<dc/d1b/classSoundfieldViewer_1_1MatlabFileAdapter__coll__graph.pdf, id=400, 21
+4.8025pt x 574.145pt>
+File: dc/d1b/classSoundfieldViewer_1_1MatlabFileAdapter__coll__graph.pdf Graphi
+c file (type pdf)
+
+<use dc/d1b/classSoundfieldViewer_1_1MatlabFileAdapter__coll__graph.pdf>
+Package pdftex.def Info: dc/d1b/classSoundfieldViewer_1_1MatlabFileAdapter__col
+l__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 205.7754pt x 550.0pt.
+
+[42] [43 <./dc/d1b/classSoundfieldViewer_1_1MatlabFileAdapter__coll__graph.pdf>
+]) (./df/d78/unionMatrix3f__t.tex
+<da/d53/unionMatrix3f__t__coll__graph.pdf, id=417, 160.6pt x 248.93pt>
+File: da/d53/unionMatrix3f__t__coll__graph.pdf Graphic file (type pdf)
+
+<use da/d53/unionMatrix3f__t__coll__graph.pdf>
+Package pdftex.def Info: da/d53/unionMatrix3f__t__coll__graph.pdf used on input
+ line 10.
+(pdftex.def)             Requested size: 160.0pt x 248.00638pt.
+
+Underfull \vbox (badness 7099) has occurred while \output is active []
+
+ [44]
+[45 <./da/d53/unionMatrix3f__t__coll__graph.pdf>])
+(./da/daf/unionMatrix4f__t.tex
+<d7/db4/unionMatrix4f__t__coll__graph.pdf, id=433, 160.6pt x 248.93pt>
+File: d7/db4/unionMatrix4f__t__coll__graph.pdf Graphic file (type pdf)
+
+<use d7/db4/unionMatrix4f__t__coll__graph.pdf>
+Package pdftex.def Info: d7/db4/unionMatrix4f__t__coll__graph.pdf used on input
+ line 10.
+(pdftex.def)             Requested size: 160.0pt x 248.00638pt.
+ [46 <./d7/db4/unionMatrix4f__t__coll__graph.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47])
+(./d4/d8c/classSoundfieldViewer_1_1Property.tex
+<d1/d63/classSoundfieldViewer_1_1Property__coll__graph.pdf, id=449, 421.575pt x
+ 963.6pt>
+File: d1/d63/classSoundfieldViewer_1_1Property__coll__graph.pdf Graphic file (t
+ype pdf)
+ <use d1/d63/classSoundfieldViewer_1_1Property__coll__graph.pdf>
+Package pdftex.def Info: d1/d63/classSoundfieldViewer_1_1Property__coll__graph.
+pdf used on input line 19.
+(pdftex.def)             Requested size: 240.62831pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+[49 <./d1/d63/classSoundfieldViewer_1_1Property__coll__graph.pdf>])
+(./d0/d7f/classSoundfieldViewer_1_1PropertyCommand.tex
+<d7/df1/classSoundfieldViewer_1_1PropertyCommand__inherit__graph.pdf, id=467, 2
+22.8325pt x 377.41pt>
+File: d7/df1/classSoundfieldViewer_1_1PropertyCommand__inherit__graph.pdf Graph
+ic file (type pdf)
+
+<use d7/df1/classSoundfieldViewer_1_1PropertyCommand__inherit__graph.pdf>
+Package pdftex.def Info: d7/df1/classSoundfieldViewer_1_1PropertyCommand__inher
+it__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 222.0pt x 376.00392pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+<d5/d5f/classSoundfieldViewer_1_1PropertyCommand__coll__graph.pdf, id=471, 553.
+06625pt x 1228.59pt>
+File: d5/d5f/classSoundfieldViewer_1_1PropertyCommand__coll__graph.pdf Graphic 
+file (type pdf)
+
+<use d5/d5f/classSoundfieldViewer_1_1PropertyCommand__coll__graph.pdf>
+Package pdftex.def Info: d5/d5f/classSoundfieldViewer_1_1PropertyCommand__coll_
+_graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 247.59476pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./d7/df1/classSoundfieldViewer_1_1PropertyCommand__inherit__graph.pdf>] [
+52 <./d5/d5f/classSoundfieldViewer_1_1PropertyCommand__coll__graph.pdf>])
+(./d1/dd7/classSoundfieldViewer_1_1PropertyManager.tex
+<d5/d90/classSoundfieldViewer_1_1PropertyManager__coll__graph.pdf, id=496, 550.
+055pt x 1298.8525pt>
+File: d5/d90/classSoundfieldViewer_1_1PropertyManager__coll__graph.pdf Graphic 
+file (type pdf)
+
+<use d5/d90/classSoundfieldViewer_1_1PropertyManager__coll__graph.pdf>
+Package pdftex.def Info: d5/d90/classSoundfieldViewer_1_1PropertyManager__coll_
+_graph.pdf used on input line 19.
+(pdftex.def)             Requested size: 232.92676pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+[54 <./d5/d90/classSoundfieldViewer_1_1PropertyManager__coll__graph.pdf>])
+(./de/d46/classSoundfieldViewer_1_1RenderEngine.tex
+<d7/db3/classSoundfieldViewer_1_1RenderEngine__coll__graph.pdf, id=512, 571.133
+74pt x 1419.3025pt>
+File: d7/db3/classSoundfieldViewer_1_1RenderEngine__coll__graph.pdf Graphic fil
+e (type pdf)
+
+<use d7/db3/classSoundfieldViewer_1_1RenderEngine__coll__graph.pdf>
+Package pdftex.def Info: d7/db3/classSoundfieldViewer_1_1RenderEngine__coll__gr
+aph.pdf used on input line 10.
+(pdftex.def)             Requested size: 221.32947pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+[56 <./d7/db3/classSoundfieldViewer_1_1RenderEngine__coll__graph.pdf>])
+(./d8/d29/classSoundfieldViewer_1_1RenderObjectBase.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+<d8/db8/classSoundfieldViewer_1_1RenderObjectBase__inherit__graph.pdf, id=529, 
+1088.065pt x 1618.045pt>
+File: d8/db8/classSoundfieldViewer_1_1RenderObjectBase__inherit__graph.pdf Grap
+hic file (type pdf)
+
+<use d8/db8/classSoundfieldViewer_1_1RenderObjectBase__inherit__graph.pdf>
+Package pdftex.def Info: d8/db8/classSoundfieldViewer_1_1RenderObjectBase__inhe
+rit__graph.pdf used on input line 19.
+(pdftex.def)             Requested size: 350.0pt x 520.47612pt.
+
+[57]
+<d6/da4/classSoundfieldViewer_1_1RenderObjectBase__coll__graph.pdf, id=533, 212
+.795pt x 554.07pt>
+File: d6/da4/classSoundfieldViewer_1_1RenderObjectBase__coll__graph.pdf Graphic
+ file (type pdf)
+
+<use d6/da4/classSoundfieldViewer_1_1RenderObjectBase__coll__graph.pdf>
+Package pdftex.def Info: d6/da4/classSoundfieldViewer_1_1RenderObjectBase__coll
+__graph.pdf used on input line 29.
+(pdftex.def)             Requested size: 211.23265pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58 <./d8/db8/classSoundfieldViewer_1_1RenderObjectBase__inherit__graph.pdf>] 
+[59 <./d6/da4/classSoundfieldViewer_1_1RenderObjectBase__coll__graph.pdf>])
+(./db/d25/classSoundfieldViewer_1_1Shader.tex
+<db/dbd/classSoundfieldViewer_1_1Shader__coll__graph.pdf, id=558, 337.26pt x 70
+2.625pt>
+File: db/dbd/classSoundfieldViewer_1_1Shader__coll__graph.pdf Graphic file (typ
+e pdf)
+ <use db/dbd/classSoundfieldViewer_1_1Shader__coll__graph.pdf>
+Package pdftex.def Info: db/dbd/classSoundfieldViewer_1_1Shader__coll__graph.pd
+f used on input line 10.
+(pdftex.def)             Requested size: 264.01892pt x 550.0pt.
+ [60]
+[61 <./db/dbd/classSoundfieldViewer_1_1Shader__coll__graph.pdf>])
+(./d8/db4/classSoundFieldViewer_1_1ShaderLoader.tex
+<dc/dd8/classSoundFieldViewer_1_1ShaderLoader__coll__graph.pdf, id=575, 212.795
+pt x 501.875pt>
+File: dc/dd8/classSoundFieldViewer_1_1ShaderLoader__coll__graph.pdf Graphic fil
+e (type pdf)
+
+<use dc/dd8/classSoundFieldViewer_1_1ShaderLoader__coll__graph.pdf>
+Package pdftex.def Info: dc/dd8/classSoundFieldViewer_1_1ShaderLoader__coll__gr
+aph.pdf used on input line 10.
+(pdftex.def)             Requested size: 212.0pt x 500.02818pt.
+ [62]
+[63 <./dc/dd8/classSoundFieldViewer_1_1ShaderLoader__coll__graph.pdf>])
+(./d7/dbb/classSoundfieldViewer_1_1ShaderSoundfieldViewer.tex
+<db/d61/classSoundfieldViewer_1_1ShaderSoundfieldViewer__inherit__graph.pdf, id
+=591, 404.51125pt x 1563.8425pt>
+File: db/d61/classSoundfieldViewer_1_1ShaderSoundfieldViewer__inherit__graph.pd
+f Graphic file (type pdf)
+
+<use db/d61/classSoundfieldViewer_1_1ShaderSoundfieldViewer__inherit__graph.pdf
+>
+Package pdftex.def Info: db/d61/classSoundfieldViewer_1_1ShaderSoundfieldViewer
+__inherit__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 142.26617pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+<da/d7c/classSoundfieldViewer_1_1ShaderSoundfieldViewer__coll__graph.pdf, id=59
+5, 1470.49374pt x 2830.575pt>
+File: da/d7c/classSoundfieldViewer_1_1ShaderSoundfieldViewer__coll__graph.pdf G
+raphic file (type pdf)
+
+<use da/d7c/classSoundfieldViewer_1_1ShaderSoundfieldViewer__coll__graph.pdf>
+Package pdftex.def Info: da/d7c/classSoundfieldViewer_1_1ShaderSoundfieldViewer
+__coll__graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 285.7242pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./db/d61/classSoundfieldViewer_1_1ShaderSoundfieldViewer__inherit__graph.
+pdf>]
+[66 <./da/d7c/classSoundfieldViewer_1_1ShaderSoundfieldViewer__coll__graph.pdf>
+]) (./d6/dcb/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen.tex
+<d3/d12/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__inherit__graph.pd
+f, id=621, 404.51125pt x 1585.925pt>
+File: d3/d12/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__inherit__gra
+ph.pdf Graphic file (type pdf)
+
+<use d3/d12/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__inherit__grap
+h.pdf>
+Package pdftex.def Info: d3/d12/classSoundfieldViewer_1_1ShaderSoundfieldViewer
+Green__inherit__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 140.28487pt x 550.0pt.
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [67]
+<d0/d15/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__coll__graph.pdf, 
+id=626, 1209.51875pt x 2738.23pt>
+File: d0/d15/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__coll__graph.
+pdf Graphic file (type pdf)
+
+<use d0/d15/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__coll__graph.p
+df>
+Package pdftex.def Info: d0/d15/classSoundfieldViewer_1_1ShaderSoundfieldViewer
+Green__coll__graph.pdf used on input line 20.
+(pdftex.def)             Requested size: 242.93298pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68 <./d3/d12/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__inherit__g
+raph.pdf>]
+[69 <./d0/d15/classSoundfieldViewer_1_1ShaderSoundfieldViewerGreen__coll__graph
+.pdf>]) (./d7/d77/classSoundfieldViewer_1_1SignalProvider.tex
+<d0/d77/classSoundfieldViewer_1_1SignalProvider__coll__graph.pdf, id=651, 332.2
+4126pt x 624.3325pt>
+File: d0/d77/classSoundfieldViewer_1_1SignalProvider__coll__graph.pdf Graphic f
+ile (type pdf)
+
+<use d0/d77/classSoundfieldViewer_1_1SignalProvider__coll__graph.pdf>
+Package pdftex.def Info: d0/d77/classSoundfieldViewer_1_1SignalProvider__coll__
+graph.pdf used on input line 19.
+(pdftex.def)             Requested size: 292.69258pt x 550.0pt.
+ [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71 <./d0/d77/classSoundfieldViewer_1_1SignalProvider__coll__graph.pdf>])
+(./d9/d49/classSoundfieldViewer_1_1SourceConfiguration.tex
+<d4/d7e/classSoundfieldViewer_1_1SourceConfiguration__coll__graph.pdf, id=667, 
+293.095pt x 570.13pt>
+File: d4/d7e/classSoundfieldViewer_1_1SourceConfiguration__coll__graph.pdf Grap
+hic file (type pdf)
+
+<use d4/d7e/classSoundfieldViewer_1_1SourceConfiguration__coll__graph.pdf>
+Package pdftex.def Info: d4/d7e/classSoundfieldViewer_1_1SourceConfiguration__c
+oll__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 282.74544pt x 550.0pt.
+
+Underfull \vbox (badness 2762) has occurred while \output is active []
+
+ [72]
+[73 <./d4/d7e/classSoundfieldViewer_1_1SourceConfiguration__coll__graph.pdf>])
+(./df/d3a/classSoundfieldViewer_1_1SourceConfigurationManager.tex
+<d1/d94/classSoundfieldViewer_1_1SourceConfigurationManager__coll__graph.pdf, i
+d=684, 371.3875pt x 871.255pt>
+File: d1/d94/classSoundfieldViewer_1_1SourceConfigurationManager__coll__graph.p
+df Graphic file (type pdf)
+
+<use d1/d94/classSoundfieldViewer_1_1SourceConfigurationManager__coll__graph.pd
+f>
+Package pdftex.def Info: d1/d94/classSoundfieldViewer_1_1SourceConfigurationMan
+ager__coll__graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 234.44571pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+[75 <./d1/d94/classSoundfieldViewer_1_1SourceConfigurationManager__coll__graph.
+pdf>]) (./d6/dce/classSoundfieldViewer_1_1TextureFactory.tex
+<d6/de9/classSoundfieldViewer_1_1TextureFactory__coll__graph.pdf, id=700, 212.7
+95pt x 182.6825pt>
+File: d6/de9/classSoundfieldViewer_1_1TextureFactory__coll__graph.pdf Graphic f
+ile (type pdf)
+
+<use d6/de9/classSoundfieldViewer_1_1TextureFactory__coll__graph.pdf>
+Package pdftex.def Info: d6/de9/classSoundfieldViewer_1_1TextureFactory__coll__
+graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 212.0pt x 182.01024pt.
+ [76 <./d6/de9/classSoundfieldViewer_1_1TextureFactory__coll__graph.pdf>])
+(./d2/dea/unionTuple2f__t.tex
+<d1/da1/unionTuple2f__t__coll__graph.pdf, id=713, 136.51pt x 172.645pt>
+File: d1/da1/unionTuple2f__t__coll__graph.pdf Graphic file (type pdf)
+
+<use d1/da1/unionTuple2f__t__coll__graph.pdf>
+Package pdftex.def Info: d1/da1/unionTuple2f__t__coll__graph.pdf used on input 
+line 10.
+(pdftex.def)             Requested size: 136.0pt x 172.00967pt.
+) (./df/dc4/unionTuple3f__t.tex
+<d6/d56/unionTuple3f__t__coll__graph.pdf, id=714, 136.51pt x 182.6825pt>
+File: d6/d56/unionTuple3f__t__coll__graph.pdf Graphic file (type pdf)
+
+<use d6/d56/unionTuple3f__t__coll__graph.pdf>
+Package pdftex.def Info: d6/d56/unionTuple3f__t__coll__graph.pdf used on input 
+line 10.
+(pdftex.def)             Requested size: 136.0pt x 182.01024pt.
+
+Underfull \vbox (badness 2970) has occurred while \output is active []
+
+ [77 <./d1/da1/unionTuple2f__t__coll__graph.pdf>]) (./d3/de4/unionTuple4f__t.te
+x
+<d1/dc9/unionTuple4f__t__coll__graph.pdf, id=727, 136.51pt x 194.7275pt>
+File: d1/dc9/unionTuple4f__t__coll__graph.pdf Graphic file (type pdf)
+
+<use d1/dc9/unionTuple4f__t__coll__graph.pdf>
+Package pdftex.def Info: d1/dc9/unionTuple4f__t__coll__graph.pdf used on input 
+line 10.
+(pdftex.def)             Requested size: 136.0pt x 194.01091pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78 <./d6/d56/unionTuple3f__t__coll__graph.pdf>])
+(./d9/d6f/structSoundfieldViewer_1_1Uniform.tex
+<df/d4c/structSoundfieldViewer_1_1Uniform__coll__graph.pdf, id=740, 212.795pt x
+ 172.645pt>
+File: df/d4c/structSoundfieldViewer_1_1Uniform__coll__graph.pdf Graphic file (t
+ype pdf)
+ <use df/d4c/structSoundfieldViewer_1_1Uniform__coll__graph.pdf>
+Package pdftex.def Info: df/d4c/structSoundfieldViewer_1_1Uniform__coll__graph.
+pdf used on input line 10.
+(pdftex.def)             Requested size: 212.0pt x 172.00967pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79 <./d1/dc9/unionTuple4f__t__coll__graph.pdf>])
+(./da/dd6/classWaveRenderDemo_1_1Wave.tex
+<d6/dbe/classWaveRenderDemo_1_1Wave__inherit__graph.pdf, id=754, 218.8175pt x 5
+31.9875pt>
+File: d6/dbe/classWaveRenderDemo_1_1Wave__inherit__graph.pdf Graphic file (type
+ pdf)
+ <use d6/dbe/classWaveRenderDemo_1_1Wave__inherit__graph.pdf>
+Package pdftex.def Info: d6/dbe/classWaveRenderDemo_1_1Wave__inherit__graph.pdf
+ used on input line 10.
+(pdftex.def)             Requested size: 218.0pt x 530.00554pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80 <./df/d4c/structSoundfieldViewer_1_1Uniform__coll__graph.pdf>]
+<de/dbe/classWaveRenderDemo_1_1Wave__coll__graph.pdf, id=768, 218.8175pt x 531.
+9875pt>
+File: de/dbe/classWaveRenderDemo_1_1Wave__coll__graph.pdf Graphic file (type pd
+f)
+ <use de/dbe/classWaveRenderDemo_1_1Wave__coll__graph.pdf>
+Package pdftex.def Info: de/dbe/classWaveRenderDemo_1_1Wave__coll__graph.pdf us
+ed on input line 20.
+(pdftex.def)             Requested size: 218.0pt x 530.00554pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81 <./d6/dbe/classWaveRenderDemo_1_1Wave__inherit__graph.pdf>] [82 <./de/dbe/
+classWaveRenderDemo_1_1Wave__coll__graph.pdf>])
+(./dd/d86/classSoundfieldViewer_1_1WaveField2D.tex
+<d1/dcc/classSoundfieldViewer_1_1WaveField2D__inherit__graph.pdf, id=793, 300.1
+2125pt x 1200.485pt>
+File: d1/dcc/classSoundfieldViewer_1_1WaveField2D__inherit__graph.pdf Graphic f
+ile (type pdf)
+
+<use d1/dcc/classSoundfieldViewer_1_1WaveField2D__inherit__graph.pdf>
+Package pdftex.def Info: d1/dcc/classSoundfieldViewer_1_1WaveField2D__inherit__
+graph.pdf used on input line 10.
+(pdftex.def)             Requested size: 137.50333pt x 550.0pt.
+
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+ [83]
+<d5/d63/classSoundfieldViewer_1_1WaveField2D__coll__graph.pdf, id=797, 582.175p
+t x 1606.0pt>
+File: d5/d63/classSoundfieldViewer_1_1WaveField2D__coll__graph.pdf Graphic file
+ (type pdf)
+
+<use d5/d63/classSoundfieldViewer_1_1WaveField2D__coll__graph.pdf>
+Package pdftex.def Info: d5/d63/classSoundfieldViewer_1_1WaveField2D__coll__gra
+ph.pdf used on input line 20.
+(pdftex.def)             Requested size: 199.37596pt x 550.0pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84 <./d1/dcc/classSoundfieldViewer_1_1WaveField2D__inherit__graph.pdf>] [85 <
+./d5/d63/classSoundfieldViewer_1_1WaveField2D__coll__graph.pdf>]) [86]
+Chapter 5.
+(./d0/d09/command_8h.tex
+<d4/d4d/command_8h__incl.pdf, id=826, 1185.42876pt x 325.215pt>
+File: d4/d4d/command_8h__incl.pdf Graphic file (type pdf)
+
+<use d4/d4d/command_8h__incl.pdf>
+Package pdftex.def Info: d4/d4d/command_8h__incl.pdf used on input line 14.
+(pdftex.def)             Requested size: 350.0pt x 96.01698pt.
+
+<df/d1d/command_8h__dep__incl.pdf, id=827, 879.285pt x 325.215pt>
+File: df/d1d/command_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use df/d1d/command_8h__dep__incl.pdf>
+Package pdftex.def Info: df/d1d/command_8h__dep__incl.pdf used on input line 21
+.
+(pdftex.def)             Requested size: 350.0pt x 129.4485pt.
+ [87
+
+ <./d4/d4d/command_8h__incl.pdf> <./df/d1d/command_8h__dep__incl.pdf
+
+pdfTeX warning: pdflatex.exe (file ./df/d1d/command_8h__dep__incl.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>]) (./d1/dd6/commandmanager_8h.tex
+<df/dc5/commandmanager_8h__incl.pdf, id=848, 1185.42876pt x 381.425pt>
+File: df/dc5/commandmanager_8h__incl.pdf Graphic file (type pdf)
+
+<use df/dc5/commandmanager_8h__incl.pdf>
+Package pdftex.def Info: df/dc5/commandmanager_8h__incl.pdf used on input line 
+14.
+(pdftex.def)             Requested size: 350.0pt x 112.61252pt.
+
+<d8/ddd/commandmanager_8h__dep__incl.pdf, id=849, 879.285pt x 269.005pt>
+File: d8/ddd/commandmanager_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use d8/ddd/commandmanager_8h__dep__incl.pdf>
+Package pdftex.def Info: d8/ddd/commandmanager_8h__dep__incl.pdf used on input 
+line 21.
+(pdftex.def)             Requested size: 350.0pt x 107.07469pt.
+) (./d3/d68/Property_8h.tex
+<d1/da6/Property_8h__incl.pdf, id=850, 1185.42876pt x 269.005pt>
+File: d1/da6/Property_8h__incl.pdf Graphic file (type pdf)
+
+<use d1/da6/Property_8h__incl.pdf>
+Package pdftex.def Info: d1/da6/Property_8h__incl.pdf used on input line 14.
+(pdftex.def)             Requested size: 350.0pt x 79.42145pt.
+ [88 <./df/dc5/commandmanager_8h__incl.pdf> <./d8/ddd/commandmanager_8h__dep__i
+ncl.pdf
+
+pdfTeX warning: pdflatex.exe (file ./d8/ddd/commandmanager_8h__dep__incl.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>] <d6/d8e/Property_8h__dep__incl.pdf, id=871, 855.195pt x 381.425pt>
+File: d6/d8e/Property_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use d6/d8e/Property_8h__dep__incl.pdf>
+Package pdftex.def Info: d6/d8e/Property_8h__dep__incl.pdf used on input line 2
+1.
+(pdftex.def)             Requested size: 350.0pt x 156.10007pt.
+) (./d3/d2a/propertymanager_8h.tex
+<d0/d41/propertymanager_8h__incl.pdf, id=872, 1185.42876pt x 325.215pt>
+File: d0/d41/propertymanager_8h__incl.pdf Graphic file (type pdf)
+
+<use d0/d41/propertymanager_8h__incl.pdf>
+Package pdftex.def Info: d0/d41/propertymanager_8h__incl.pdf used on input line
+ 15.
+(pdftex.def)             Requested size: 350.0pt x 96.01698pt.
+
+Underfull \vbox (badness 4060) has occurred while \output is active []
+
+ [89 <./d1/da6/Property_8h__incl.pdf> <./d6/d8e/Property_8h__dep__incl.pdf
+
+pdfTeX warning: pdflatex.exe (file ./d6/d8e/Property_8h__dep__incl.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] <df/d5a/propertymanager_8h__dep__incl.pdf, id=893, 862.22125pt x 269.005pt>
+File: df/d5a/propertymanager_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use df/d5a/propertymanager_8h__dep__incl.pdf>
+Package pdftex.def Info: df/d5a/propertymanager_8h__dep__incl.pdf used on input
+ line 22.
+(pdftex.def)             Requested size: 350.0pt x 109.1927pt.
+) [90 <./d0/d41/propertymanager_8h__incl.pdf> <./df/d5a/propertymanager_8h__dep
+__incl.pdf
+
+pdfTeX warning: pdflatex.exe (file ./df/d5a/propertymanager_8h__dep__incl.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>] (./refman.ind
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+[]| \T1/phv/m/n/10 Soundfield-Viewer-::-Shader-Soundfield-Viewer-Green,
+ []
+
+[91
+
+]) (./refman.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6581 strings out of 493308
+ 137546 string characters out of 6132463
+ 158901 words of memory out of 5000000
+ 9586 multiletter control sequences out of 15000+600000
+ 75539 words of font info for 106 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 48i,13n,43p,456b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Program Files (x86)/TexLive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}<
+c:/Program Files (x86)/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><c:/Program Files (x86)/TexLive/2013/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><c:/Program Files (x86)/TexLive/2013/texmf-dist/fonts/type
+1/urw/courier/ucrr8a.pfb><c:/Program Files (x86)/TexLive/2013/texmf-dist/fonts/
+type1/urw/helvetic/uhvb8a.pfb><c:/Program Files (x86)/TexLive/2013/texmf-dist/f
+onts/type1/urw/helvetic/uhvb8ac.pfb><c:/Program Files (x86)/TexLive/2013/texmf-
+dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb><c:/Program Files (x86)/TexLive/2013
+/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Program Files (x86)/TexLive
+/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (97 pages, 1142887 bytes).
+PDF statistics:
+ 950 PDF objects out of 1000 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+

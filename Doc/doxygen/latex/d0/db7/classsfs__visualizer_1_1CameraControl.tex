@@ -1,0 +1,123 @@
+\section{sfs\-\_\-visualizer\-:\-:Camera\-Control Class Reference}
+\label{classsfs__visualizer_1_1CameraControl}\index{sfs\-\_\-visualizer\-::\-Camera\-Control@{sfs\-\_\-visualizer\-::\-Camera\-Control}}
+
+
+An orthographic camera, with x-\/y-\/z-\/rotation and zoom in texturespace.  
+
+
+
+
+{\ttfamily \#include $<$cameracontrol.\-h$>$}
+
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Camera\-Control\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d8/d22/classsfs__visualizer_1_1CameraControl__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries init} (int width, int height)\label{classsfs__visualizer_1_1CameraControl_a2ebade4f88d9f8e2ef07b598be75165e}
+
+\item 
+void {\bfseries apply} ()\label{classsfs__visualizer_1_1CameraControl_a027eb280a548929964972a0269948704}
+
+\item 
+void {\bfseries mouse} (int button, int state, int x, int y)\label{classsfs__visualizer_1_1CameraControl_a763502cfb980553abf5ec46aa1c8547a}
+
+\item 
+void {\bfseries motion} (int x, int y)\label{classsfs__visualizer_1_1CameraControl_a91c42f259015cd609ed1c798648d2dc4}
+
+\item 
+void {\bfseries reset} ()\label{classsfs__visualizer_1_1CameraControl_aa79ef348ac442df65714a8d2a0e7cd12}
+
+\item 
+int {\bfseries Spin\-\_\-x} () const \label{classsfs__visualizer_1_1CameraControl_a2fafda6e38bdac37bbc46c4f1333040f}
+
+\item 
+void {\bfseries Spin\-\_\-x} (int val)\label{classsfs__visualizer_1_1CameraControl_a79adbf4e7dace42051c064968d4639fe}
+
+\item 
+int {\bfseries Spin\-\_\-y} () const \label{classsfs__visualizer_1_1CameraControl_a4da6283e846774916d071df453993eb0}
+
+\item 
+void {\bfseries Spin\-\_\-y} (int val)\label{classsfs__visualizer_1_1CameraControl_a0ded6da7a27228e8a4000d78508dc825}
+
+\item 
+int {\bfseries Spin\-\_\-z} () const \label{classsfs__visualizer_1_1CameraControl_aa72b99e4780eb1f62a83d6994fa3bdbb}
+
+\item 
+void {\bfseries Spin\-\_\-z} (int val)\label{classsfs__visualizer_1_1CameraControl_af98bf1747aa9cbcce19a96b78b7865b5}
+
+\item 
+int {\bfseries Zoom} () const \label{classsfs__visualizer_1_1CameraControl_a8b13370da1a6033ec63b46f79a1d056b}
+
+\item 
+void {\bfseries Zoom} (int val)\label{classsfs__visualizer_1_1CameraControl_ae09c78422ef19a9e3db08be0e9b13766}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Property} \& {\bfseries \-\_\-x\-Rot\-Prop}\label{classsfs__visualizer_1_1CameraControl_a936c7501505965fe2cc85e7bdf98a66c}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-y\-Rot\-Prop}\label{classsfs__visualizer_1_1CameraControl_a523d6496d4368028f000244667515045}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-z\-Rot\-Prop}\label{classsfs__visualizer_1_1CameraControl_a6770009d7cd09b7a8cc6cf8dfc8e3a9f}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-x\-Rot\-Speed\-Prop}\label{classsfs__visualizer_1_1CameraControl_abed8587f59344d9f60c2f9b585388b1e}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-y\-Rot\-Speed\-Prop}\label{classsfs__visualizer_1_1CameraControl_a98e942491c2dbeff799b928f33949258}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-z\-Rot\-Speed\-Prop}\label{classsfs__visualizer_1_1CameraControl_a77143f7a759158fa4ca529df2c96f0aa}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-zoom\-Prop}\label{classsfs__visualizer_1_1CameraControl_a9f499e7a4351de5ce1110d342d117365}
+
+\item 
+int {\bfseries \-\_\-rot\-\_\-y}\label{classsfs__visualizer_1_1CameraControl_ad2e09efef85a9f2c11c368fb2b5a4340}
+
+\item 
+int {\bfseries \-\_\-rot\-\_\-x}\label{classsfs__visualizer_1_1CameraControl_adef736ee98d2b4a68f741521c9e51d30}
+
+\item 
+int {\bfseries \-\_\-rot\-\_\-z}\label{classsfs__visualizer_1_1CameraControl_aba1520613eee5bac18fe41face73ae60}
+
+\item 
+int {\bfseries \-\_\-zoom}\label{classsfs__visualizer_1_1CameraControl_a8d462a2cc5b46e4c7f4b25384e98b4a5}
+
+\item 
+int {\bfseries \-\_\-old\-\_\-x}\label{classsfs__visualizer_1_1CameraControl_afd2b2df2e93e7269863a887c5034c93a}
+
+\item 
+int {\bfseries \-\_\-old\-\_\-y}\label{classsfs__visualizer_1_1CameraControl_a43b01f73869123d8fd76eab0d5483bed}
+
+\item 
+int {\bfseries \-\_\-old\-\_\-z}\label{classsfs__visualizer_1_1CameraControl_ad29ecf67553a892ad19fbb2c50ea3848}
+
+\item 
+bool {\bfseries \-\_\-move\-\_\-z}\label{classsfs__visualizer_1_1CameraControl_af1b2a789e93bfa77ecc97f0214c8d7c5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An orthographic camera, with x-\/y-\/z-\/rotation and zoom in texturespace. 
+
+Definition at line 23 of file cameracontrol.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+cameracontrol.\-h\item 
+cameracontrol.\-cpp\end{DoxyCompactItemize}

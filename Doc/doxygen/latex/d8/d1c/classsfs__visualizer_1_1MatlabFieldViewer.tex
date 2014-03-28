@@ -1,0 +1,167 @@
+\section{sfs\-\_\-visualizer\-:\-:Matlab\-Field\-Viewer Class Reference}
+\label{classsfs__visualizer_1_1MatlabFieldViewer}\index{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer@{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer}}
+
+
+A Field\-Viewer for Matlab files.  
+
+
+
+
+{\ttfamily \#include $<$matlabfieldviewer.\-h$>$}
+
+
+
+Inheritance diagram for sfs\-\_\-visualizer\-:\-:Matlab\-Field\-Viewer\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{df/d65/classsfs__visualizer_1_1MatlabFieldViewer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Matlab\-Field\-Viewer\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d8/da9/classsfs__visualizer_1_1MatlabFieldViewer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bf update} ()
+\begin{DoxyCompactList}\small\item\em methods \end{DoxyCompactList}\item 
+virtual void {\bf key} (unsigned char key, int x, int y)
+\begin{DoxyCompactList}\small\item\em user inputs \end{DoxyCompactList}\item 
+virtual void {\bfseries mouse} (int button, int state, int x, int y)\label{classsfs__visualizer_1_1MatlabFieldViewer_a293d218232886bfb087f7ecf6e5627d8}
+
+\item 
+virtual void {\bfseries specialkey} (int {\bf key}, int x, int y)\label{classsfs__visualizer_1_1MatlabFieldViewer_a4112bfbbb13776af8c8265816428ef29}
+
+\item 
+virtual void {\bfseries timer} (int update\-Rate\-Ms)\label{classsfs__visualizer_1_1MatlabFieldViewer_a4ff95419bac2526cc95ee386e8d31ca2}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries draw\-\_\-impl} ()\label{classsfs__visualizer_1_1MatlabFieldViewer_ab5f4e4835af3c56da1ca95992a5715ed}
+
+\item 
+virtual void {\bfseries init\-Properties} ()\label{classsfs__visualizer_1_1MatlabFieldViewer_a60d6a2d8dce9c40e41bea67b0e513f4c}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries read\-Matlabfile} (const char $\ast$file\-\_\-name)\label{classsfs__visualizer_1_1MatlabFieldViewer_a67116af72d447a4de35d32ad5b06ac37}
+
+\item 
+void {\bfseries update\-Texture} ()\label{classsfs__visualizer_1_1MatlabFieldViewer_a0948f48965da635cb2cd70fbc5cd02e9}
+
+\item 
+void {\bf init\-Task} (boost\-::exception\-\_\-ptr \&error)
+\begin{DoxyCompactList}\small\item\em the matlabfile is loaded from a background thread \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries \-\_\-left}\label{classsfs__visualizer_1_1MatlabFieldViewer_a6e846f2e9b9736597f0c163c69079673}
+
+\item 
+float {\bfseries \-\_\-up}\label{classsfs__visualizer_1_1MatlabFieldViewer_abeef5c9aac4de343e5e635648ea199d1}
+
+\item 
+{\bf Shader} $\ast$ {\bfseries \-\_\-shader}\label{classsfs__visualizer_1_1MatlabFieldViewer_ab68454fda33a5458c1277a9dad7396f5}
+
+\item 
+bool {\bfseries \-\_\-b\-Inital\-Load}\label{classsfs__visualizer_1_1MatlabFieldViewer_aeaefbb79a71fe1947be644fa4bdfc134}
+
+\item 
+bool {\bfseries \-\_\-b\-Cut\-Mode}\label{classsfs__visualizer_1_1MatlabFieldViewer_a79a2b17513fd45c2793b99e169a6314c}
+
+\item 
+float {\bfseries \-\_\-radius\-Scale}\label{classsfs__visualizer_1_1MatlabFieldViewer_a2f771173ffc3af881cc97292def7b345}
+
+\item 
+int {\bfseries \-\_\-matlabfiles\-Count}\label{classsfs__visualizer_1_1MatlabFieldViewer_a02c8781c52507acea32ef211e172716b}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A Field\-Viewer for Matlab files. 
+
+Definition at line 29 of file matlabfieldviewer.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer@{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer}!update@{update}}
+\index{update@{update}!sfs_visualizer::MatlabFieldViewer@{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void Matlab\-Field\-Viewer\-::update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsfs__visualizer_1_1MatlabFieldViewer_a4997514b7715c83d2c513576af0a2c60}
+
+
+methods 
+
+
+
+Reimplemented from {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Field\-Viewer\-Base $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}.
+
+
+
+Definition at line 290 of file matlabfieldviewer.\-cpp.
+
+\index{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer@{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer}!key@{key}}
+\index{key@{key}!sfs_visualizer::MatlabFieldViewer@{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer}}
+\subsubsection[{key}]{\setlength{\rightskip}{0pt plus 5cm}void Matlab\-Field\-Viewer\-::key (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{key, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsfs__visualizer_1_1MatlabFieldViewer_aaba2a2a82434165851e44a01f299d58b}
+
+
+user inputs 
+
+
+
+Reimplemented from {\bf sfs\-\_\-visualizer\-::\-Field\-Viewer\-Base} \doxyref{}{p.}{dc/dc0/classsfs__visualizer_1_1FieldViewerBase_acebb098dc25cd342be007c47cc2e64ab}.
+
+
+
+Definition at line 166 of file matlabfieldviewer.\-cpp.
+
+
+
+References sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Field\-Viewer\-Base $>$\-::\-Is\-Visible(), sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ T\-Y\-P\-E $>$\-::\-Is\-Visible(), and sfs\-\_\-visualizer\-::\-Field\-Viewer\-Base\-::key().
+
+\index{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer@{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer}!init\-Task@{init\-Task}}
+\index{init\-Task@{init\-Task}!sfs_visualizer::MatlabFieldViewer@{sfs\-\_\-visualizer\-::\-Matlab\-Field\-Viewer}}
+\subsubsection[{init\-Task}]{\setlength{\rightskip}{0pt plus 5cm}void Matlab\-Field\-Viewer\-::init\-Task (
+\begin{DoxyParamCaption}
+\item[{boost\-::exception\-\_\-ptr \&}]{error}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{classsfs__visualizer_1_1MatlabFieldViewer_a42e16ed2a33558618af417ebb439639c}
+
+
+the matlabfile is loaded from a background thread 
+
+
+
+Definition at line 19 of file matlabfieldviewer.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+matlabfieldviewer.\-h\item 
+matlabfieldviewer.\-cpp\end{DoxyCompactItemize}

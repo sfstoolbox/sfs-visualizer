@@ -1,0 +1,65 @@
+\section{Soundfield\-Viewer\-:\-:Command\-Manager Class Reference}
+\label{classSoundfieldViewer_1_1CommandManager}\index{Soundfield\-Viewer\-::\-Command\-Manager@{Soundfield\-Viewer\-::\-Command\-Manager}}
+
+
+Command\-Manager class this class knows all commands and can dispatch userinputs to them  
+
+
+
+
+{\ttfamily \#include $<$commandmanager.\-h$>$}
+
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Command\-Manager\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{df/dae/classSoundfieldViewer_1_1CommandManager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries add\-Command} (const std\-::string \&name, unsigned char key, const std\-::string \&input\-Description, {\bf Property} \&prop, Property\-Command\-::\-Operation operation, bool provokes\-U\-I\-Update=true)\label{classSoundfieldViewer_1_1CommandManager_a058567e1cd6d6ccf98d8e69e14ad9a1a}
+
+\item 
+void {\bfseries add\-Mouse\-Command} (const std\-::string \&name, unsigned char key, const std\-::string \&input\-Description, {\bf Property} \&prop, Property\-Command\-::\-Operation operation, bool provokes\-U\-I\-Update=true)\label{classSoundfieldViewer_1_1CommandManager_a1463bf97d67508c9568cee48fdeaf0d7}
+
+\item 
+void {\bfseries dispatch\-Key} (unsigned char key)\label{classSoundfieldViewer_1_1CommandManager_ac046a9f696fd0557951e6ff9f57c9221}
+
+\item 
+void {\bfseries dispatch\-Mouse} (unsigned char key)\label{classSoundfieldViewer_1_1CommandManager_ab800dd749404d0bc139710afbb9911c5}
+
+\item 
+bool {\bfseries check\-N\-Reset\-Dirty} ()\label{classSoundfieldViewer_1_1CommandManager_a8b49cc80d63417bb95828cd487d080a8}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries \-\_\-b\-Dirty}\label{classSoundfieldViewer_1_1CommandManager_a7c77651095ca1ad57a3762e41797196f}
+
+\item 
+std\-::map$<$ unsigned char, \\*
+{\bf Property\-Command} $>$ {\bfseries \-\_\-keycommands}\label{classSoundfieldViewer_1_1CommandManager_a230bda33b01ef978cfc7f817b7e0670e}
+
+\item 
+std\-::map$<$ unsigned char, \\*
+{\bf Property\-Command} $>$ {\bfseries \-\_\-mousecommands}\label{classSoundfieldViewer_1_1CommandManager_a8ec042b6f37989d9f65a87758ef14795}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Command\-Manager class this class knows all commands and can dispatch userinputs to them 
+
+Definition at line 16 of file commandmanager.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+{\bf commandmanager.\-h}\item 
+commandmanager.\-cpp\end{DoxyCompactItemize}

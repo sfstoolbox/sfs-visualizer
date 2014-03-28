@@ -1,0 +1,78 @@
+\section{Soundfield\-Viewer\-:\-:Property\-Command Class Reference}
+\label{classSoundfieldViewer_1_1PropertyCommand}\index{Soundfield\-Viewer\-::\-Property\-Command@{Soundfield\-Viewer\-::\-Property\-Command}}
+
+
+Property\-Command class This \doxyref{Command}{p.}{d4/d7e/classSoundfieldViewer_1_1Command} can change \doxyref{Property}{p.}{d4/d8c/classSoundfieldViewer_1_1Property} values with defined actions eg.  
+
+
+
+
+{\ttfamily \#include $<$command.\-h$>$}
+
+
+
+Inheritance diagram for Soundfield\-Viewer\-:\-:Property\-Command\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{d7/df1/classSoundfieldViewer_1_1PropertyCommand__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Property\-Command\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d5/d5f/classSoundfieldViewer_1_1PropertyCommand__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Operation} \{ \\*
+{\bfseries Add}, 
+{\bfseries Sub}, 
+{\bfseries Mul}, 
+{\bfseries Div}, 
+\\*
+{\bfseries Reset}, 
+{\bfseries Toggle}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Property\-Command} (unsigned char key, const std\-::string \&input\-Description, const std\-::string \&name, {\bf Property} \&property, Property\-Command\-::\-Operation operation, bool provokes\-U\-I\-Update=false)\label{classSoundfieldViewer_1_1PropertyCommand_a586d5239e6add68ff90a955cb572b99c}
+
+\item 
+bool {\bfseries execute} ()\label{classSoundfieldViewer_1_1PropertyCommand_add07853f6ef689790b7bd622e49de034}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries \-\_\-provokes\-U\-I\-Update}\label{classSoundfieldViewer_1_1PropertyCommand_a56f003926d6a5b81a74b509f6796a326}
+
+\item 
+{\bf Property} \& {\bfseries \-\_\-property}\label{classSoundfieldViewer_1_1PropertyCommand_aa9fab3186bf2ba52ea1679d47066e9e9}
+
+\item 
+Operation {\bfseries \-\_\-operation}\label{classSoundfieldViewer_1_1PropertyCommand_a72e9db75371404dd1756899364ffc778}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Property\-Command class This \doxyref{Command}{p.}{d4/d7e/classSoundfieldViewer_1_1Command} can change \doxyref{Property}{p.}{d4/d8c/classSoundfieldViewer_1_1Property} values with defined actions eg. 
+
+Addition, Subtraction etc. 
+
+Definition at line 39 of file command.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+{\bf command.\-h}\item 
+command.\-cpp\end{DoxyCompactItemize}

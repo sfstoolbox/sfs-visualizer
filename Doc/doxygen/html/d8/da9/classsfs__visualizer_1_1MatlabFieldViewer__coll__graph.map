@@ -1,0 +1,23 @@
+<map id="sfs_visualizer::MatlabFieldViewer" name="sfs_visualizer::MatlabFieldViewer">
+<area shape="rect" id="node2" href="$dc/dc0/classsfs__visualizer_1_1FieldViewerBase.html" title="A Base class for classes that can show soundfields either with shearwarping or a raytracer. " alt="" coords="357,2670,560,3173"/>
+<area shape="rect" id="node3" href="$de/d2a/classsfs__visualizer_1_1RenderObjectBase.html" title="{sfs_visualizer::RenderObject\lBase\&lt; FieldViewerBase \&gt;\n|# _zeilenabstand\l# _bIsInitialized\l&#45; _bIsVisble\l&#45; _bLightOn\l&#45; _bAlphaBlendOn\l|+ RenderObjectBase()\l+ ~RenderObjectBase()\l+ IsVisible()\l+ IsVisible()\l+ IsInitialized()\l+ update()\l+ draw()\l+ key()\l+ specialkey()\l+ mouse()\l+ timer()\l+ rotateTranslate()\l+ checkGLErrors()\l# draw_impl()\l# drawBitmapText()\l# random()\l# toggleLightning()\l# toggleAlphaBlending()\l}" alt="" coords="808,2205,995,2605"/>
+<area shape="rect" id="node4" href="$da/d4f/classsfs__visualizer_1_1IRenderObject.html" title="Interface of all objects, that can be shown by the renderengine. " alt="" coords="919,1441,1109,1650"/>
+<area shape="rect" id="node5" href="$de/d2a/classsfs__visualizer_1_1RenderObjectBase.html" title="Base for RenderObjects, which are objects, that can be shown in 3D. " alt="" coords="823,1728,1009,2128"/>
+<area shape="rect" id="node6" href="$d4/dd0/classsfs__visualizer_1_1InfoProvider.html" title="Interface for objects, that want infos to be displayed in the InfoOverlay. " alt="" coords="97,2352,273,2459"/>
+<area shape="rect" id="node7" href="$d4/df5/classsfs__visualizer_1_1CommandManager.html" title="this class knows all commands and can dispatch userinputs to them " alt="" coords="351,2323,567,2488"/>
+<area shape="rect" id="node9" href="$df/dc1/classsfs__visualizer_1_1PropertyCommand.html" title="This Command can change Property values with defined actions eg. " alt="" coords="357,1470,515,1621"/>
+<area shape="rect" id="node10" href="$d7/d29/classsfs__visualizer_1_1Command.html" title="implements the command&#45;pattern, that abstracts actions, that can be executed " alt="" coords="210,465,376,615"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="198,163,279,240"/>
+<area shape="rect" id="node13" href="$d4/de7/classsfs__visualizer_1_1Property.html" title="capsulates a value, that can be modified and saved " alt="" coords="359,1078,515,1375"/>
+<area shape="rect" id="node14" href="$dc/dc9/classsfs__visualizer_1_1Shader.html" title="class to load glsl&#45;shaders and wraps communication with uniform&#45;values, that are the variables of sha..." alt="" coords="61,640,211,952"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="175,6,301,98"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="557,163,680,240"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="726,163,844,240"/>
+<area shape="rect" id="node21" title="STL class. " alt="" coords="647,2367,768,2444"/>
+<area shape="rect" id="node22" title="STL class. " alt="" coords="641,1882,799,1974"/>
+<area shape="rect" id="node23" title="STL class. " alt="" coords="727,1499,861,1591"/>
+<area shape="rect" id="node24" title="STL class. " alt="" coords="885,1181,1013,1273"/>
+<area shape="rect" id="node25" title="STL class. " alt="" coords="869,757,1024,835"/>
+<area shape="rect" id="node27" title="STL class. " alt="" coords="729,1181,860,1273"/>
+<area shape="rect" id="node26" title="STL class. " alt="" coords="897,348,996,425"/>
+</map>

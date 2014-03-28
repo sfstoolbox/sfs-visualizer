@@ -1,0 +1,106 @@
+\section{Soundfield\-Viewer\-:\-:Matlab\-File\-Adapter Class Reference}
+\label{classSoundfieldViewer_1_1MatlabFileAdapter}\index{Soundfield\-Viewer\-::\-Matlab\-File\-Adapter@{Soundfield\-Viewer\-::\-Matlab\-File\-Adapter}}
+
+
+{\ttfamily \#include $<$matlabfileadapter.\-h$>$}
+
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Matlab\-File\-Adapter\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{dc/d1b/classSoundfieldViewer_1_1MatlabFileAdapter__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Matlab\-File\-Adapter} (const std\-::string \&file\-\_\-name)\label{classSoundfieldViewer_1_1MatlabFileAdapter_a6ef507996b091726e8d963f6cf4e9c54}
+
+\item 
+void {\bfseries load} (const std\-::string \&file\-\_\-name)\label{classSoundfieldViewer_1_1MatlabFileAdapter_a6a686efa3d63e4d72a9c2c1631c552b9}
+
+\item 
+G\-Lfloat {\bfseries read\-At} (int x, int y, int z)\label{classSoundfieldViewer_1_1MatlabFileAdapter_abbf88223ed3a94de478c10b8141f7d66}
+
+\item 
+void {\bfseries read\-Range} (int start, int count, G\-Lfloat $\ast$result)\label{classSoundfieldViewer_1_1MatlabFileAdapter_a4e303c30723bc0615c031d3ac1363999}
+
+\item 
+void {\bfseries read\-Raw\-Floats} (G\-Lfloat $\ast$$\ast$result)\label{classSoundfieldViewer_1_1MatlabFileAdapter_a3805ce7e645335a7dbcf562dfed7312c}
+
+\item 
+int {\bfseries Xdim} () const \label{classSoundfieldViewer_1_1MatlabFileAdapter_a40012df29f830e77eddd29bb0bd482db}
+
+\item 
+void {\bfseries Xdim} (int val)\label{classSoundfieldViewer_1_1MatlabFileAdapter_a2be3a6dadaedc63c1c53e4559db172ad}
+
+\item 
+int {\bfseries Ydim} () const \label{classSoundfieldViewer_1_1MatlabFileAdapter_a84dd95fc383510d9e9db4e4f80f182a5}
+
+\item 
+void {\bfseries Ydim} (int val)\label{classSoundfieldViewer_1_1MatlabFileAdapter_a5c023d543219a95222cb37ba641440cf}
+
+\item 
+int {\bfseries Zdim} () const \label{classSoundfieldViewer_1_1MatlabFileAdapter_a10d8ede726d591aada18cc4784bf6128}
+
+\item 
+void {\bfseries Zdim} (int val)\label{classSoundfieldViewer_1_1MatlabFileAdapter_ac8de8a3dfe1ddf6c7d61ba7ded19acc7}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bfseries write\-Texture2\-Matlabfile} (G\-Lint texture\-Id, int width, int height, int depth, const std\-::string \&file)\label{classSoundfieldViewer_1_1MatlabFileAdapter_afa012fa37c4e4fda147e624b5394f0a5}
+
+\item 
+static void {\bfseries statistics} (G\-Lint texture\-Id, int width, int height, int depth)\label{classSoundfieldViewer_1_1MatlabFileAdapter_aaf50f7c14b7d600ba54238e1c8cdbab0}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const std\-::string \& {\bfseries \-\_\-file\-\_\-name}\label{classSoundfieldViewer_1_1MatlabFileAdapter_aa45e57567ce66d562cd630745987d803}
+
+\item 
+mat\-\_\-t $\ast$ {\bfseries \-\_\-mat}\label{classSoundfieldViewer_1_1MatlabFileAdapter_ae0f3cf6ba4a67b4ab7d377d2dddd3756}
+
+\item 
+matvar\-\_\-t $\ast$ {\bfseries \-\_\-matvar}\label{classSoundfieldViewer_1_1MatlabFileAdapter_a48f7e3b6cbbad4f9b00e31738f4f52dc}
+
+\item 
+int {\bfseries \-\_\-xdim}\label{classSoundfieldViewer_1_1MatlabFileAdapter_ad64799f62c8a250d446259ba2775bacd}
+
+\item 
+int {\bfseries \-\_\-ydim}\label{classSoundfieldViewer_1_1MatlabFileAdapter_a032d6e92bbd74dda4c7c566ac2784f91}
+
+\item 
+int {\bfseries \-\_\-zdim}\label{classSoundfieldViewer_1_1MatlabFileAdapter_af033cb6dd6ccdc4f3ef97795e363c2d1}
+
+\item 
+int {\bfseries \-\_\-stride}\label{classSoundfieldViewer_1_1MatlabFileAdapter_a4067f73493ad0b8a3ab6b573c27d0f68}
+
+\item 
+char $\ast$ {\bfseries \-\_\-rp}\label{classSoundfieldViewer_1_1MatlabFileAdapter_a935f50aab7837a33732ee19331ee85bc}
+
+\item 
+char $\ast$ {\bfseries \-\_\-ip}\label{classSoundfieldViewer_1_1MatlabFileAdapter_a4411fe3676806f84318349f960b653c2}
+
+\item 
+char $\ast$ {\bfseries \-\_\-vp}\label{classSoundfieldViewer_1_1MatlabFileAdapter_a4a522f639ae25cebdd1aa32adb8bd682}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+this class uses the matio-\/lib for reading and writing mat-\/files 
+
+Definition at line 13 of file matlabfileadapter.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+matlabfileadapter.\-h\item 
+matlabfileadapter.\-cpp\end{DoxyCompactItemize}

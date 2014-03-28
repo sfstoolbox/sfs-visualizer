@@ -1,0 +1,1 @@
+..\bin\sfs-visualizer -W 64 -H 64 -D 64 -s "data\randomSource.csv"

@@ -1,0 +1,6 @@
+<map id="sfs_visualizer::InfoOverlay" name="sfs_visualizer::InfoOverlay">
+<area shape="rect" id="node2" href="$de/d2a/classsfs__visualizer_1_1RenderObjectBase.html" title="{sfs_visualizer::RenderObject\lBase\&lt; InfoOverlay \&gt;\n|# _zeilenabstand\l# _bIsInitialized\l&#45; _bIsVisble\l&#45; _bLightOn\l&#45; _bAlphaBlendOn\l|+ RenderObjectBase()\l+ ~RenderObjectBase()\l+ IsVisible()\l+ IsVisible()\l+ IsInitialized()\l+ update()\l+ draw()\l+ key()\l+ specialkey()\l+ mouse()\l+ timer()\l+ rotateTranslate()\l+ checkGLErrors()\l# draw_impl()\l# drawBitmapText()\l# random()\l# toggleLightning()\l# toggleAlphaBlending()\l}" alt="" coords="5,731,192,1131"/>
+<area shape="rect" id="node3" href="$da/d4f/classsfs__visualizer_1_1IRenderObject.html" title="Interface of all objects, that can be shown by the renderengine. " alt="" coords="22,6,212,215"/>
+<area shape="rect" id="node4" href="$de/d2a/classsfs__visualizer_1_1RenderObjectBase.html" title="Base for RenderObjects, which are objects, that can be shown in 3D. " alt="" coords="115,267,301,667"/>
+<area shape="rect" id="node5" href="$d4/dd0/classsfs__visualizer_1_1InfoProvider.html" title="Interface for objects, that want infos to be displayed in the InfoOverlay. " alt="" coords="217,877,393,984"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d7/d29/classsfs__visualizer_1_1Command.html" title="implements the command&#45;pattern, that abstracts actions, that can be executed " alt="" coords="6,12,173,39"/>
+<area shape="rect" id="node2" href="$df/dc1/classsfs__visualizer_1_1PropertyCommand.html" title="This Command can change Property values with defined actions eg. " alt="" coords="222,5,378,46"/>
+</map>

@@ -1,0 +1,133 @@
+\section{Soundfield\-Viewer\-:\-:Render\-Object\-Base$<$ T\-Y\-P\-E $>$ Class Template Reference}
+\label{classSoundfieldViewer_1_1RenderObjectBase}\index{Soundfield\-Viewer\-::\-Render\-Object\-Base$<$ T\-Y\-P\-E $>$@{Soundfield\-Viewer\-::\-Render\-Object\-Base$<$ T\-Y\-P\-E $>$}}
+
+
+{\ttfamily \#include $<$renderobjectbase.\-h$>$}
+
+
+
+Inheritance diagram for Soundfield\-Viewer\-:\-:Render\-Object\-Base$<$ T\-Y\-P\-E $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/db8/classSoundfieldViewer_1_1RenderObjectBase__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Soundfield\-Viewer\-:\-:Render\-Object\-Base$<$ T\-Y\-P\-E $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d6/da4/classSoundfieldViewer_1_1RenderObjectBase__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool {\bfseries get\-Is\-Visible} ()\label{classSoundfieldViewer_1_1RenderObjectBase_ae8da7fe2346c5a9b14e83d95acf1e753}
+
+\item 
+virtual void {\bfseries set\-Is\-Visible} (bool b\-Visible)\label{classSoundfieldViewer_1_1RenderObjectBase_ae5580dbb26ed490fb22cc26c1b273330}
+
+\item 
+virtual bool {\bfseries get\-Is\-Initialized} ()\label{classSoundfieldViewer_1_1RenderObjectBase_a67edaeb8590ccef00301decaa2198cd1}
+
+\item 
+virtual void {\bfseries update} ()\label{classSoundfieldViewer_1_1RenderObjectBase_a8af93452d3b16d1b1f3ce5861433c06b}
+
+\item 
+virtual void {\bfseries draw} ()\label{classSoundfieldViewer_1_1RenderObjectBase_a4c85d0f6fb7af11d5d3053fe6b723286}
+
+\item 
+virtual void {\bfseries key} (unsigned char key, int x, int y)\label{classSoundfieldViewer_1_1RenderObjectBase_aef2143c0919948dfc4a9f3e7e628d95a}
+
+\item 
+virtual void {\bfseries specialkey} (int key, int x, int y)\label{classSoundfieldViewer_1_1RenderObjectBase_a056ee49132beec80c14f6d39e805aea7}
+
+\item 
+virtual void {\bfseries mouse} (int button, int state, int x, int y)\label{classSoundfieldViewer_1_1RenderObjectBase_a01e8d2a42bec65cd61279fdd90bc5014}
+
+\item 
+virtual void {\bfseries timer} (int update\-Rate\-Ms)\label{classSoundfieldViewer_1_1RenderObjectBase_a9687c99672f9f2a628bafed7e06e3670}
+
+\item 
+virtual void {\bfseries rotate\-Translate} (float x\-Rot, float y\-Rot, float z\-Rot, float x\-Trans, float y\-Trans, float z\-Trans)\label{classSoundfieldViewer_1_1RenderObjectBase_a6ac5face2c41c40971bf93f6340de562}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool {\bfseries check\-G\-L\-Errors} (const std\-::string \&info)\label{classSoundfieldViewer_1_1RenderObjectBase_a386332e7df1988a5b41e6eb17d34dc18}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries draw\-\_\-impl} ()=0\label{classSoundfieldViewer_1_1RenderObjectBase_a4f0c2bdb7a0bfbd0ae98c35557f0945a}
+
+\item 
+void {\bfseries draw\-Bitmap\-Text} (const std\-::string \&str\-Value, float x, float y, float z)\label{classSoundfieldViewer_1_1RenderObjectBase_a4fcd03f910648a088f66b3c9bf0fdd54}
+
+\item 
+float {\bf random} ()
+\begin{DoxyCompactList}\small\item\em Random float -\/0.\-5-\/0.\-5. \end{DoxyCompactList}\item 
+void {\bfseries toggle\-Lightning} ()\label{classSoundfieldViewer_1_1RenderObjectBase_aaea43ddcc450b98e82d44ee89200e579}
+
+\item 
+void {\bfseries toggle\-Alpha\-Blending} ()\label{classSoundfieldViewer_1_1RenderObjectBase_ab25d924e55e6a4a01a7b9b01719d7271}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries \-\_\-zeilenabstand}\label{classSoundfieldViewer_1_1RenderObjectBase_ae042add858cfd92ae306db782a168a65}
+
+\item 
+bool {\bfseries \-\_\-b\-Is\-Initialized}\label{classSoundfieldViewer_1_1RenderObjectBase_a0107ff6fdd52a9a9f56c485637bd3b02}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries \-\_\-b\-Is\-Visble}\label{classSoundfieldViewer_1_1RenderObjectBase_abd12181fabf3ae34b6c152703ef4b38d}
+
+\item 
+bool {\bfseries \-\_\-b\-Light\-On}\label{classSoundfieldViewer_1_1RenderObjectBase_aed6c5e7c74f1a5070e100f08ba95f4f7}
+
+\item 
+bool {\bfseries \-\_\-b\-Alpha\-Blend\-On}\label{classSoundfieldViewer_1_1RenderObjectBase_a4af767d2bbf9c7f70b238d02740aea25}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T\-Y\-P\-E$>$class Soundfield\-Viewer\-::\-Render\-Object\-Base$<$ T\-Y\-P\-E $>$}
+
+Base for Render\-Objects, which are objects, that can be shown in 3\-D. Is used to share implementations for all Render\-Objects. 
+
+Definition at line 13 of file renderobjectbase.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{Soundfield\-Viewer\-::\-Render\-Object\-Base@{Soundfield\-Viewer\-::\-Render\-Object\-Base}!random@{random}}
+\index{random@{random}!SoundfieldViewer::RenderObjectBase@{Soundfield\-Viewer\-::\-Render\-Object\-Base}}
+\subsubsection[{random}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T\-Y\-P\-E $>$ float {\bf Soundfield\-Viewer\-::\-Render\-Object\-Base}$<$ T\-Y\-P\-E $>$\-::random (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classSoundfieldViewer_1_1RenderObjectBase_a06873c661b22d9581977c736682ab7c8}
+
+
+Random float -\/0.\-5-\/0.\-5. 
+
+
+
+Definition at line 184 of file renderobjectbase.\-h.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+renderobjectbase.\-h\end{DoxyCompactItemize}

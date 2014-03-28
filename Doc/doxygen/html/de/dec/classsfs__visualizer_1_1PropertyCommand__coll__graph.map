@@ -1,0 +1,8 @@
+<map id="sfs_visualizer::PropertyCommand" name="sfs_visualizer::PropertyCommand">
+<area shape="rect" id="node2" href="$d7/d29/classsfs__visualizer_1_1Command.html" title="implements the command&#45;pattern, that abstracts actions, that can be executed " alt="" coords="5,465,171,615"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="206,163,287,240"/>
+<area shape="rect" id="node5" href="$d4/de7/classsfs__visualizer_1_1Property.html" title="capsulates a value, that can be modified and saved " alt="" coords="134,1017,289,1314"/>
+<area shape="rect" id="node6" href="$dc/dc9/classsfs__visualizer_1_1Shader.html" title="class to load glsl&#45;shaders and wraps communication with uniform&#45;values, that are the variables of sha..." alt="" coords="250,640,400,952"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="183,6,309,98"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="372,163,495,240"/>
+</map>

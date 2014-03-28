@@ -1,0 +1,97 @@
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}
+\contentsline {section}{\numberline {2.1}Class List}{3}
+\contentsline {chapter}{\numberline {3}File Index}{5}
+\contentsline {section}{\numberline {3.1}File List}{5}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}
+\contentsline {section}{\numberline {4.1}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Application Class Reference}{8}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{9}
+\contentsline {section}{\numberline {4.2}Arc\discretionary {-}{}{}Ball\discretionary {-}{}{}\_\discretionary {-}{}{}t Class Reference}{10}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{11}
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{11}
+\contentsline {subsubsection}{\numberline {4.2.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}map\discretionary {-}{}{}To\discretionary {-}{}{}Sphere}{11}
+\contentsline {section}{\numberline {4.3}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Camera\discretionary {-}{}{}Control Class Reference}{11}
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{13}
+\contentsline {section}{\numberline {4.4}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Command Class Reference}{13}
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{14}
+\contentsline {section}{\numberline {4.5}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Command\discretionary {-}{}{}Manager Class Reference}{15}
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{17}
+\contentsline {section}{\numberline {4.6}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Compute\discretionary {-}{}{}Shader\discretionary {-}{}{}Test Class Reference}{18}
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{20}
+\contentsline {section}{\numberline {4.7}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Coordinate\discretionary {-}{}{}System Class Reference}{21}
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{23}
+\contentsline {section}{\numberline {4.8}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Field\discretionary {-}{}{}Viewer\discretionary {-}{}{}Base Class Reference}{24}
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{27}
+\contentsline {section}{\numberline {4.9}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Help\discretionary {-}{}{}Overlay Class Reference}{28}
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{30}
+\contentsline {section}{\numberline {4.10}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Info\discretionary {-}{}{}Overlay Class Reference}{31}
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{33}
+\contentsline {section}{\numberline {4.11}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Info\discretionary {-}{}{}Provider Class Reference}{34}
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{35}
+\contentsline {section}{\numberline {4.12}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:I\discretionary {-}{}{}Render\discretionary {-}{}{}Object Class Reference}{35}
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{36}
+\contentsline {section}{\numberline {4.13}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Matlab\discretionary {-}{}{}Field\discretionary {-}{}{}Viewer Class Reference}{37}
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{39}
+\contentsline {section}{\numberline {4.14}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Matlab\discretionary {-}{}{}Field\discretionary {-}{}{}Viewer\discretionary {-}{}{}Simple Class Reference}{40}
+\contentsline {subsection}{\numberline {4.14.1}Detailed Description}{42}
+\contentsline {section}{\numberline {4.15}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Matlab\discretionary {-}{}{}File\discretionary {-}{}{}Adapter Class Reference}{43}
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{44}
+\contentsline {section}{\numberline {4.16}Matrix3f\discretionary {-}{}{}\_\discretionary {-}{}{}t Union Reference}{45}
+\contentsline {subsection}{\numberline {4.16.1}Detailed Description}{46}
+\contentsline {section}{\numberline {4.17}Matrix4f\discretionary {-}{}{}\_\discretionary {-}{}{}t Union Reference}{46}
+\contentsline {subsection}{\numberline {4.17.1}Detailed Description}{48}
+\contentsline {section}{\numberline {4.18}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Property Class Reference}{48}
+\contentsline {subsection}{\numberline {4.18.1}Detailed Description}{50}
+\contentsline {section}{\numberline {4.19}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Property\discretionary {-}{}{}Command Class Reference}{51}
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{53}
+\contentsline {section}{\numberline {4.20}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Property\discretionary {-}{}{}Manager Class Reference}{53}
+\contentsline {subsection}{\numberline {4.20.1}Detailed Description}{55}
+\contentsline {section}{\numberline {4.21}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Render\discretionary {-}{}{}Engine Class Reference}{56}
+\contentsline {subsection}{\numberline {4.21.1}Detailed Description}{57}
+\contentsline {subsection}{\numberline {4.21.2}Member Function Documentation}{57}
+\contentsline {subsubsection}{\numberline {4.21.2.1}init\discretionary {-}{}{}O\discretionary {-}{}{}G\discretionary {-}{}{}L}{57}
+\contentsline {section}{\numberline {4.22}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Render\discretionary {-}{}{}Object\discretionary {-}{}{}Base$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P\discretionary {-}{}{}E $>$ Class Template Reference}{58}
+\contentsline {subsection}{\numberline {4.22.1}Detailed Description}{60}
+\contentsline {subsection}{\numberline {4.22.2}Member Function Documentation}{60}
+\contentsline {subsubsection}{\numberline {4.22.2.1}random}{60}
+\contentsline {section}{\numberline {4.23}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Shader Class Reference}{61}
+\contentsline {subsection}{\numberline {4.23.1}Detailed Description}{62}
+\contentsline {section}{\numberline {4.24}Sound\discretionary {-}{}{}Field\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Shader\discretionary {-}{}{}Loader Class Reference}{63}
+\contentsline {subsection}{\numberline {4.24.1}Detailed Description}{64}
+\contentsline {section}{\numberline {4.25}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Shader\discretionary {-}{}{}Soundfield\discretionary {-}{}{}Viewer Class Reference}{65}
+\contentsline {subsection}{\numberline {4.25.1}Detailed Description}{67}
+\contentsline {section}{\numberline {4.26}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Shader\discretionary {-}{}{}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}Green Class Reference}{68}
+\contentsline {subsection}{\numberline {4.26.1}Detailed Description}{70}
+\contentsline {subsection}{\numberline {4.26.2}Member Data Documentation}{70}
+\contentsline {subsubsection}{\numberline {4.26.2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}radius\discretionary {-}{}{}Scale}{70}
+\contentsline {section}{\numberline {4.27}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Signal\discretionary {-}{}{}Provider Class Reference}{71}
+\contentsline {subsection}{\numberline {4.27.1}Detailed Description}{72}
+\contentsline {section}{\numberline {4.28}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Source\discretionary {-}{}{}Configuration Class Reference}{73}
+\contentsline {subsection}{\numberline {4.28.1}Detailed Description}{74}
+\contentsline {section}{\numberline {4.29}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Source\discretionary {-}{}{}Configuration\discretionary {-}{}{}Manager Class Reference}{75}
+\contentsline {subsection}{\numberline {4.29.1}Detailed Description}{76}
+\contentsline {section}{\numberline {4.30}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Texture\discretionary {-}{}{}Factory Class Reference}{76}
+\contentsline {subsection}{\numberline {4.30.1}Detailed Description}{77}
+\contentsline {section}{\numberline {4.31}Tuple2f\discretionary {-}{}{}\_\discretionary {-}{}{}t Union Reference}{77}
+\contentsline {subsection}{\numberline {4.31.1}Detailed Description}{77}
+\contentsline {section}{\numberline {4.32}Tuple3f\discretionary {-}{}{}\_\discretionary {-}{}{}t Union Reference}{78}
+\contentsline {subsection}{\numberline {4.32.1}Detailed Description}{78}
+\contentsline {section}{\numberline {4.33}Tuple4f\discretionary {-}{}{}\_\discretionary {-}{}{}t Union Reference}{79}
+\contentsline {subsection}{\numberline {4.33.1}Detailed Description}{79}
+\contentsline {section}{\numberline {4.34}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Uniform Struct Reference}{80}
+\contentsline {subsection}{\numberline {4.34.1}Detailed Description}{80}
+\contentsline {section}{\numberline {4.35}Wave\discretionary {-}{}{}Render\discretionary {-}{}{}Demo\discretionary {-}{}{}:\discretionary {-}{}{}:Wave Class Reference}{81}
+\contentsline {subsection}{\numberline {4.35.1}Detailed Description}{83}
+\contentsline {section}{\numberline {4.36}Soundfield\discretionary {-}{}{}Viewer\discretionary {-}{}{}:\discretionary {-}{}{}:Wave\discretionary {-}{}{}Field2\discretionary {-}{}{}D Class Reference}{84}
+\contentsline {subsection}{\numberline {4.36.1}Detailed Description}{86}
+\contentsline {chapter}{\numberline {5}File Documentation}{87}
+\contentsline {section}{\numberline {5.1}command.\discretionary {-}{}{}h File Reference}{87}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{88}
+\contentsline {section}{\numberline {5.2}commandmanager.\discretionary {-}{}{}h File Reference}{88}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{88}
+\contentsline {section}{\numberline {5.3}Property.\discretionary {-}{}{}h File Reference}{88}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{89}
+\contentsline {section}{\numberline {5.4}propertymanager.\discretionary {-}{}{}h File Reference}{89}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{90}
+\contentsline {chapter}{Index}{91}

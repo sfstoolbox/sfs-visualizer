@@ -1,0 +1,1 @@
+..\bin\sfs-visualizer -W 128 -H 128 -D 128

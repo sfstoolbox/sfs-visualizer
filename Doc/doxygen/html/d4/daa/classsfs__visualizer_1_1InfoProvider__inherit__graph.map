@@ -1,0 +1,5 @@
+<map id="sfs_visualizer::InfoProvider" name="sfs_visualizer::InfoProvider">
+<area shape="rect" id="node2" href="$dc/dc0/classsfs__visualizer_1_1FieldViewerBase.html" title="A Base class for classes that can show soundfields either with shearwarping or a raytracer. " alt="" coords="103,160,305,619"/>
+<area shape="rect" id="node3" href="$d8/d1c/classsfs__visualizer_1_1MatlabFieldViewer.html" title="A FieldViewer for Matlab files. " alt="" coords="5,689,179,1031"/>
+<area shape="rect" id="node4" href="$d6/dab/classsfs__visualizer_1_1ShaderSoundfieldViewerGreen.html" title="A FieldViewer that loads a compute shader to compute WFS. " alt="" coords="203,667,431,1053"/>
+</map>

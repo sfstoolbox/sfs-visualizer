@@ -1,0 +1,7 @@
+<map id="SoundfieldViewer::PropertyManager" name="SoundfieldViewer::PropertyManager">
+<area shape="rect" id="node3" href="$d4/d8c/classSoundfieldViewer_1_1Property.html" title="Property class capsulates a value, that can be modified and saved " alt="" coords="61,926,240,1223"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="71,163,152,240"/>
+<area shape="rect" id="node6" href="$db/d25/classSoundfieldViewer_1_1Shader.html" title="{SoundfieldViewer::Shader\n|+ v\l&#45; _isActive\l&#45; m_eType\l&#45; f\l&#45; f2\l&#45; g\l&#45; p\l|+ Shader()\l+ ~Shader()\l+ hasUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\l+ setUniform()\land 12 more...\l&#45; printShaderInfoLog()\l&#45; readFile()\l&#45; doPreprocessing()\l}" alt="" coords="117,505,291,861"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="49,6,175,98"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="337,163,460,240"/>
+</map>

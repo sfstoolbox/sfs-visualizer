@@ -1,0 +1,158 @@
+\section{sfs\-\_\-visualizer\-:\-:Shader\-Soundfield\-Viewer\-Green Class Reference}
+\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen}\index{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green@{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green}}
+
+
+A Field\-Viewer that loads a compute shader to compute W\-F\-S.  
+
+
+
+
+{\ttfamily \#include $<$shadersoundfieldviewergreen.\-h$>$}
+
+
+
+Inheritance diagram for sfs\-\_\-visualizer\-:\-:Shader\-Soundfield\-Viewer\-Green\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{db/d54/classsfs__visualizer_1_1ShaderSoundfieldViewerGreen__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Shader\-Soundfield\-Viewer\-Green\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d6/d11/classsfs__visualizer_1_1ShaderSoundfieldViewerGreen__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bf update} ()
+\begin{DoxyCompactList}\small\item\em methods \end{DoxyCompactList}\item 
+virtual void {\bf key} (unsigned char key, int x, int y)
+\begin{DoxyCompactList}\small\item\em user inputs \end{DoxyCompactList}\item 
+virtual void {\bfseries mouse} (int button, int state, int x, int y)\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a893d9adbab65d3f907771f1a3f39aaf8}
+
+\item 
+virtual void {\bfseries specialkey} (int {\bf key}, int x, int y)\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a7fd528f8597fe83b8468ce769457be65}
+
+\item 
+virtual void {\bfseries timer} (int update\-Rate\-Ms)\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_aa3134dfa4af254be92e25a812dba6700}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries draw\-\_\-impl} ()\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a2c94ec45898febade515dd2f4731166a}
+
+\item 
+virtual void {\bfseries init\-Properties} ()\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_af8719f79560e7b99bc49a68d9664357b}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries load\-Color\-Map} ()\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a5178491b6c94594e6eb9021e6fe876a2}
+
+\item 
+void {\bfseries load\-Sources\-From\-C\-S\-V} ()\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a52eb625785193f29dc1f418d1826715f}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries \-\_\-left}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a96dae44fa8beac7ebc4a8e7bda8113b2}
+
+\item 
+float {\bfseries \-\_\-up}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a08a415d59e222d09ae17aa253a2e4813}
+
+\item 
+float {\bfseries \-\_\-back}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a9f0551f9b02131c506c0feded41a4f91}
+
+\item 
+{\bf Shader} $\ast$ {\bfseries \-\_\-compute\-Shader}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a5245cbb5fcbb71dc4f257dd9bcfaba58}
+
+\item 
+float {\bfseries \-\_\-radius\-Scale}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a45f4decd211eff14418c40db2dec042b}
+
+\item 
+float {\bfseries \-\_\-bufferpointer}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a79c862245853b08e7a5a420a9837a8a9}
+
+\item 
+float {\bfseries \-\_\-bufferspeed}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a4133894835336d6e79d9150e427538d5}
+
+\item 
+float {\bfseries \-\_\-sample\-Rate}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a681f93b842e79dd271ebcf69130866e3}
+
+\item 
+float {\bfseries \-\_\-speed\-Of\-Sound}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_ad148a9857df85ab01c937b4f16fe24fe}
+
+\item 
+float {\bfseries \-\_\-nonlinear\-Slice\-Power}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a63babad5b7f11b9aa189859e4771f19c}
+
+\item 
+{\bf Command\-Manager} {\bfseries \-\_\-cmd\-Manager}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a4471696bf41bc8f0118a597ea117ff3c}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A Field\-Viewer that loads a compute shader to compute W\-F\-S. 
+
+Definition at line 30 of file shadersoundfieldviewergreen.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green@{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green}!update@{update}}
+\index{update@{update}!sfs_visualizer::ShaderSoundfieldViewerGreen@{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void Shader\-Soundfield\-Viewer\-Green\-::update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a8acf805aa86680695d7ae1c380d214da}
+
+
+methods 
+
+
+
+Reimplemented from {\bf sfs\-\_\-visualizer\-::\-Render\-Object\-Base$<$ Field\-Viewer\-Base $>$} \doxyref{}{p.}{de/d2a/classsfs__visualizer_1_1RenderObjectBase_aab3270a6296d723574efcebe4d464ba9}.
+
+
+
+Definition at line 304 of file shadersoundfieldviewergreen.\-cpp.
+
+\index{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green@{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green}!key@{key}}
+\index{key@{key}!sfs_visualizer::ShaderSoundfieldViewerGreen@{sfs\-\_\-visualizer\-::\-Shader\-Soundfield\-Viewer\-Green}}
+\subsubsection[{key}]{\setlength{\rightskip}{0pt plus 5cm}void Shader\-Soundfield\-Viewer\-Green\-::key (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{key, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{classsfs__visualizer_1_1ShaderSoundfieldViewerGreen_a5a2363722318f189a5c5276d64659776}
+
+
+user inputs 
+
+
+
+Reimplemented from {\bf sfs\-\_\-visualizer\-::\-Field\-Viewer\-Base} \doxyref{}{p.}{dc/dc0/classsfs__visualizer_1_1FieldViewerBase_acebb098dc25cd342be007c47cc2e64ab}.
+
+
+
+Definition at line 189 of file shadersoundfieldviewergreen.\-cpp.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+shadersoundfieldviewergreen.\-h\item 
+shadersoundfieldviewergreen.\-cpp\end{DoxyCompactItemize}

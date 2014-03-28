@@ -1,0 +1,126 @@
+\section{Wave\-Render\-Demo\-:\-:Wave Class Reference}
+\label{classWaveRenderDemo_1_1Wave}\index{Wave\-Render\-Demo\-::\-Wave@{Wave\-Render\-Demo\-::\-Wave}}
+
+
+Inheritance diagram for Wave\-Render\-Demo\-:\-:Wave\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{d6/dbe/classWaveRenderDemo_1_1Wave__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Wave\-Render\-Demo\-:\-:Wave\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{de/dbe/classWaveRenderDemo_1_1Wave__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries Update} ()\label{classWaveRenderDemo_1_1Wave_a448dd6150ba6d300f769bfd2333c12df}
+
+\item 
+virtual void {\bfseries Draw\-\_\-impl} ()\label{classWaveRenderDemo_1_1Wave_ae18a8e6ce71d7d163296fdd2bff86459}
+
+\item 
+virtual void {\bfseries Key} (unsigned char key, int x, int y)\label{classWaveRenderDemo_1_1Wave_af7c5e3c7a86d2c00ca318094fcde7d5b}
+
+\item 
+virtual void {\bfseries Mouse} (int button, int state, int x, int y)\label{classWaveRenderDemo_1_1Wave_a329b44cad7fb6b68737b4eddd7648b8f}
+
+\item 
+void {\bfseries set\-Frequency} (float hz)\label{classWaveRenderDemo_1_1Wave_a84783bf0e0bbe0e2bc113318850c851d}
+
+\item 
+float {\bfseries get\-Frequency} ()\label{classWaveRenderDemo_1_1Wave_a811182abe52b048e2cea3497a0116cb1}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int {\bfseries B\-O\-U\-N\-D\-S} = 10\label{classWaveRenderDemo_1_1Wave_ac9d3345cceb19e26c1c00830b3ee92cd}
+
+\item 
+static const int {\bfseries S\-I\-Z\-E} = 145\label{classWaveRenderDemo_1_1Wave_a8408192d41391918b7fe2944de58e702}
+
+\item 
+static const int {\bfseries D\-A\-M\-P} = 2000\label{classWaveRenderDemo_1_1Wave_adf79d840e1354f89f4a4b95e4b0fd427}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\-Source1} (int x, int y)\label{classWaveRenderDemo_1_1Wave_a1b9d9afaf7f711e3e240da0e075fbcce}
+
+\item 
+void {\bfseries Calculate} ()\label{classWaveRenderDemo_1_1Wave_aa85f5dfb8a6f1f88ffa039ac0960e29f}
+
+\item 
+void {\bfseries Calculate2} ()\label{classWaveRenderDemo_1_1Wave_ae7983888d4f4003b79e94387125cd052}
+
+\item 
+void {\bfseries Draw\-Bitmap\-Text} (char $\ast$string, float x, float y, float z)\label{classWaveRenderDemo_1_1Wave_a7b884f8e769ad9d0d9c30e290bf7be8d}
+
+\item 
+void {\bfseries Init\-Cube\-Equally\-Spaces} (float scale)\label{classWaveRenderDemo_1_1Wave_ae40868d00c4a722a4d493597f3b5af56}
+
+\item 
+void {\bfseries Init\-Cube\-Random} (float scale)\label{classWaveRenderDemo_1_1Wave_aaf9c972cc37a89cb09a779b6366ea1b9}
+
+\item 
+void {\bfseries Init\-Sphere\-Equally\-Spaces} (float scale)\label{classWaveRenderDemo_1_1Wave_ac1e57ef127d53132bf2c920b8fe0f616}
+
+\item 
+void {\bfseries Init\-Sphere\-Random} (float scale)\label{classWaveRenderDemo_1_1Wave_a5e85157261cfeac89dec172c314af437}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries water} [2][S\-I\-Z\-E][S\-I\-Z\-E]\label{classWaveRenderDemo_1_1Wave_af992c3ed19950445f2931acb3fac19ce}
+
+\item 
+int {\bfseries last\-Time\-M\-S}\label{classWaveRenderDemo_1_1Wave_a97b6b3b892b7ed78b684345d113f448c}
+
+\item 
+float {\bfseries \-\_\-t}\label{classWaveRenderDemo_1_1Wave_a152d989e30b1e06cc372f85990669517}
+
+\item 
+bool {\bfseries b\-Stopped}\label{classWaveRenderDemo_1_1Wave_aabd2bc7ec09a367c904fa6439b9f8482}
+
+\item 
+int {\bfseries t}\label{classWaveRenderDemo_1_1Wave_a95ca1e63cd0aa22551c05e35dc601ea7}
+
+\item 
+int {\bfseries f}\label{classWaveRenderDemo_1_1Wave_a7b1fface16c60dcdb5b622c892bb9aa5}
+
+\item 
+float {\bfseries dt}\label{classWaveRenderDemo_1_1Wave_a8f4a4a23e0d8285ea09474a350f68006}
+
+\item 
+float {\bfseries m\-\_\-n\-Freq}\label{classWaveRenderDemo_1_1Wave_a9cfd0400554ce11f8ba19220458b53bd}
+
+\item 
+Shader $\ast$ {\bfseries s2}\label{classWaveRenderDemo_1_1Wave_ac87d420d940cc07da750b77e446be029}
+
+\item 
+G\-Luint {\bfseries I\-D}\label{classWaveRenderDemo_1_1Wave_a53b15734251a56a7b93d58c28a9422a8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file wave.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+wave.\-h\item 
+wave.\-cpp\end{DoxyCompactItemize}

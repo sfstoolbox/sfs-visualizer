@@ -1,0 +1,142 @@
+\section{sfs\-\_\-visualizer\-:\-:Render\-Engine Class Reference}
+\label{classsfs__visualizer_1_1RenderEngine}\index{sfs\-\_\-visualizer\-::\-Render\-Engine@{sfs\-\_\-visualizer\-::\-Render\-Engine}}
+
+
+responsible for displaying and managing Render\-Objects.  
+
+
+
+
+{\ttfamily \#include $<$renderengine.\-h$>$}
+
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Render\-Engine\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{d9/d96/classsfs__visualizer_1_1RenderEngine__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries start} ()\label{classsfs__visualizer_1_1RenderEngine_ad64b2eeeaa4aa3bccf825a1d9d00ba86}
+
+\item 
+void {\bfseries init} (void)\label{classsfs__visualizer_1_1RenderEngine_a000b228aabf54650392bf2daf9bed0ca}
+
+\item 
+void {\bfseries init\-O\-G\-L} ()\label{classsfs__visualizer_1_1RenderEngine_a9e30c9dbd1dbcd52a3192713cb18996a}
+
+\item 
+void {\bfseries keyboard} (unsigned char key, int x, int y)\label{classsfs__visualizer_1_1RenderEngine_a12449b504614e6242dac7d1d7bed2c88}
+
+\item 
+void {\bfseries motion} (int x, int y)\label{classsfs__visualizer_1_1RenderEngine_a1ddc8839474416f20803c8ef78431986}
+
+\item 
+void {\bfseries mouse} (int button, int state, int x, int y)\label{classsfs__visualizer_1_1RenderEngine_afb8308be0bbb12117e053034282f7778}
+
+\item 
+void {\bfseries idle} (void)\label{classsfs__visualizer_1_1RenderEngine_aa44da03ff2d1ed4c273a862b19899744}
+
+\item 
+void {\bfseries display} (void)\label{classsfs__visualizer_1_1RenderEngine_ac7f71c6329b5f96565a75dfc435c5646}
+
+\item 
+void {\bfseries reshape} (int width, int height)\label{classsfs__visualizer_1_1RenderEngine_aa6730eecfe6bdee9788cee9b52445a74}
+
+\item 
+void {\bfseries end} (int code)\label{classsfs__visualizer_1_1RenderEngine_a16c1c8a6ae24a9b2f5fe38eba5a068a2}
+
+\item 
+void {\bfseries specialkey} (int key, int x, int y)\label{classsfs__visualizer_1_1RenderEngine_a21807d4b8c6c6e6c299446f849b78ba2}
+
+\item 
+void {\bfseries timer} (int val)\label{classsfs__visualizer_1_1RenderEngine_a11d5241a901440fd316627663461ad36}
+
+\item 
+void {\bfseries highspeedtimer} (int val)\label{classsfs__visualizer_1_1RenderEngine_a398a0c9a6afb6b59e2d0914f1d85e8dc}
+
+\item 
+void {\bfseries take\-Screenshot} ()\label{classsfs__visualizer_1_1RenderEngine_a143b5b846ac5622cf3981ba846e3e414}
+
+\item 
+void {\bfseries shutdown} ()\label{classsfs__visualizer_1_1RenderEngine_a2e2a2ee4bdc6f9e3a13a7570b0d577c0}
+
+\item 
+int {\bf Height} () const 
+\begin{DoxyCompactList}\small\item\em mutators and informators \end{DoxyCompactList}\item 
+int {\bfseries Width} () const \label{classsfs__visualizer_1_1RenderEngine_a14ae2c2a922499bedfb92a3870962531}
+
+\item 
+{\bf sfs\-\_\-visualizer\-::\-Camera\-Control} {\bfseries Camera} () const \label{classsfs__visualizer_1_1RenderEngine_a85627302dc9b06336a064a621fad5543}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boost\-::exception\-\_\-ptr {\bfseries \-\_\-error}\label{classsfs__visualizer_1_1RenderEngine_ab5d0db5b3e5a6ae7f4a86c572e34600c}
+
+\item 
+int {\bfseries \-\_\-h}\label{classsfs__visualizer_1_1RenderEngine_a125284f755dac513f03de2815f9b6efe}
+
+\item 
+int {\bfseries \-\_\-w}\label{classsfs__visualizer_1_1RenderEngine_a757f565a1e8fe23cde41da1040f65a47}
+
+\item 
+float {\bfseries \-\_\-pointsize}\label{classsfs__visualizer_1_1RenderEngine_a8b2f772a985c77434922ec92f1a88dbe}
+
+\item 
+std\-::vector$<$ {\bf I\-Render\-Object} $\ast$ $>$ {\bfseries \-\_\-l\-Objekte}\label{classsfs__visualizer_1_1RenderEngine_aea1c5532fff65d98e86905bf5d810710}
+
+\item 
+{\bf Camera\-Control} {\bfseries \-\_\-camera}\label{classsfs__visualizer_1_1RenderEngine_aa6827702371b2b20b13adeb3dd3099fd}
+
+\item 
+unsigned int {\bfseries \-\_\-fps\-Current}\label{classsfs__visualizer_1_1RenderEngine_a20d49741071af2558526c9f81ae7349f}
+
+\item 
+unsigned int {\bfseries \-\_\-fps\-Count}\label{classsfs__visualizer_1_1RenderEngine_ade82bb4301cfd607386ce6c895724683}
+
+\item 
+unsigned int {\bfseries \-\_\-highspeed\-Timer\-Update\-Rate\-Ms}\label{classsfs__visualizer_1_1RenderEngine_ace032ad32dfb12a89f8aecb3ad0effa8}
+
+\item 
+bool {\bfseries \-\_\-b\-Is\-Disposed}\label{classsfs__visualizer_1_1RenderEngine_a61ad3dbc71432f261630d639debc061b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+responsible for displaying and managing Render\-Objects. 
+
+It also dispatches userinputs 
+
+Definition at line 27 of file renderengine.\-h.
+
+
+
+\subsection{Member Function Documentation}
+\index{sfs\-\_\-visualizer\-::\-Render\-Engine@{sfs\-\_\-visualizer\-::\-Render\-Engine}!Height@{Height}}
+\index{Height@{Height}!sfs_visualizer::RenderEngine@{sfs\-\_\-visualizer\-::\-Render\-Engine}}
+\subsubsection[{Height}]{\setlength{\rightskip}{0pt plus 5cm}int sfs\-\_\-visualizer\-::\-Render\-Engine\-::\-Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\label{classsfs__visualizer_1_1RenderEngine_a862b56f606a86b9f666f593194e959e9}
+
+
+mutators and informators 
+
+
+
+Definition at line 52 of file renderengine.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+renderengine.\-h\item 
+renderengine.\-cpp\end{DoxyCompactItemize}

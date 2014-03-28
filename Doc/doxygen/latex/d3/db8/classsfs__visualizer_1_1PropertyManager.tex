@@ -1,0 +1,90 @@
+\section{sfs\-\_\-visualizer\-:\-:Property\-Manager Class Reference}
+\label{classsfs__visualizer_1_1PropertyManager}\index{sfs\-\_\-visualizer\-::\-Property\-Manager@{sfs\-\_\-visualizer\-::\-Property\-Manager}}
+
+
+A singletonclass for managing the properties and settings.  
+
+
+
+
+{\ttfamily \#include $<$propertymanager.\-h$>$}
+
+
+
+Collaboration diagram for sfs\-\_\-visualizer\-:\-:Property\-Manager\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{db/dd4/classsfs__visualizer_1_1PropertyManager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries save} ()\label{classsfs__visualizer_1_1PropertyManager_a3087ec9d3a94005856ace0297681fd0a}
+
+\item 
+void {\bfseries load} ()\label{classsfs__visualizer_1_1PropertyManager_a87bf025c3c2b5e8a81d5261c1d73e09d}
+
+\item 
+{\bf Property} \& {\bfseries add\-Property} (const std\-::string \&name, float default\-Value)\label{classsfs__visualizer_1_1PropertyManager_a618f5d0fb17a08ec5d80037094fff6d4}
+
+\item 
+float {\bfseries get\-Property\-Value} (const std\-::string \&name)\label{classsfs__visualizer_1_1PropertyManager_ae480b59e859ff350a0a3fad059b4c290}
+
+\item 
+{\bf Property} \& {\bfseries get\-Property} (const std\-::string \&name)\label{classsfs__visualizer_1_1PropertyManager_ab49b96d6505e30b658016798bfef1a87}
+
+\item 
+{\bf Property} \& {\bfseries add\-Shader\-Property} (const std\-::string \&name, float default\-Value, {\bf Shader} $\ast$\-\_\-shader)\label{classsfs__visualizer_1_1PropertyManager_a834cb4754f9f2ba229065656aa4eaf4a}
+
+\item 
+void {\bfseries write\-Shader\-Values} ({\bf Shader} $\ast$active\-Shader)\label{classsfs__visualizer_1_1PropertyManager_a18e78e31a6c5f6452fba1b1f13a8a3d9}
+
+\item 
+void {\bfseries set\-Property\-Value} (const std\-::string \&name, float val)\label{classsfs__visualizer_1_1PropertyManager_af63a1e6ff79a0b4e3623190d592c042d}
+
+\item 
+void {\bfseries reset\-Property\-Value} (const std\-::string \&name)\label{classsfs__visualizer_1_1PropertyManager_ac85444bdaeda56ad871f396e9ad2a2bf}
+
+\item 
+bool {\bfseries property\-Exists} (const std\-::string \&name) const \label{classsfs__visualizer_1_1PropertyManager_acf619e3ffa40610384545f1865dc460d}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static {\bf Property\-Manager} \& {\bfseries instance} ()\label{classsfs__visualizer_1_1PropertyManager_a306ceed7e3dee0ac55a0f8248c796e26}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Property\-Map {\bfseries \-\_\-properties}\label{classsfs__visualizer_1_1PropertyManager_a8d38fb0419d09a948cf3b796a4118a8a}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Property\-Manager} (const {\bf Property\-Manager} \&)\label{classsfs__visualizer_1_1PropertyManager_a7aed06263d25b69b4004c253a2edf6fa}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char {\bfseries \-\_\-delimiter}\label{classsfs__visualizer_1_1PropertyManager_a98d71695ff7a18e4721d06f8637fbd12}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A singletonclass for managing the properties and settings. 
+
+Definition at line 30 of file propertymanager.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+propertymanager.\-h\item 
+propertymanager.\-cpp\end{DoxyCompactItemize}
