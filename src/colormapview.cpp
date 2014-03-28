@@ -18,7 +18,8 @@ namespace sfs_visualizer
         glGetTexLevelParameteriv(GL_TEXTURE_2D, 0, GL_TEXTURE_HEIGHT, &_tHeight);
 
         PropertyManager::instance().getProperty("colormode").Step(1.0f/_tHeight);
-        PropertyManager::instance().getProperty("colormode").Value(1.0f/(2*_tHeight));
+        if (PropertyManager::instance().getProperty("colormode").Value()==0.0f)
+            PropertyManager::instance().getProperty("colormode").Value(1.0f/(2*_tHeight));
     }
 
    
