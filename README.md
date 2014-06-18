@@ -1,7 +1,10 @@
-3d-visualization
-================
+SFS-Visualizer
+==============
 The sfs-visualizer is a GPU-based software for realtime calculation and visualization
-of threedimensional soundfields
+of threedimensional sound fields. It is able to calculate the driving functions
+for Wave Field Synthesis and render the sound field in real time. In addition,
+it can be used to visualize sound field that were pre computed with the Sound
+Field Synthesis Toolbox and stored as mat-fiels.
 
 Mainfeatures
 --------------------------
@@ -47,14 +50,16 @@ Usage Examples
 Custom Sources
 ----------------------------
 
-The .csv-file for custom sources has the following structure:
+The .csv-file for custom secondary sources has the following structure:
 ```	
 x,y,z,nx,ny,nz,amp
 0.2,0.5,0.5,1.0,1.0,1.0,1.0
 0.8,0.5,0.5,1.0,1.0,1.0,1.0
 ...
 ```	
-The coordinates are normed to values between 0 and 1, corresponding to max{gridSize}. 
+The coordinates are normed to values between 0 and 1, corresponding to max{gridSize}.
+(nx,ny,nz) is the direction of the secondary source and amp its amplitude
+weight. 
 
 Custom Properties
 ----------------------------
@@ -74,14 +79,14 @@ Commandline Options
 | longform			| shortform | description										|
 | :----------------	|:--------- | :------------------------------------------------	|
 | matlabfile		| m			| the matlabfilename(s) to be viewed				|
-| glslfolder		| g         | the folder containing the glsl-files				| 
+| glslfolder		| g         | the folder containing the glsl-files				|
 | sourcedefinition	| s			| the csv-file with sourcedefinitions				|
 | colormap          | c			| a bitmap used for colormapping					|
 | properties        | p			| a csv-file with propertyvalues					|
-| gridWidth			| W			| the Width of the calculation-grid e.g. 300		| 
+| gridWidth			| W			| the Width of the calculation-grid e.g. 300		|
 | gridHeight		| H			| the Height of the calculation-grid e.g. 300		|
-| gridDepth			| D			| the Depth of the calculation-grid e.g. 300		| 
-| interval			| i			| updateintervall for animations in milliseconds	|  
+| gridDepth			| D			| the Depth of the calculation-grid e.g. 300		|
+| interval			| i			| updateintervall for animations in milliseconds	|
 | workgroupsize		| w			| Workgroupsize for Compute Shader < 14				|
 |					|			| (should divide WxHxD without rest)				|
 | fullscreen		| f			| programm starts in fullscreenmode (experimental)	|
@@ -92,15 +97,15 @@ Interactive Options
 ### general options
 
 | key(s)	| description																|
-| :--------	| :------------------------------------------------------------------------	|   
-| 2/"		| change colormapping														|			
-| 3			| toggle dB								|
+| :--------	| :------------------------------------------------------------------------	|
+| 2/"		| change colormapping														|
+| 3			| toggle dB								                                    |
 | 4			| toggle raytrace (may crash sometime...)									|
 | 5			| screenshot																|
 | 6			| reset camera																|
 | 7			| save current state to properties.csv or overrides the loaded properties -p|
 | j			| export current field to data.mat											|
-| b/B		| preamplification	(bevore colorclassification)															|
+| b/B		| preamplification	(bevore colorclassification)							|
 | c			| cut-planes/full															|
 | i/I		| show info																	|
 | ESC		| Exit																		|
@@ -108,10 +113,10 @@ Interactive Options
 | -/_		| change calculation-timestepsize											| 
 | u/U		| reverse Animation															|
 | SPACE		| Stop/Start Animation														|			
-| m/M		| amplification (after colorclassification)										|
-| o/O		| speed of autorotation around y-axis											|
-| o/O + ctrl| speed of autorotation around x-axis											|
-| o/O + alt	| speed of autorotation around z-axis											|
+| m/M		| amplification (after colorclassification)									|
+| o/O		| speed of autorotation around y-axis										|
+| o/O + ctrl| speed of autorotation around x-axis										|
+| o/O + alt	| speed of autorotation around z-axis										|
 
 
 ### raytrace options
