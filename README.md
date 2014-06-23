@@ -6,7 +6,9 @@ for Wave Field Synthesis and render the sound field in real time. In addition,
 it can be used to visualize sound field that were pre computed with the Sound
 Field Synthesis Toolbox and stored as mat-fiels.
 
-Mainfeatures
+![Screenshot](Doc/sfs-visualizer.png)
+
+Main features
 --------------------------
 
 * im- and export of .mat files with WxHxD-matrizes (datatype single/float works best)
