@@ -6,7 +6,7 @@ for Wave Field Synthesis and render the sound field in real time. In addition,
 it can be used to visualize sound field that were pre computed with the Sound
 Field Synthesis Toolbox and stored as mat-fiels.
 
-<img src="Doc/sfs-visualizer.png" alt="Screenshot" style="width: 300px;"/>
+<img src="Doc/sfs-visualizer.png" align="center" alt="Screenshot" style="width: 300px;"/>
 
 Main features
 --------------------------
